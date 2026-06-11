@@ -63,6 +63,24 @@ python scripts/04_simulate_tournament.py  # Monte Carlo del torneo (10.000 itera
 - **Regularización con Elo** (`elo_blend_weight`): mezcla la supremacía Dixon-Coles con
   la del Elo calculado del histórico, para corregir el desbalance entre confederaciones.
 
+### Dashboard (GitHub Pages)
+
+El sitio estático vive en [docs/](docs/) y se publica con GitHub Pages (rama `main`,
+carpeta `/docs`). Genera su JSON con `python scripts/05_export_web.py`.
+
+### Integración con Google Sheets (BD_fifa)
+
+Flujo bidireccional vía Apps Script (sin credenciales de Google en Python). Ver
+[appscript/README.md](appscript/README.md) para el despliegue.
+
+```powershell
+$env:FIFA_SHEET_TOKEN = "tu-token"            # el mismo del Apps Script
+python scripts/sheet_pull_results.py          # entrada: lee resultados reales de la hoja
+python scripts/02_build_dataset.py            # los incorpora al entrenamiento
+python scripts/04_simulate_tournament.py      # recalcula
+python scripts/sheet_push_predictions.py      # salida: publica predicciones en la hoja
+```
+
 ## Fuentes de datos
 
 - **Histórico de partidos**: Kaggle — *International football results from 1872 to 2026* (Mart Jürisoo)

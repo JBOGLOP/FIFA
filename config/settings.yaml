@@ -28,6 +28,13 @@ simulation:
   # Empate en eliminatorias → penales. weight_by_elo=true pondera por Elo; false = 50/50
   penalties_weight_by_elo: true
 
+# Hoja de Google (BD_fifa) vía Apps Script. El token va en la variable de
+# entorno FIFA_SHEET_TOKEN (no se versiona). Ver appscript/README.md.
+gsheet:
+  endpoint: "https://script.google.com/macros/s/AKfycbzNEI5zvYP91COhumNhBEIP_mpyiQzgP8Y0bISW5w75cOyoFv0QAt46Ob2H_d89LLeI/exec"
+  results_tab: "Resultados"
+  predictions_tab: "Predicciones"
+
 # Criterios de desempate FIFA (en orden)
 tiebreakers:
   - points
