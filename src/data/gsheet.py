@@ -6,11 +6,25 @@ lee de la variable de entorno FIFA_SHEET_TOKEN (no se versiona).
 from __future__ import annotations
 
 import os
+from pathlib import Path
 
 import pandas as pd
 import requests
 
 TOKEN_ENV = "FIFA_SHEET_TOKEN"
+_SECRETS = Path(__file__).resolve().parents[2] / "config" / "secrets.yaml"
+
+
+def _resolve_token(token: str | None) -> str | None:
+    """Token explícito > variable de entorno > config/secrets.yaml (local)."""
+    if token:
+        return token
+    if os.environ.get(TOKEN_ENV):
+        return os.environ[TOKEN_ENV]
+    if _SECRETS.exists():
+        import yaml
+        return (yaml.safe_load(_SECRETS.read_text(encoding="utf-8")) or {}).get("sheet_token")
+    return None
 
 
 def fetch_sheet(endpoint: str, sheet: str = "Resultados") -> pd.DataFrame:
@@ -26,9 +40,11 @@ def fetch_sheet(endpoint: str, sheet: str = "Resultados") -> pd.DataFrame:
 def push_rows(endpoint: str, rows: list[dict], sheet: str = "Predicciones",
               token: str | None = None) -> dict:
     """Escribe filas en una pestaña (POST). Sobrescribe el contenido de la pestaña."""
-    token = token or os.environ.get(TOKEN_ENV)
+    token = _resolve_token(token)
     if not token:
-        raise RuntimeError(f"Falta el token: define la variable de entorno {TOKEN_ENV}")
+        raise RuntimeError(
+            f"Falta el token: define {TOKEN_ENV} o config/secrets.yaml (sheet_token)"
+        )
     resp = requests.post(
         endpoint,
         json={"token": token, "sheet": sheet, "rows": rows},
