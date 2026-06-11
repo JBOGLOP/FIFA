@@ -31,7 +31,7 @@ simulation:
 # Hoja de Google (BD_fifa) vía Apps Script. El token va en la variable de
 # entorno FIFA_SHEET_TOKEN (no se versiona). Ver appscript/README.md.
 gsheet:
-  endpoint: "https://script.google.com/macros/s/AKfycbzNEI5zvYP91COhumNhBEIP_mpyiQzgP8Y0bISW5w75cOyoFv0QAt46Ob2H_d89LLeI/exec"
+  endpoint: "https://script.google.com/macros/s/AKfycbz83-IOCDq-rHPIxyPRoqFHlznNqxyEo30aJZMh43FdTPXCxVnFdHAqmKdyvIAwmuuP/exec"
   results_tab: "Resultados"
   predictions_tab: "Predicciones"
 
