@@ -1,0 +1,34 @@
+# Grupos del Mundial 2026 (sorteo 5 dic 2025 + repechajes marzo 2026)
+# Posición 1 de A/B/D son anfitriones (México, Canadá, EE.UU.)
+
+# Alias: nombre usado aquí -> nombre exacto en el dataset de resultados.
+aliases:
+  Czechia: Czech Republic
+  Curacao: Curaçao
+
+groups:
+  A: [Mexico, South Africa, South Korea, Czechia]
+  B: [Canada, Bosnia and Herzegovina, Qatar, Switzerland]
+  C: [Brazil, Morocco, Haiti, Scotland]
+  D: [United States, Paraguay, Australia, Turkey]
+  E: [Germany, Curacao, Ivory Coast, Ecuador]
+  F: [Netherlands, Japan, Sweden, Tunisia]
+  G: [Belgium, Egypt, Iran, New Zealand]
+  H: [Spain, Cape Verde, Saudi Arabia, Uruguay]
+  I: [France, Senegal, Iraq, Norway]
+  J: [Argentina, Algeria, Austria, Jordan]
+  K: [Portugal, DR Congo, Uzbekistan, Colombia]
+  L: [England, Croatia, Ghana, Panama]
+
+# Anfitriones (única selección con ventaja de localía en el modelo)
+hosts: [United States, Mexico, Canada]
+
+# Confederación por equipo (para regularizar partidos entre confederaciones)
+confederations:
+  AFC: [Australia, Iran, Japan, Jordan, South Korea, Qatar, Saudi Arabia, Uzbekistan, Iraq]
+  CAF: [Algeria, Cape Verde, Ivory Coast, Egypt, Ghana, Morocco, Senegal, South Africa, Tunisia, DR Congo]
+  CONCACAF: [United States, Canada, Mexico, Curacao, Haiti, Panama]
+  CONMEBOL: [Argentina, Brazil, Colombia, Ecuador, Paraguay, Uruguay]
+  OFC: [New Zealand]
+  UEFA: [England, France, Croatia, Norway, Portugal, Germany, Netherlands, Austria,
+         Belgium, Scotland, Spain, Switzerland, Sweden, Turkey, Bosnia and Herzegovina, Czechia]

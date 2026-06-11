@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Predictor Mundial FIFA 2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <h1>🏆 Predictor Mundial FIFA 2026</h1>
+    <p class="subtitle" id="model-info">Cargando…</p>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab active" data-view="ranking">Favoritos</button>
+    <button class="tab" data-view="heatmap">Probabilidades por ronda</button>
+    <button class="tab" data-view="groups">Grupos</button>
+    <button class="tab" data-view="bracket">Cuadro</button>
+  </nav>
+
+  <main>
+    <!-- Favoritos -->
+    <section id="view-ranking" class="view active">
+      <h2>Probabilidad de ser campeón</h2>
+      <div class="chart-wrap"><canvas id="champ-chart"></canvas></div>
+      <div id="ranking-table"></div>
+    </section>
+
+    <!-- Heatmap -->
+    <section id="view-heatmap" class="view">
+      <h2>Probabilidad de alcanzar cada ronda</h2>
+      <p class="hint">Tono más intenso = mayor probabilidad. Ordenado por prob. de título.</p>
+      <div id="heatmap" class="table-scroll"></div>
+    </section>
+
+    <!-- Grupos -->
+    <section id="view-groups" class="view">
+      <h2>Fase de grupos</h2>
+      <p class="hint">Por equipo: probabilidad de ganar el grupo, clasificar (top 2) y ser mejor tercero.</p>
+      <div id="groups-grid" class="groups-grid"></div>
+    </section>
+
+    <!-- Bracket -->
+    <section id="view-bracket" class="view">
+      <h2>Cuadro de eliminatorias (oficial FIFA)</h2>
+      <p class="hint">Cada ranura muestra el favorito a ganar ese grupo. Las cruces son las oficiales.</p>
+      <div id="bracket" class="bracket-scroll"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Modelo Dixon-Coles + Elo · Monte Carlo · <span id="iters"></span> simulaciones ·
+       <a href="https://github.com/JBOGLOP/FIFA">código en GitHub</a></p>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

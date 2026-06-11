@@ -1,0 +1,61 @@
+# Cuadro de eliminatorias del Mundial 2026 (árbol OFICIAL de FIFA).
+# Fuente: FIFA / Wikipedia "2026 FIFA World Cup knockout stage" (números de partido 73-104).
+#
+# Round of 32 (partidos 73-88). Cada participante se codifica:
+#   W<grupo>  -> ganador de grupo            (p.ej. WE = ganador del grupo E)
+#   R<grupo>  -> segundo de grupo             (p.ej. RF = segundo del grupo F)
+#   T:<grupos>-> mejor tercero de uno de esos grupos (asignación FIFA por matching)
+round_of_32:
+  - {id: 73, home: RA, away: RB}
+  - {id: 74, home: WE, away: "T:ABCDF"}
+  - {id: 75, home: WF, away: RC}
+  - {id: 76, home: WC, away: RF}
+  - {id: 77, home: WI, away: "T:CDFGH"}
+  - {id: 78, home: RE, away: RI}
+  - {id: 79, home: WA, away: "T:CEFHI"}
+  - {id: 80, home: WL, away: "T:EHIJK"}
+  - {id: 81, home: WD, away: "T:BEFIJ"}
+  - {id: 82, home: WG, away: "T:AEHIJ"}
+  - {id: 83, home: RK, away: RL}
+  - {id: 84, home: WH, away: RJ}
+  - {id: 85, home: WB, away: "T:EFGIJ"}
+  - {id: 86, home: WJ, away: RH}
+  - {id: 87, home: WK, away: "T:DEIJL"}
+  - {id: 88, home: RD, away: RG}
+
+# Conjuntos permitidos de terceros por ranura "Ganador vs Tercero"
+# (clave = grupo del ganador; valor = grupos de los que puede venir su tercero).
+third_allowed:
+  A: [C, E, F, H, I]
+  B: [E, F, G, I, J]
+  D: [B, E, F, I, J]
+  E: [A, B, C, D, F]
+  G: [A, E, H, I, J]
+  I: [C, D, F, G, H]
+  K: [D, E, I, J, L]
+  L: [E, H, I, J, K]
+
+# Rondas siguientes: home/away = número del partido cuyo GANADOR juega aquí.
+# Se procesan en orden; cada partido solo referencia a partidos anteriores.
+knockout_rounds:
+  # Octavos (89-96)
+  - {id: 89, home: 74, away: 77}
+  - {id: 90, home: 73, away: 75}
+  - {id: 91, home: 76, away: 78}
+  - {id: 92, home: 79, away: 80}
+  - {id: 93, home: 83, away: 84}
+  - {id: 94, home: 81, away: 82}
+  - {id: 95, home: 86, away: 88}
+  - {id: 96, home: 85, away: 87}
+  # Cuartos (97-100)
+  - {id: 97,  home: 89, away: 90}
+  - {id: 98,  home: 93, away: 94}
+  - {id: 99,  home: 91, away: 92}
+  - {id: 100, home: 95, away: 96}
+  # Semifinales (101-102)
+  - {id: 101, home: 97, away: 98}
+  - {id: 102, home: 99, away: 100}
+  # Final (104)
+  - {id: 104, home: 101, away: 102}
+
+champion_match: 104

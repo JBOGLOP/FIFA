@@ -1,0 +1,1488 @@
+{
+  "meta": {
+    "n_iterations": 10000,
+    "generated": "2026-06-11",
+    "model": "Dixon-Coles (xi=0.0008) + Elo blend (w=0.2)"
+  },
+  "teams": [
+    {
+      "team": "Argentina",
+      "flag": "ar",
+      "es": "Argentina",
+      "group": "J",
+      "conf": "CONMEBOL",
+      "group_win": 0.6737,
+      "runner_up": 0.2312,
+      "best_third": 0.0691,
+      "qualified": 0.974,
+      "reach_R16": 0.7038,
+      "reach_QF": 0.5658,
+      "reach_SF": 0.4098,
+      "reach_final": 0.2775,
+      "champion": 0.1799
+    },
+    {
+      "team": "Spain",
+      "flag": "es",
+      "es": "España",
+      "group": "H",
+      "conf": "UEFA",
+      "group_win": 0.7413,
+      "runner_up": 0.2154,
+      "best_third": 0.0323,
+      "qualified": 0.989,
+      "reach_R16": 0.6947,
+      "reach_QF": 0.5,
+      "reach_SF": 0.3683,
+      "reach_final": 0.2452,
+      "champion": 0.1535
+    },
+    {
+      "team": "Brazil",
+      "flag": "br",
+      "es": "Brasil",
+      "group": "C",
+      "conf": "CONMEBOL",
+      "group_win": 0.5996,
+      "runner_up": 0.2977,
+      "best_third": 0.0817,
+      "qualified": 0.979,
+      "reach_R16": 0.686,
+      "reach_QF": 0.4886,
+      "reach_SF": 0.3209,
+      "reach_final": 0.1848,
+      "champion": 0.1025
+    },
+    {
+      "team": "England",
+      "flag": "gb-eng",
+      "es": "Inglaterra",
+      "group": "L",
+      "conf": "UEFA",
+      "group_win": 0.6519,
+      "runner_up": 0.2728,
+      "best_third": 0.0512,
+      "qualified": 0.9759,
+      "reach_R16": 0.6922,
+      "reach_QF": 0.4706,
+      "reach_SF": 0.2903,
+      "reach_final": 0.1663,
+      "champion": 0.0919
+    },
+    {
+      "team": "France",
+      "flag": "fr",
+      "es": "Francia",
+      "group": "I",
+      "conf": "UEFA",
+      "group_win": 0.5476,
+      "runner_up": 0.2769,
+      "best_third": 0.1178,
+      "qualified": 0.9423,
+      "reach_R16": 0.7085,
+      "reach_QF": 0.4667,
+      "reach_SF": 0.2903,
+      "reach_final": 0.156,
+      "champion": 0.0805
+    },
+    {
+      "team": "Portugal",
+      "flag": "pt",
+      "es": "Portugal",
+      "group": "K",
+      "conf": "UEFA",
+      "group_win": 0.4982,
+      "runner_up": 0.3363,
+      "best_third": 0.0969,
+      "qualified": 0.9314,
+      "reach_R16": 0.6815,
+      "reach_QF": 0.4379,
+      "reach_SF": 0.2496,
+      "reach_final": 0.1406,
+      "champion": 0.0703
+    },
+    {
+      "team": "Morocco",
+      "flag": "ma",
+      "es": "Marruecos",
+      "group": "C",
+      "conf": "CAF",
+      "group_win": 0.3287,
+      "runner_up": 0.4706,
+      "best_third": 0.1378,
+      "qualified": 0.9371,
+      "reach_R16": 0.5623,
+      "reach_QF": 0.3709,
+      "reach_SF": 0.212,
+      "reach_final": 0.1,
+      "champion": 0.0474
+    },
+    {
+      "team": "Colombia",
+      "flag": "co",
+      "es": "Colombia",
+      "group": "K",
+      "conf": "CONMEBOL",
+      "group_win": 0.4131,
+      "runner_up": 0.3828,
+      "best_third": 0.1135,
+      "qualified": 0.9094,
+      "reach_R16": 0.6272,
+      "reach_QF": 0.3728,
+      "reach_SF": 0.2035,
+      "reach_final": 0.1069,
+      "champion": 0.0472
+    },
+    {
+      "team": "Belgium",
+      "flag": "be",
+      "es": "Bélgica",
+      "group": "G",
+      "conf": "UEFA",
+      "group_win": 0.5762,
+      "runner_up": 0.2749,
+      "best_third": 0.0994,
+      "qualified": 0.9505,
+      "reach_R16": 0.6894,
+      "reach_QF": 0.4164,
+      "reach_SF": 0.1842,
+      "reach_final": 0.0925,
+      "champion": 0.0431
+    },
+    {
+      "team": "Germany",
+      "flag": "de",
+      "es": "Alemania",
+      "group": "E",
+      "conf": "UEFA",
+      "group_win": 0.5258,
+      "runner_up": 0.3061,
+      "best_third": 0.1432,
+      "qualified": 0.9751,
+      "reach_R16": 0.6669,
+      "reach_QF": 0.3416,
+      "reach_SF": 0.1785,
+      "reach_final": 0.0776,
+      "champion": 0.0328
+    },
+    {
+      "team": "Netherlands",
+      "flag": "nl",
+      "es": "Países Bajos",
+      "group": "F",
+      "conf": "UEFA",
+      "group_win": 0.4593,
+      "runner_up": 0.3121,
+      "best_third": 0.1214,
+      "qualified": 0.8928,
+      "reach_R16": 0.458,
+      "reach_QF": 0.2948,
+      "reach_SF": 0.1498,
+      "reach_final": 0.0674,
+      "champion": 0.0295
+    },
+    {
+      "team": "Japan",
+      "flag": "jp",
+      "es": "Japón",
+      "group": "F",
+      "conf": "AFC",
+      "group_win": 0.3765,
+      "runner_up": 0.3373,
+      "best_third": 0.1493,
+      "qualified": 0.8631,
+      "reach_R16": 0.4225,
+      "reach_QF": 0.253,
+      "reach_SF": 0.1232,
+      "reach_final": 0.0542,
+      "champion": 0.0238
+    },
+    {
+      "team": "Uruguay",
+      "flag": "uy",
+      "es": "Uruguay",
+      "group": "H",
+      "conf": "CONMEBOL",
+      "group_win": 0.2271,
+      "runner_up": 0.5603,
+      "best_third": 0.1111,
+      "qualified": 0.8985,
+      "reach_R16": 0.3627,
+      "reach_QF": 0.1956,
+      "reach_SF": 0.0915,
+      "reach_final": 0.0378,
+      "champion": 0.0133
+    },
+    {
+      "team": "Switzerland",
+      "flag": "ch",
+      "es": "Suiza",
+      "group": "B",
+      "conf": "UEFA",
+      "group_win": 0.5156,
+      "runner_up": 0.3607,
+      "best_third": 0.0837,
+      "qualified": 0.96,
+      "reach_R16": 0.5975,
+      "reach_QF": 0.2464,
+      "reach_SF": 0.0993,
+      "reach_final": 0.037,
+      "champion": 0.0124
+    },
+    {
+      "team": "Ecuador",
+      "flag": "ec",
+      "es": "Ecuador",
+      "group": "E",
+      "conf": "CONMEBOL",
+      "group_win": 0.3051,
+      "runner_up": 0.385,
+      "best_third": 0.2295,
+      "qualified": 0.9196,
+      "reach_R16": 0.5191,
+      "reach_QF": 0.2365,
+      "reach_SF": 0.1002,
+      "reach_final": 0.0364,
+      "champion": 0.0114
+    },
+    {
+      "team": "Croatia",
+      "flag": "hr",
+      "es": "Croacia",
+      "group": "L",
+      "conf": "UEFA",
+      "group_win": 0.2974,
+      "runner_up": 0.4909,
+      "best_third": 0.1142,
+      "qualified": 0.9025,
+      "reach_R16": 0.4479,
+      "reach_QF": 0.2008,
+      "reach_SF": 0.0829,
+      "reach_final": 0.0314,
+      "champion": 0.0094
+    },
+    {
+      "team": "Norway",
+      "flag": "no",
+      "es": "Noruega",
+      "group": "I",
+      "conf": "UEFA",
+      "group_win": 0.2143,
+      "runner_up": 0.3317,
+      "best_third": 0.2389,
+      "qualified": 0.7849,
+      "reach_R16": 0.4278,
+      "reach_QF": 0.1841,
+      "reach_SF": 0.0754,
+      "reach_final": 0.026,
+      "champion": 0.0092
+    },
+    {
+      "team": "Senegal",
+      "flag": "sn",
+      "es": "Senegal",
+      "group": "I",
+      "conf": "CAF",
+      "group_win": 0.2164,
+      "runner_up": 0.3249,
+      "best_third": 0.2373,
+      "qualified": 0.7786,
+      "reach_R16": 0.4233,
+      "reach_QF": 0.1823,
+      "reach_SF": 0.0704,
+      "reach_final": 0.024,
+      "champion": 0.0085
+    },
+    {
+      "team": "Algeria",
+      "flag": "dz",
+      "es": "Argelia",
+      "group": "J",
+      "conf": "CAF",
+      "group_win": 0.1619,
+      "runner_up": 0.3548,
+      "best_third": 0.2546,
+      "qualified": 0.7713,
+      "reach_R16": 0.3124,
+      "reach_QF": 0.1523,
+      "reach_SF": 0.0538,
+      "reach_final": 0.0187,
+      "champion": 0.0053
+    },
+    {
+      "team": "Mexico",
+      "flag": "mx",
+      "es": "México",
+      "group": "A",
+      "conf": "CONCACAF",
+      "group_win": 0.5458,
+      "runner_up": 0.262,
+      "best_third": 0.1097,
+      "qualified": 0.9175,
+      "reach_R16": 0.4977,
+      "reach_QF": 0.178,
+      "reach_SF": 0.0603,
+      "reach_final": 0.0193,
+      "champion": 0.0052
+    },
+    {
+      "team": "Austria",
+      "flag": "at",
+      "es": "Austria",
+      "group": "J",
+      "conf": "UEFA",
+      "group_win": 0.1489,
+      "runner_up": 0.3428,
+      "best_third": 0.2643,
+      "qualified": 0.756,
+      "reach_R16": 0.3087,
+      "reach_QF": 0.1427,
+      "reach_SF": 0.0513,
+      "reach_final": 0.017,
+      "champion": 0.005
+    },
+    {
+      "team": "Iran",
+      "flag": "ir",
+      "es": "Irán",
+      "group": "G",
+      "conf": "AFC",
+      "group_win": 0.2705,
+      "runner_up": 0.363,
+      "best_third": 0.1962,
+      "qualified": 0.8297,
+      "reach_R16": 0.4718,
+      "reach_QF": 0.1814,
+      "reach_SF": 0.0576,
+      "reach_final": 0.017,
+      "champion": 0.0043
+    },
+    {
+      "team": "Turkey",
+      "flag": "tr",
+      "es": "Turquía",
+      "group": "D",
+      "conf": "UEFA",
+      "group_win": 0.2697,
+      "runner_up": 0.2554,
+      "best_third": 0.1815,
+      "qualified": 0.7066,
+      "reach_R16": 0.3285,
+      "reach_QF": 0.1071,
+      "reach_SF": 0.0298,
+      "reach_final": 0.0095,
+      "champion": 0.0026
+    },
+    {
+      "team": "Australia",
+      "flag": "au",
+      "es": "Australia",
+      "group": "D",
+      "conf": "AFC",
+      "group_win": 0.2575,
+      "runner_up": 0.2681,
+      "best_third": 0.1897,
+      "qualified": 0.7153,
+      "reach_R16": 0.3238,
+      "reach_QF": 0.1076,
+      "reach_SF": 0.0325,
+      "reach_final": 0.0096,
+      "champion": 0.0025
+    },
+    {
+      "team": "Ivory Coast",
+      "flag": "ci",
+      "es": "Costa de Marfil",
+      "group": "E",
+      "conf": "CAF",
+      "group_win": 0.1657,
+      "runner_up": 0.292,
+      "best_third": 0.3624,
+      "qualified": 0.8201,
+      "reach_R16": 0.3379,
+      "reach_QF": 0.1114,
+      "reach_SF": 0.0296,
+      "reach_final": 0.0079,
+      "champion": 0.0017
+    },
+    {
+      "team": "South Korea",
+      "flag": "kr",
+      "es": "Corea del Sur",
+      "group": "A",
+      "conf": "AFC",
+      "group_win": 0.2317,
+      "runner_up": 0.3127,
+      "best_third": 0.2006,
+      "qualified": 0.745,
+      "reach_R16": 0.3371,
+      "reach_QF": 0.1022,
+      "reach_SF": 0.0289,
+      "reach_final": 0.0073,
+      "champion": 0.0015
+    },
+    {
+      "team": "Canada",
+      "flag": "ca",
+      "es": "Canadá",
+      "group": "B",
+      "conf": "CONCACAF",
+      "group_win": 0.4281,
+      "runner_up": 0.4228,
+      "best_third": 0.0962,
+      "qualified": 0.9471,
+      "reach_R16": 0.4686,
+      "reach_QF": 0.1352,
+      "reach_SF": 0.0386,
+      "reach_final": 0.0093,
+      "champion": 0.0014
+    },
+    {
+      "team": "Egypt",
+      "flag": "eg",
+      "es": "Egipto",
+      "group": "G",
+      "conf": "CAF",
+      "group_win": 0.1364,
+      "runner_up": 0.2914,
+      "best_third": 0.271,
+      "qualified": 0.6988,
+      "reach_R16": 0.3084,
+      "reach_QF": 0.0865,
+      "reach_SF": 0.0204,
+      "reach_final": 0.0049,
+      "champion": 0.0013
+    },
+    {
+      "team": "Czech Republic",
+      "flag": "cz",
+      "es": "Chequia",
+      "group": "",
+      "conf": "",
+      "group_win": 0.1702,
+      "runner_up": 0.2778,
+      "best_third": 0.216,
+      "qualified": 0.664,
+      "reach_R16": 0.2625,
+      "reach_QF": 0.065,
+      "reach_SF": 0.015,
+      "reach_final": 0.0026,
+      "champion": 0.0009
+    },
+    {
+      "team": "United States",
+      "flag": "us",
+      "es": "Estados Unidos",
+      "group": "D",
+      "conf": "CONCACAF",
+      "group_win": 0.3135,
+      "runner_up": 0.2494,
+      "best_third": 0.1762,
+      "qualified": 0.7391,
+      "reach_R16": 0.2905,
+      "reach_QF": 0.0785,
+      "reach_SF": 0.0165,
+      "reach_final": 0.0041,
+      "champion": 0.0006
+    },
+    {
+      "team": "Paraguay",
+      "flag": "py",
+      "es": "Paraguay",
+      "group": "D",
+      "conf": "CONMEBOL",
+      "group_win": 0.1593,
+      "runner_up": 0.2271,
+      "best_third": 0.1996,
+      "qualified": 0.586,
+      "reach_R16": 0.2121,
+      "reach_QF": 0.0567,
+      "reach_SF": 0.0134,
+      "reach_final": 0.0028,
+      "champion": 0.0005
+    },
+    {
+      "team": "Scotland",
+      "flag": "gb-sct",
+      "es": "Escocia",
+      "group": "C",
+      "conf": "UEFA",
+      "group_win": 0.0651,
+      "runner_up": 0.2002,
+      "best_third": 0.3571,
+      "qualified": 0.6224,
+      "reach_R16": 0.173,
+      "reach_QF": 0.0571,
+      "reach_SF": 0.0139,
+      "reach_final": 0.002,
+      "champion": 0.0003
+    },
+    {
+      "team": "Sweden",
+      "flag": "se",
+      "es": "Suecia",
+      "group": "F",
+      "conf": "UEFA",
+      "group_win": 0.0948,
+      "runner_up": 0.1842,
+      "best_third": 0.2181,
+      "qualified": 0.4971,
+      "reach_R16": 0.1421,
+      "reach_QF": 0.046,
+      "reach_SF": 0.0115,
+      "reach_final": 0.0019,
+      "champion": 0.0001
+    },
+    {
+      "team": "Uzbekistan",
+      "flag": "uz",
+      "es": "Uzbekistán",
+      "group": "K",
+      "conf": "AFC",
+      "group_win": 0.0505,
+      "runner_up": 0.1499,
+      "best_third": 0.2145,
+      "qualified": 0.4149,
+      "reach_R16": 0.122,
+      "reach_QF": 0.033,
+      "reach_SF": 0.0063,
+      "reach_final": 0.001,
+      "champion": 0.0001
+    },
+    {
+      "team": "Tunisia",
+      "flag": "tn",
+      "es": "Túnez",
+      "group": "F",
+      "conf": "CAF",
+      "group_win": 0.0694,
+      "runner_up": 0.1664,
+      "best_third": 0.2112,
+      "qualified": 0.447,
+      "reach_R16": 0.1199,
+      "reach_QF": 0.0353,
+      "reach_SF": 0.0081,
+      "reach_final": 0.0016,
+      "champion": 0.0001
+    },
+    {
+      "team": "Iraq",
+      "flag": "iq",
+      "es": "Irak",
+      "group": "I",
+      "conf": "AFC",
+      "group_win": 0.0217,
+      "runner_up": 0.0665,
+      "best_third": 0.1186,
+      "qualified": 0.2068,
+      "reach_R16": 0.0438,
+      "reach_QF": 0.0085,
+      "reach_SF": 0.0013,
+      "reach_final": 0.0003,
+      "champion": 0.0
+    },
+    {
+      "team": "Saudi Arabia",
+      "flag": "sa",
+      "es": "Arabia Saudita",
+      "group": "H",
+      "conf": "AFC",
+      "group_win": 0.019,
+      "runner_up": 0.1276,
+      "best_third": 0.2151,
+      "qualified": 0.3617,
+      "reach_R16": 0.0539,
+      "reach_QF": 0.0119,
+      "reach_SF": 0.0013,
+      "reach_final": 0.0002,
+      "champion": 0.0
+    },
+    {
+      "team": "New Zealand",
+      "flag": "nz",
+      "es": "Nueva Zelanda",
+      "group": "G",
+      "conf": "OFC",
+      "group_win": 0.0169,
+      "runner_up": 0.0707,
+      "best_third": 0.1101,
+      "qualified": 0.1977,
+      "reach_R16": 0.0322,
+      "reach_QF": 0.0028,
+      "reach_SF": 0.0002,
+      "reach_final": 0.0,
+      "champion": 0.0
+    },
+    {
+      "team": "DR Congo",
+      "flag": "cd",
+      "es": "RD Congo",
+      "group": "K",
+      "conf": "CAF",
+      "group_win": 0.0382,
+      "runner_up": 0.131,
+      "best_third": 0.1913,
+      "qualified": 0.3605,
+      "reach_R16": 0.0871,
+      "reach_QF": 0.0207,
+      "reach_SF": 0.0038,
+      "reach_final": 0.0006,
+      "champion": 0.0
+    },
+    {
+      "team": "South Africa",
+      "flag": "za",
+      "es": "Sudáfrica",
+      "group": "A",
+      "conf": "CAF",
+      "group_win": 0.0523,
+      "runner_up": 0.1475,
+      "best_third": 0.1744,
+      "qualified": 0.3742,
+      "reach_R16": 0.0883,
+      "reach_QF": 0.0127,
+      "reach_SF": 0.0013,
+      "reach_final": 0.0002,
+      "champion": 0.0
+    },
+    {
+      "team": "Qatar",
+      "flag": "qa",
+      "es": "Catar",
+      "group": "B",
+      "conf": "AFC",
+      "group_win": 0.0183,
+      "runner_up": 0.0805,
+      "best_third": 0.167,
+      "qualified": 0.2658,
+      "reach_R16": 0.0393,
+      "reach_QF": 0.0032,
+      "reach_SF": 0.0002,
+      "reach_final": 0.0,
+      "champion": 0.0
+    },
+    {
+      "team": "Jordan",
+      "flag": "jo",
+      "es": "Jordania",
+      "group": "J",
+      "conf": "AFC",
+      "group_win": 0.0155,
+      "runner_up": 0.0712,
+      "best_third": 0.1071,
+      "qualified": 0.1938,
+      "reach_R16": 0.0367,
+      "reach_QF": 0.0075,
+      "reach_SF": 0.0007,
+      "reach_final": 0.0002,
+      "champion": 0.0
+    },
+    {
+      "team": "Cape Verde",
+      "flag": "cv",
+      "es": "Cabo Verde",
+      "group": "H",
+      "conf": "CAF",
+      "group_win": 0.0126,
+      "runner_up": 0.0967,
+      "best_third": 0.1598,
+      "qualified": 0.2691,
+      "reach_R16": 0.0338,
+      "reach_QF": 0.0064,
+      "reach_SF": 0.0008,
+      "reach_final": 0.0001,
+      "champion": 0.0
+    },
+    {
+      "team": "Panama",
+      "flag": "pa",
+      "es": "Panamá",
+      "group": "L",
+      "conf": "CONCACAF",
+      "group_win": 0.0304,
+      "runner_up": 0.1308,
+      "best_third": 0.2191,
+      "qualified": 0.3803,
+      "reach_R16": 0.0551,
+      "reach_QF": 0.0086,
+      "reach_SF": 0.001,
+      "reach_final": 0.0002,
+      "champion": 0.0
+    },
+    {
+      "team": "Haiti",
+      "flag": "ht",
+      "es": "Haití",
+      "group": "C",
+      "conf": "CONCACAF",
+      "group_win": 0.0066,
+      "runner_up": 0.0315,
+      "best_third": 0.0888,
+      "qualified": 0.1269,
+      "reach_R16": 0.0152,
+      "reach_QF": 0.0024,
+      "reach_SF": 0.0001,
+      "reach_final": 0.0,
+      "champion": 0.0
+    },
+    {
+      "team": "Bosnia and Herzegovina",
+      "flag": "ba",
+      "es": "Bosnia",
+      "group": "B",
+      "conf": "UEFA",
+      "group_win": 0.038,
+      "runner_up": 0.136,
+      "best_third": 0.2595,
+      "qualified": 0.4335,
+      "reach_R16": 0.0855,
+      "reach_QF": 0.0086,
+      "reach_SF": 0.0008,
+      "reach_final": 0.0,
+      "champion": 0.0
+    },
+    {
+      "team": "Ghana",
+      "flag": "gh",
+      "es": "Ghana",
+      "group": "L",
+      "conf": "CAF",
+      "group_win": 0.0203,
+      "runner_up": 0.1055,
+      "best_third": 0.1938,
+      "qualified": 0.3196,
+      "reach_R16": 0.0364,
+      "reach_QF": 0.0056,
+      "reach_SF": 0.0009,
+      "reach_final": 0.0001,
+      "champion": 0.0
+    },
+    {
+      "team": "Curaçao",
+      "flag": "cw",
+      "es": "Curazao",
+      "group": "",
+      "conf": "",
+      "group_win": 0.0034,
+      "runner_up": 0.0169,
+      "best_third": 0.0482,
+      "qualified": 0.0685,
+      "reach_R16": 0.0044,
+      "reach_QF": 0.0003,
+      "reach_SF": 0.0,
+      "reach_final": 0.0,
+      "champion": 0.0
+    }
+  ],
+  "groups": {
+    "A": [
+      {
+        "team": "Mexico",
+        "es": "México",
+        "flag": "mx",
+        "group_win": 0.5458,
+        "qualified": 0.9175,
+        "best_third": 0.1097
+      },
+      {
+        "team": "South Korea",
+        "es": "Corea del Sur",
+        "flag": "kr",
+        "group_win": 0.2317,
+        "qualified": 0.745,
+        "best_third": 0.2006
+      },
+      {
+        "team": "South Africa",
+        "es": "Sudáfrica",
+        "flag": "za",
+        "group_win": 0.0523,
+        "qualified": 0.3742,
+        "best_third": 0.1744
+      }
+    ],
+    "B": [
+      {
+        "team": "Switzerland",
+        "es": "Suiza",
+        "flag": "ch",
+        "group_win": 0.5156,
+        "qualified": 0.96,
+        "best_third": 0.0837
+      },
+      {
+        "team": "Canada",
+        "es": "Canadá",
+        "flag": "ca",
+        "group_win": 0.4281,
+        "qualified": 0.9471,
+        "best_third": 0.0962
+      },
+      {
+        "team": "Bosnia and Herzegovina",
+        "es": "Bosnia",
+        "flag": "ba",
+        "group_win": 0.038,
+        "qualified": 0.4335,
+        "best_third": 0.2595
+      },
+      {
+        "team": "Qatar",
+        "es": "Catar",
+        "flag": "qa",
+        "group_win": 0.0183,
+        "qualified": 0.2658,
+        "best_third": 0.167
+      }
+    ],
+    "C": [
+      {
+        "team": "Brazil",
+        "es": "Brasil",
+        "flag": "br",
+        "group_win": 0.5996,
+        "qualified": 0.979,
+        "best_third": 0.0817
+      },
+      {
+        "team": "Morocco",
+        "es": "Marruecos",
+        "flag": "ma",
+        "group_win": 0.3287,
+        "qualified": 0.9371,
+        "best_third": 0.1378
+      },
+      {
+        "team": "Scotland",
+        "es": "Escocia",
+        "flag": "gb-sct",
+        "group_win": 0.0651,
+        "qualified": 0.6224,
+        "best_third": 0.3571
+      },
+      {
+        "team": "Haiti",
+        "es": "Haití",
+        "flag": "ht",
+        "group_win": 0.0066,
+        "qualified": 0.1269,
+        "best_third": 0.0888
+      }
+    ],
+    "D": [
+      {
+        "team": "United States",
+        "es": "Estados Unidos",
+        "flag": "us",
+        "group_win": 0.3135,
+        "qualified": 0.7391,
+        "best_third": 0.1762
+      },
+      {
+        "team": "Turkey",
+        "es": "Turquía",
+        "flag": "tr",
+        "group_win": 0.2697,
+        "qualified": 0.7066,
+        "best_third": 0.1815
+      },
+      {
+        "team": "Australia",
+        "es": "Australia",
+        "flag": "au",
+        "group_win": 0.2575,
+        "qualified": 0.7153,
+        "best_third": 0.1897
+      },
+      {
+        "team": "Paraguay",
+        "es": "Paraguay",
+        "flag": "py",
+        "group_win": 0.1593,
+        "qualified": 0.586,
+        "best_third": 0.1996
+      }
+    ],
+    "E": [
+      {
+        "team": "Germany",
+        "es": "Alemania",
+        "flag": "de",
+        "group_win": 0.5258,
+        "qualified": 0.9751,
+        "best_third": 0.1432
+      },
+      {
+        "team": "Ecuador",
+        "es": "Ecuador",
+        "flag": "ec",
+        "group_win": 0.3051,
+        "qualified": 0.9196,
+        "best_third": 0.2295
+      },
+      {
+        "team": "Ivory Coast",
+        "es": "Costa de Marfil",
+        "flag": "ci",
+        "group_win": 0.1657,
+        "qualified": 0.8201,
+        "best_third": 0.3624
+      }
+    ],
+    "F": [
+      {
+        "team": "Netherlands",
+        "es": "Países Bajos",
+        "flag": "nl",
+        "group_win": 0.4593,
+        "qualified": 0.8928,
+        "best_third": 0.1214
+      },
+      {
+        "team": "Japan",
+        "es": "Japón",
+        "flag": "jp",
+        "group_win": 0.3765,
+        "qualified": 0.8631,
+        "best_third": 0.1493
+      },
+      {
+        "team": "Sweden",
+        "es": "Suecia",
+        "flag": "se",
+        "group_win": 0.0948,
+        "qualified": 0.4971,
+        "best_third": 0.2181
+      },
+      {
+        "team": "Tunisia",
+        "es": "Túnez",
+        "flag": "tn",
+        "group_win": 0.0694,
+        "qualified": 0.447,
+        "best_third": 0.2112
+      }
+    ],
+    "G": [
+      {
+        "team": "Belgium",
+        "es": "Bélgica",
+        "flag": "be",
+        "group_win": 0.5762,
+        "qualified": 0.9505,
+        "best_third": 0.0994
+      },
+      {
+        "team": "Iran",
+        "es": "Irán",
+        "flag": "ir",
+        "group_win": 0.2705,
+        "qualified": 0.8297,
+        "best_third": 0.1962
+      },
+      {
+        "team": "Egypt",
+        "es": "Egipto",
+        "flag": "eg",
+        "group_win": 0.1364,
+        "qualified": 0.6988,
+        "best_third": 0.271
+      },
+      {
+        "team": "New Zealand",
+        "es": "Nueva Zelanda",
+        "flag": "nz",
+        "group_win": 0.0169,
+        "qualified": 0.1977,
+        "best_third": 0.1101
+      }
+    ],
+    "H": [
+      {
+        "team": "Spain",
+        "es": "España",
+        "flag": "es",
+        "group_win": 0.7413,
+        "qualified": 0.989,
+        "best_third": 0.0323
+      },
+      {
+        "team": "Uruguay",
+        "es": "Uruguay",
+        "flag": "uy",
+        "group_win": 0.2271,
+        "qualified": 0.8985,
+        "best_third": 0.1111
+      },
+      {
+        "team": "Saudi Arabia",
+        "es": "Arabia Saudita",
+        "flag": "sa",
+        "group_win": 0.019,
+        "qualified": 0.3617,
+        "best_third": 0.2151
+      },
+      {
+        "team": "Cape Verde",
+        "es": "Cabo Verde",
+        "flag": "cv",
+        "group_win": 0.0126,
+        "qualified": 0.2691,
+        "best_third": 0.1598
+      }
+    ],
+    "I": [
+      {
+        "team": "France",
+        "es": "Francia",
+        "flag": "fr",
+        "group_win": 0.5476,
+        "qualified": 0.9423,
+        "best_third": 0.1178
+      },
+      {
+        "team": "Senegal",
+        "es": "Senegal",
+        "flag": "sn",
+        "group_win": 0.2164,
+        "qualified": 0.7786,
+        "best_third": 0.2373
+      },
+      {
+        "team": "Norway",
+        "es": "Noruega",
+        "flag": "no",
+        "group_win": 0.2143,
+        "qualified": 0.7849,
+        "best_third": 0.2389
+      },
+      {
+        "team": "Iraq",
+        "es": "Irak",
+        "flag": "iq",
+        "group_win": 0.0217,
+        "qualified": 0.2068,
+        "best_third": 0.1186
+      }
+    ],
+    "J": [
+      {
+        "team": "Argentina",
+        "es": "Argentina",
+        "flag": "ar",
+        "group_win": 0.6737,
+        "qualified": 0.974,
+        "best_third": 0.0691
+      },
+      {
+        "team": "Algeria",
+        "es": "Argelia",
+        "flag": "dz",
+        "group_win": 0.1619,
+        "qualified": 0.7713,
+        "best_third": 0.2546
+      },
+      {
+        "team": "Austria",
+        "es": "Austria",
+        "flag": "at",
+        "group_win": 0.1489,
+        "qualified": 0.756,
+        "best_third": 0.2643
+      },
+      {
+        "team": "Jordan",
+        "es": "Jordania",
+        "flag": "jo",
+        "group_win": 0.0155,
+        "qualified": 0.1938,
+        "best_third": 0.1071
+      }
+    ],
+    "K": [
+      {
+        "team": "Portugal",
+        "es": "Portugal",
+        "flag": "pt",
+        "group_win": 0.4982,
+        "qualified": 0.9314,
+        "best_third": 0.0969
+      },
+      {
+        "team": "Colombia",
+        "es": "Colombia",
+        "flag": "co",
+        "group_win": 0.4131,
+        "qualified": 0.9094,
+        "best_third": 0.1135
+      },
+      {
+        "team": "Uzbekistan",
+        "es": "Uzbekistán",
+        "flag": "uz",
+        "group_win": 0.0505,
+        "qualified": 0.4149,
+        "best_third": 0.2145
+      },
+      {
+        "team": "DR Congo",
+        "es": "RD Congo",
+        "flag": "cd",
+        "group_win": 0.0382,
+        "qualified": 0.3605,
+        "best_third": 0.1913
+      }
+    ],
+    "L": [
+      {
+        "team": "England",
+        "es": "Inglaterra",
+        "flag": "gb-eng",
+        "group_win": 0.6519,
+        "qualified": 0.9759,
+        "best_third": 0.0512
+      },
+      {
+        "team": "Croatia",
+        "es": "Croacia",
+        "flag": "hr",
+        "group_win": 0.2974,
+        "qualified": 0.9025,
+        "best_third": 0.1142
+      },
+      {
+        "team": "Panama",
+        "es": "Panamá",
+        "flag": "pa",
+        "group_win": 0.0304,
+        "qualified": 0.3803,
+        "best_third": 0.2191
+      },
+      {
+        "team": "Ghana",
+        "es": "Ghana",
+        "flag": "gh",
+        "group_win": 0.0203,
+        "qualified": 0.3196,
+        "best_third": 0.1938
+      }
+    ]
+  },
+  "group_favorite": {
+    "A": {
+      "team": "Mexico",
+      "es": "México",
+      "flag": "mx",
+      "group_win": 0.5458,
+      "qualified": 0.9175,
+      "best_third": 0.1097
+    },
+    "B": {
+      "team": "Switzerland",
+      "es": "Suiza",
+      "flag": "ch",
+      "group_win": 0.5156,
+      "qualified": 0.96,
+      "best_third": 0.0837
+    },
+    "C": {
+      "team": "Brazil",
+      "es": "Brasil",
+      "flag": "br",
+      "group_win": 0.5996,
+      "qualified": 0.979,
+      "best_third": 0.0817
+    },
+    "D": {
+      "team": "United States",
+      "es": "Estados Unidos",
+      "flag": "us",
+      "group_win": 0.3135,
+      "qualified": 0.7391,
+      "best_third": 0.1762
+    },
+    "E": {
+      "team": "Germany",
+      "es": "Alemania",
+      "flag": "de",
+      "group_win": 0.5258,
+      "qualified": 0.9751,
+      "best_third": 0.1432
+    },
+    "F": {
+      "team": "Netherlands",
+      "es": "Países Bajos",
+      "flag": "nl",
+      "group_win": 0.4593,
+      "qualified": 0.8928,
+      "best_third": 0.1214
+    },
+    "G": {
+      "team": "Belgium",
+      "es": "Bélgica",
+      "flag": "be",
+      "group_win": 0.5762,
+      "qualified": 0.9505,
+      "best_third": 0.0994
+    },
+    "H": {
+      "team": "Spain",
+      "es": "España",
+      "flag": "es",
+      "group_win": 0.7413,
+      "qualified": 0.989,
+      "best_third": 0.0323
+    },
+    "I": {
+      "team": "France",
+      "es": "Francia",
+      "flag": "fr",
+      "group_win": 0.5476,
+      "qualified": 0.9423,
+      "best_third": 0.1178
+    },
+    "J": {
+      "team": "Argentina",
+      "es": "Argentina",
+      "flag": "ar",
+      "group_win": 0.6737,
+      "qualified": 0.974,
+      "best_third": 0.0691
+    },
+    "K": {
+      "team": "Portugal",
+      "es": "Portugal",
+      "flag": "pt",
+      "group_win": 0.4982,
+      "qualified": 0.9314,
+      "best_third": 0.0969
+    },
+    "L": {
+      "team": "England",
+      "es": "Inglaterra",
+      "flag": "gb-eng",
+      "group_win": 0.6519,
+      "qualified": 0.9759,
+      "best_third": 0.0512
+    }
+  },
+  "bracket": {
+    "round_of_32": [
+      {
+        "id": 73,
+        "home": "RA",
+        "away": "RB"
+      },
+      {
+        "id": 74,
+        "home": "WE",
+        "away": "T:ABCDF"
+      },
+      {
+        "id": 75,
+        "home": "WF",
+        "away": "RC"
+      },
+      {
+        "id": 76,
+        "home": "WC",
+        "away": "RF"
+      },
+      {
+        "id": 77,
+        "home": "WI",
+        "away": "T:CDFGH"
+      },
+      {
+        "id": 78,
+        "home": "RE",
+        "away": "RI"
+      },
+      {
+        "id": 79,
+        "home": "WA",
+        "away": "T:CEFHI"
+      },
+      {
+        "id": 80,
+        "home": "WL",
+        "away": "T:EHIJK"
+      },
+      {
+        "id": 81,
+        "home": "WD",
+        "away": "T:BEFIJ"
+      },
+      {
+        "id": 82,
+        "home": "WG",
+        "away": "T:AEHIJ"
+      },
+      {
+        "id": 83,
+        "home": "RK",
+        "away": "RL"
+      },
+      {
+        "id": 84,
+        "home": "WH",
+        "away": "RJ"
+      },
+      {
+        "id": 85,
+        "home": "WB",
+        "away": "T:EFGIJ"
+      },
+      {
+        "id": 86,
+        "home": "WJ",
+        "away": "RH"
+      },
+      {
+        "id": 87,
+        "home": "WK",
+        "away": "T:DEIJL"
+      },
+      {
+        "id": 88,
+        "home": "RD",
+        "away": "RG"
+      }
+    ],
+    "knockout_rounds": [
+      {
+        "id": 89,
+        "home": 74,
+        "away": 77
+      },
+      {
+        "id": 90,
+        "home": 73,
+        "away": 75
+      },
+      {
+        "id": 91,
+        "home": 76,
+        "away": 78
+      },
+      {
+        "id": 92,
+        "home": 79,
+        "away": 80
+      },
+      {
+        "id": 93,
+        "home": 83,
+        "away": 84
+      },
+      {
+        "id": 94,
+        "home": 81,
+        "away": 82
+      },
+      {
+        "id": 95,
+        "home": 86,
+        "away": 88
+      },
+      {
+        "id": 96,
+        "home": 85,
+        "away": 87
+      },
+      {
+        "id": 97,
+        "home": 89,
+        "away": 90
+      },
+      {
+        "id": 98,
+        "home": 93,
+        "away": 94
+      },
+      {
+        "id": 99,
+        "home": 91,
+        "away": 92
+      },
+      {
+        "id": 100,
+        "home": 95,
+        "away": 96
+      },
+      {
+        "id": 101,
+        "home": 97,
+        "away": 98
+      },
+      {
+        "id": 102,
+        "home": 99,
+        "away": 100
+      },
+      {
+        "id": 104,
+        "home": 101,
+        "away": 102
+      }
+    ],
+    "third_allowed": {
+      "A": [
+        "C",
+        "E",
+        "F",
+        "H",
+        "I"
+      ],
+      "B": [
+        "E",
+        "F",
+        "G",
+        "I",
+        "J"
+      ],
+      "D": [
+        "B",
+        "E",
+        "F",
+        "I",
+        "J"
+      ],
+      "E": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "F"
+      ],
+      "G": [
+        "A",
+        "E",
+        "H",
+        "I",
+        "J"
+      ],
+      "I": [
+        "C",
+        "D",
+        "F",
+        "G",
+        "H"
+      ],
+      "K": [
+        "D",
+        "E",
+        "I",
+        "J",
+        "L"
+      ],
+      "L": [
+        "E",
+        "H",
+        "I",
+        "J",
+        "K"
+      ]
+    }
+  }
+}

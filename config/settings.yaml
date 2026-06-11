@@ -1,0 +1,37 @@
+# Parámetros del modelo y la simulación
+
+data:
+  # Histórico de partidos: filtrar desde esta fecha para relevancia sin perder volumen
+  start_date: "2014-01-01"
+  results_csv: "data/raw/results.csv"
+  elo_tsv: "data/raw/world_elo.tsv"
+
+model:
+  # Decaimiento temporal Dixon-Coles: w = exp(-xi * dias_desde_partido)
+  # Empezar en 0.0018 (default penaltyblog) y optimizar por RPS
+  xi: 0.0008  # optimizado por RPS out-of-sample (ver outputs/reports/xi_optimization.csv)
+  optimize_xi: true
+  xi_grid: [0.0, 0.0005, 0.0008, 0.0012, 0.0018, 0.0026, 0.0040, 0.0065]
+  # Regularización con Elo: peso de la supremacía Elo (0 = solo Dixon-Coles, 1 = solo Elo)
+  use_elo_blend: true
+  elo_blend_weight: 0.2  # calibrado por RPS (ver outputs/reports/blend_optimization.csv)
+  elo_blend_grid: [0.0, 0.2, 0.3, 0.4, 0.5, 0.6, 0.8, 1.0]
+
+home_advantage:
+  # Solo aplica a anfitriones jugando en casa (resto = sede neutral)
+  goals_scored_bonus: 0.10
+  goals_conceded_reduction: 0.20
+
+simulation:
+  n_iterations: 10000
+  random_seed: 42
+  # Empate en eliminatorias → penales. weight_by_elo=true pondera por Elo; false = 50/50
+  penalties_weight_by_elo: true
+
+# Criterios de desempate FIFA (en orden)
+tiebreakers:
+  - points
+  - goal_difference
+  - goals_for
+  - fair_play
+  - fifa_ranking

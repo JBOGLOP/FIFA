@@ -1,0 +1,25 @@
+# --- Núcleo científico ---
+numpy
+pandas
+scipy
+
+# --- Modelado de fútbol (Dixon-Coles, Poisson, Elo) ---
+penaltyblog>=1.9.0
+
+# --- Descarga de datos ---
+requests
+kaggle              # API de Kaggle para el histórico de partidos
+
+# --- Visualización ---
+matplotlib
+seaborn
+
+# --- Configuración ---
+pyyaml
+
+# --- Notebooks / exploración ---
+jupyter
+ipykernel
+
+# --- Calidad / tests ---
+pytest

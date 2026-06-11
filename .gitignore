@@ -1,0 +1,49 @@
+# Entornos
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Datos (no versionar datasets pesados; conservar la estructura con .gitkeep)
+data/raw/*
+data/interim/*
+data/processed/*
+data/external/*
+!data/**/.gitkeep
+archive/
+
+# El dashboard SÍ se versiona (lo sirve GitHub Pages), incluido su JSON de datos
+!docs/data/*.json
+
+# Salidas
+outputs/figures/*
+outputs/reports/*
+outputs/simulations/*
+!outputs/**/.gitkeep
+
+# Credenciales
+.env
+kaggle.json
+access_token
+
+# IDE
+.vscode/
+.idea/
+
+# Config local del agente
+.claude/
+
+# Punteros de archivos de Google Drive (no tienen contenido local indexable)
+*.gsheet
+*.gdoc
+*.gslides
+*.gdraw
+*.glink
+
+archive.zip
