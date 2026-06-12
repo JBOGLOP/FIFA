@@ -184,21 +184,29 @@ Bidireccional **vía Apps Script** (sin credenciales de Google en Python):
 
 ## 12. Cómo hacer tareas comunes
 
-**Recalcular todo y actualizar dashboard + hoja:**
+**Ciclo diario (un comando):** añade los resultados del día a `config/real_results.yaml`
+y ejecuta `python scripts/run_daily.py` (flags `--no-sheet`, `--no-git`). Encadena:
+`load_real_results` → `02_build_dataset` → `04_simulate_tournament` → `predict_matches`
+→ `05_export_web` → push a Sheets → commit + push a GitHub. "Hoy" se detecta con la fecha
+del sistema. El git solo commitea si hay cambios (resultados nuevos cambian el JSON).
+
+**Recalcular manualmente (paso a paso):**
 ```powershell
 $env:PYTHONUTF8=1
+python scripts/load_real_results.py     # resultados reales -> dataset + hoja
 python scripts/02_build_dataset.py
 python scripts/04_simulate_tournament.py
 python scripts/predict_matches.py
 python scripts/05_export_web.py
-git add -A; git commit -m "Actualiza predicciones"; git push   # refresca el dashboard
-python scripts/sheet_push_predictions.py    # refresca la hoja (necesita red real)
+git add -A; git commit -m "Actualiza"; git push   # refresca el dashboard
+python scripts/sheet_push_predictions.py
 python scripts/sheet_push_matches.py
 ```
 
-**Meter resultados reales durante el torneo:** escríbelos en la pestaña `Resultados` de la
-hoja (columnas `date, home_team, away_team, home_score, away_score, neutral`; nombres en
-inglés del dataset), luego `sheet_pull_results.py` → `02_build_dataset.py` → recalcular.
+**Resultados reales**: viven en `config/real_results.yaml` (versionado, acumulado).
+`load_real_results.py` los escribe a `data/external/sheet_results.csv` (lo recoge
+`02_build_dataset`) y los publica en la pestaña `Resultados`. Alternativa manual: el
+usuario los escribe directamente en la pestaña `Resultados` y se usa `sheet_pull_results.py`.
 
 **Cambiar parámetros:** edita `config/settings.yaml` (`model.xi`, `model.elo_blend_weight`,
 `simulation.n_iterations`, `simulation.random_seed`).

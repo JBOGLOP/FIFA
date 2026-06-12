@@ -89,6 +89,20 @@ Cinco vistas: **Favoritos**, **Partidos** (hoy + grupos), **Probabilidades por r
 
 Para actualizarlo: regenera los JSON y `git push` (Pages reconstruye en ~1 min).
 
+## Ciclo diario durante el torneo (un comando)
+
+1. Añade los resultados del día en [`config/real_results.yaml`](config/real_results.yaml).
+2. Ejecuta:
+
+```powershell
+$env:PYTHONUTF8=1
+python scripts/run_daily.py        # carga resultados → simula → dashboard + hoja + git push
+```
+
+Encadena todo: incorpora los resultados reales, re-simula, regenera las predicciones,
+publica en Google Sheets y hace `git push` (que refresca el dashboard). Marca "hoy"
+con la fecha real del sistema. Flags: `--no-sheet`, `--no-git`.
+
 ## Integración con Google Sheets (BD_fifa)
 
 Flujo **bidireccional** vía Apps Script (sin credenciales de Google en Python). Despliegue:
