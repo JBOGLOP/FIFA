@@ -1,0 +1,7 @@
+# Resultados reales del Mundial 2026 (se acumulan según se juegan).
+# Nombres = dataset. neutral=false solo para anfitriones jugando en casa.
+# Añade una línea por partido finalizado y vuelve a correr el pipeline.
+results:
+  - {date: "2026-06-11", home: Mexico, away: South Africa, hs: 2, as: 0, neutral: false}
+  - {date: "2026-06-11", home: South Korea, away: Czech Republic, hs: 2, as: 1, neutral: true}
+  - {date: "2026-06-12", home: Canada, away: Bosnia and Herzegovina, hs: 1, as: 1, neutral: false}
