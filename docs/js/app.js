@@ -126,6 +126,12 @@ function renderGroups() {
 }
 
 /* ---------- Partidos ---------- */
+const MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
+function fmtDate(iso) {
+  if (!iso) return "";
+  const [, m, d] = iso.split("-");
+  return `${parseInt(d, 10)} ${MESES[parseInt(m, 10) - 1]}`;
+}
 function matchCard(m) {
   const probs = `
     <div class="mc-probs" title="1 / X / 2">
@@ -141,7 +147,7 @@ function matchCard(m) {
         <span>${m.away_es}</span>
       </div>
       <div class="mc-meta">
-        xG ${m.xg_home}–${m.xg_away} · ${m.venue} · J${m.matchday} · favorito: <b>${m.fav}</b>
+        ${fmtDate(m.date)} · J${m.matchday} · xG ${m.xg_home}–${m.xg_away} · favorito: <b>${m.fav}</b>
         ${m.today ? '<span class="mc-tag">HOY</span>' : ""}
       </div>
       ${probs}
@@ -157,6 +163,9 @@ function renderMatches() {
     : "";
 
   // Rellena los desplegables una vez
+  const dates = [...new Set(MATCHES.matches.map((m) => m.date))].filter(Boolean).sort();
+  document.getElementById("f-date").insertAdjacentHTML("beforeend",
+    dates.map((d) => `<option value="${d}">${fmtDate(d)}</option>`).join(""));
   const groups = [...new Set(MATCHES.matches.map((m) => m.group))].sort();
   document.getElementById("f-group").insertAdjacentHTML("beforeend",
     groups.map((g) => `<option value="${g}">Grupo ${g}</option>`).join(""));
@@ -165,10 +174,10 @@ function renderMatches() {
   document.getElementById("f-team").insertAdjacentHTML("beforeend",
     teams.map((t) => `<option value="${t}">${t}</option>`).join(""));
 
-  ["f-matchday", "f-group", "f-team"].forEach((id) =>
+  ["f-date", "f-group", "f-team"].forEach((id) =>
     document.getElementById(id).addEventListener("change", applyMatchFilters));
   document.getElementById("f-reset").addEventListener("click", () => {
-    ["f-matchday", "f-group", "f-team"].forEach((id) => (document.getElementById(id).value = ""));
+    ["f-date", "f-group", "f-team"].forEach((id) => (document.getElementById(id).value = ""));
     applyMatchFilters();
   });
 
@@ -176,15 +185,15 @@ function renderMatches() {
 }
 
 function applyMatchFilters() {
-  const md = document.getElementById("f-matchday").value;
+  const fdate = document.getElementById("f-date").value;
   const grp = document.getElementById("f-group").value;
   const team = document.getElementById("f-team").value;
 
   const list = MATCHES.matches.filter((m) => {
     if (grp && m.group !== grp) return false;
     if (team && m.home_es !== team && m.away_es !== team) return false;
-    if (md === "hoy" && !m.today) return false;
-    if (md && md !== "hoy" && String(m.matchday) !== md) return false;
+    if (fdate === "hoy" && !m.today) return false;
+    if (fdate && fdate !== "hoy" && m.date !== fdate) return false;
     return true;
   });
 

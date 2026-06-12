@@ -205,8 +205,9 @@ inglés del dataset), luego `sheet_pull_results.py` → `02_build_dataset.py` �
 
 ## 13. Limitaciones conocidas
 
-- **Fechas de partidos**: solo están marcados los de hoy (11 jun) en `predict_matches.py`
-  (lista `TODAY` hardcodeada). No hay calendario completo con fechas/horas/sedes.
+- **Calendario**: `config/fixtures.yaml` tiene las fechas locales oficiales de los 72
+  partidos de grupos (fuente ESPN). `predict_matches.py` las usa y marca "hoy" con la
+  fecha real del sistema. Falta el horario (hora) y la sede de cada partido.
 - **Penales**: modelados con la fuerza relativa del modelo, no con datos reales de tandas.
 - **Sin xG por jugador / lesiones / forma individual**: el modelo es a nivel selección.
 - **Datos**: el dataset llega hasta la fecha de descarga; refrescar con `01_download_data.py`

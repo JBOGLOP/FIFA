@@ -5,8 +5,8 @@ dashboard y para publicar en la hoja). La localía solo se aplica a anfitriones.
 """
 import json
 import sys
+from collections import defaultdict
 from datetime import date
-from itertools import combinations
 from pathlib import Path
 
 import numpy as np
@@ -16,7 +16,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from src.models.blended import build_blended_predictor
 from src.simulation.match import MAX_GOALS
-from src.utils.config import load_groups, load_settings
+from src.utils.config import load_groups, load_settings, load_yaml
 
 ES = {
     "Mexico": "México", "South Africa": "Sudáfrica", "South Korea": "Corea del Sur",
@@ -36,9 +36,8 @@ ES = {
     "Colombia": "Colombia", "Argentina": "Argentina",
 }
 
-# Partidos de HOY (12 jun 2026): (local, visitante). El anfitrión va de local.
-TODAY = {("Canada", "Bosnia and Herzegovina"), ("United States", "Paraguay")}
-TODAY_DATE = "2026-06-12"
+# "Hoy" se calcula con la fecha real del sistema (auto-actualiza cada día).
+TODAY_DATE = date.today().isoformat()
 
 
 def es(t):
@@ -71,22 +70,31 @@ def predict(model, home, away, hosts):
     }
 
 
-# Jornada de cada emparejamiento (índices de pot) en un grupo de 4 (round-robin).
-MATCHDAY = {(0, 1): 1, (2, 3): 1, (0, 2): 2, (1, 3): 2, (0, 3): 3, (1, 2): 3}
-
-
 def build_rows(model, groups, hosts):
+    """Usa el calendario oficial (config/fixtures.yaml). El anfitrión juega de local."""
+    team_group = {t: g for g, ts in groups["groups"].items() for t in ts}
+    fixtures = load_yaml("fixtures.yaml")["fixtures"]
+
     rows = []
-    for g, teams in groups["groups"].items():
-        for i, j in combinations(range(4), 2):
-            a, b = teams[i], teams[j]
-            home, away = (b, a) if b in hosts else (a, b)
-            r = predict(model, home, away, hosts)
-            r["group"] = g
-            r["matchday"] = MATCHDAY[(i, j)]
-            r["today"] = (home, away) in TODAY
-            r["date"] = TODAY_DATE if r["today"] else ""
-            rows.append(r)
+    for fx in fixtures:
+        lh, la = fx["home"], fx["away"]
+        # El anfitrión recibe la localía aunque la ficha lo liste como visitante.
+        home, away = (la, lh) if (la in hosts and lh not in hosts) else (lh, la)
+        r = predict(model, home, away, hosts)
+        r["group"] = team_group.get(home) or team_group.get(away, "")
+        r["date"] = fx["date"]
+        r["today"] = fx["date"] == TODAY_DATE
+        rows.append(r)
+
+    # Jornada = orden de la fecha dentro de cada grupo (J1/J2/J3).
+    dates_by_group = defaultdict(set)
+    for r in rows:
+        dates_by_group[r["group"]].add(r["date"])
+    rank = {g: {d: i + 1 for i, d in enumerate(sorted(ds))} for g, ds in dates_by_group.items()}
+    for r in rows:
+        r["matchday"] = rank[r["group"]][r["date"]]
+
+    rows.sort(key=lambda r: (r["date"], r["group"]))
     return rows
 
 

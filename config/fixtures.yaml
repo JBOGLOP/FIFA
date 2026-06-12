@@ -1,0 +1,75 @@
+# Calendario oficial de la fase de grupos (fechas locales US/MX/CA).
+# Fuente: ESPN 2026 FIFA World Cup match schedule. Nombres = dataset.
+fixtures:
+  - {date: "2026-06-11", home: Mexico, away: South Africa}
+  - {date: "2026-06-11", home: South Korea, away: Czech Republic}
+  - {date: "2026-06-12", home: Canada, away: Bosnia and Herzegovina}
+  - {date: "2026-06-12", home: United States, away: Paraguay}
+  - {date: "2026-06-13", home: Qatar, away: Switzerland}
+  - {date: "2026-06-13", home: Brazil, away: Morocco}
+  - {date: "2026-06-13", home: Haiti, away: Scotland}
+  - {date: "2026-06-13", home: Australia, away: Turkey}
+  - {date: "2026-06-14", home: Germany, away: Curaçao}
+  - {date: "2026-06-14", home: Netherlands, away: Japan}
+  - {date: "2026-06-14", home: Ivory Coast, away: Ecuador}
+  - {date: "2026-06-14", home: Sweden, away: Tunisia}
+  - {date: "2026-06-15", home: Spain, away: Cape Verde}
+  - {date: "2026-06-15", home: Belgium, away: Egypt}
+  - {date: "2026-06-15", home: Saudi Arabia, away: Uruguay}
+  - {date: "2026-06-15", home: Iran, away: New Zealand}
+  - {date: "2026-06-16", home: France, away: Senegal}
+  - {date: "2026-06-16", home: Iraq, away: Norway}
+  - {date: "2026-06-16", home: Argentina, away: Algeria}
+  - {date: "2026-06-16", home: Austria, away: Jordan}
+  - {date: "2026-06-17", home: Portugal, away: DR Congo}
+  - {date: "2026-06-17", home: England, away: Croatia}
+  - {date: "2026-06-17", home: Ghana, away: Panama}
+  - {date: "2026-06-17", home: Uzbekistan, away: Colombia}
+  - {date: "2026-06-18", home: Czech Republic, away: South Africa}
+  - {date: "2026-06-18", home: Switzerland, away: Bosnia and Herzegovina}
+  - {date: "2026-06-18", home: Canada, away: Qatar}
+  - {date: "2026-06-18", home: Mexico, away: South Korea}
+  - {date: "2026-06-19", home: United States, away: Australia}
+  - {date: "2026-06-19", home: Scotland, away: Morocco}
+  - {date: "2026-06-19", home: Brazil, away: Haiti}
+  - {date: "2026-06-19", home: Turkey, away: Paraguay}
+  - {date: "2026-06-20", home: Netherlands, away: Sweden}
+  - {date: "2026-06-20", home: Germany, away: Ivory Coast}
+  - {date: "2026-06-20", home: Ecuador, away: Curaçao}
+  - {date: "2026-06-20", home: Tunisia, away: Japan}
+  - {date: "2026-06-21", home: Spain, away: Saudi Arabia}
+  - {date: "2026-06-21", home: Belgium, away: Iran}
+  - {date: "2026-06-21", home: Uruguay, away: Cape Verde}
+  - {date: "2026-06-21", home: New Zealand, away: Egypt}
+  - {date: "2026-06-22", home: Argentina, away: Austria}
+  - {date: "2026-06-22", home: France, away: Iraq}
+  - {date: "2026-06-22", home: Norway, away: Senegal}
+  - {date: "2026-06-22", home: Jordan, away: Algeria}
+  - {date: "2026-06-23", home: Portugal, away: Uzbekistan}
+  - {date: "2026-06-23", home: England, away: Ghana}
+  - {date: "2026-06-23", home: Panama, away: Croatia}
+  - {date: "2026-06-23", home: Colombia, away: DR Congo}
+  - {date: "2026-06-24", home: Switzerland, away: Canada}
+  - {date: "2026-06-24", home: Bosnia and Herzegovina, away: Qatar}
+  - {date: "2026-06-24", home: Scotland, away: Brazil}
+  - {date: "2026-06-24", home: Morocco, away: Haiti}
+  - {date: "2026-06-24", home: Czech Republic, away: Mexico}
+  - {date: "2026-06-24", home: South Africa, away: South Korea}
+  - {date: "2026-06-25", home: Ecuador, away: Germany}
+  - {date: "2026-06-25", home: Curaçao, away: Ivory Coast}
+  - {date: "2026-06-25", home: Japan, away: Sweden}
+  - {date: "2026-06-25", home: Tunisia, away: Netherlands}
+  - {date: "2026-06-25", home: Turkey, away: United States}
+  - {date: "2026-06-25", home: Paraguay, away: Australia}
+  - {date: "2026-06-26", home: Norway, away: France}
+  - {date: "2026-06-26", home: Senegal, away: Iraq}
+  - {date: "2026-06-26", home: Cape Verde, away: Saudi Arabia}
+  - {date: "2026-06-26", home: Uruguay, away: Spain}
+  - {date: "2026-06-26", home: Egypt, away: Iran}
+  - {date: "2026-06-26", home: New Zealand, away: Belgium}
+  - {date: "2026-06-27", home: Panama, away: England}
+  - {date: "2026-06-27", home: Croatia, away: Ghana}
+  - {date: "2026-06-27", home: Colombia, away: Portugal}
+  - {date: "2026-06-27", home: DR Congo, away: Uzbekistan}
+  - {date: "2026-06-27", home: Algeria, away: Austria}
+  - {date: "2026-06-27", home: Jordan, away: Argentina}
