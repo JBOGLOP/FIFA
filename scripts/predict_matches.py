@@ -36,9 +36,9 @@ ES = {
     "Colombia": "Colombia", "Argentina": "Argentina",
 }
 
-# Partidos de HOY (11 jun 2026): (local, visitante).
-TODAY = {("Mexico", "South Africa"), ("South Korea", "Czech Republic")}
-TODAY_DATE = "2026-06-11"
+# Partidos de HOY (12 jun 2026): (local, visitante). El anfitrión va de local.
+TODAY = {("Canada", "Bosnia and Herzegovina"), ("United States", "Paraguay")}
+TODAY_DATE = "2026-06-12"
 
 
 def es(t):
@@ -86,7 +86,7 @@ def build_rows(model, groups, hosts):
 
 def print_summary(rows):
     today = [r for r in rows if r["today"]]
-    print("=" * 56, "\nPARTIDOS DE HOY — 11 jun 2026\n" + "=" * 56)
+    print("=" * 56, f"\nPARTIDOS DE HOY — {TODAY_DATE}\n" + "=" * 56)
     for r in today:
         print(f"  {r['home_es']} vs {r['away_es']} ({r['venue']}): {r['score']} | "
               f"1 {r['p1']:.0f}% / X {r['px']:.0f}% / 2 {r['p2']:.0f}% | fav: {r['fav']}")

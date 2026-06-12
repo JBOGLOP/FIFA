@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-06-11",
+    "generated": "2026-06-12",
     "model": "Dixon-Coles (xi=0.0008) + Elo (w=0.2)"
   },
   "matches": [
@@ -11,29 +11,29 @@
       "away_es": "Sudáfrica",
       "venue": "casa",
       "xg_home": 1.82,
-      "xg_away": 0.58,
-      "p1": 66.3,
-      "px": 22.7,
-      "p2": 11.0,
+      "xg_away": 0.55,
+      "p1": 67.1,
+      "px": 22.5,
+      "p2": 10.4,
       "fav": "México",
       "score": "2-0",
       "top": [
         {
           "s": "2-0",
-          "p": 15.2
+          "p": 15.6
         },
         {
           "s": "1-0",
-          "p": 15.1
+          "p": 15.5
         },
         {
           "s": "1-1",
-          "p": 10.1
+          "p": 9.9
         }
       ],
       "group": "A",
-      "today": true,
-      "date": "2026-06-11"
+      "today": false,
+      "date": ""
     },
     {
       "home": "Mexico",
@@ -41,21 +41,21 @@
       "home_es": "México",
       "away_es": "Corea del Sur",
       "venue": "casa",
-      "xg_home": 1.55,
-      "xg_away": 0.95,
-      "p1": 50.4,
-      "px": 26.9,
+      "xg_home": 1.54,
+      "xg_away": 0.94,
+      "p1": 50.2,
+      "px": 27.0,
       "p2": 22.8,
       "fav": "México",
       "score": "1-1",
       "top": [
         {
           "s": "1-1",
-          "p": 12.7
+          "p": 12.8
         },
         {
           "s": "1-0",
-          "p": 11.7
+          "p": 11.8
         },
         {
           "s": "2-0",
@@ -72,25 +72,25 @@
       "home_es": "México",
       "away_es": "Chequia",
       "venue": "casa",
-      "xg_home": 1.73,
-      "xg_away": 0.93,
-      "p1": 55.5,
-      "px": 24.9,
-      "p2": 19.7,
+      "xg_home": 1.77,
+      "xg_away": 0.9,
+      "p1": 56.9,
+      "px": 24.5,
+      "p2": 18.6,
       "fav": "México",
       "score": "1-1",
       "top": [
         {
           "s": "1-1",
-          "p": 11.8
+          "p": 11.7
         },
         {
           "s": "1-0",
-          "p": 11.0
+          "p": 11.2
         },
         {
           "s": "2-0",
-          "p": 10.5
+          "p": 10.9
         }
       ],
       "group": "A",
@@ -103,25 +103,25 @@
       "home_es": "Sudáfrica",
       "away_es": "Corea del Sur",
       "venue": "neutral",
-      "xg_home": 0.73,
-      "xg_away": 1.38,
-      "p1": 19.4,
-      "px": 29.1,
-      "p2": 51.4,
+      "xg_home": 0.71,
+      "xg_away": 1.4,
+      "p1": 18.6,
+      "px": 28.9,
+      "p2": 52.6,
       "fav": "Corea del Sur",
       "score": "0-1",
       "top": [
         {
           "s": "0-1",
-          "p": 15.6
-        },
-        {
-          "s": "1-1",
-          "p": 12.9
+          "p": 15.8
         },
         {
           "s": "0-0",
-          "p": 12.8
+          "p": 12.9
+        },
+        {
+          "s": "1-1",
+          "p": 12.7
         }
       ],
       "group": "A",
@@ -135,10 +135,10 @@
       "away_es": "Chequia",
       "venue": "neutral",
       "xg_home": 0.88,
-      "xg_away": 1.38,
-      "p1": 23.5,
-      "px": 28.9,
-      "p2": 47.6,
+      "xg_away": 1.37,
+      "p1": 23.7,
+      "px": 29.0,
+      "p2": 47.3,
       "fav": "Chequia",
       "score": "0-1",
       "top": [
@@ -152,7 +152,7 @@
         },
         {
           "s": "0-0",
-          "p": 11.2
+          "p": 11.3
         }
       ],
       "group": "A",
@@ -165,30 +165,30 @@
       "home_es": "Corea del Sur",
       "away_es": "Chequia",
       "venue": "neutral",
-      "xg_home": 1.33,
-      "xg_away": 1.15,
-      "p1": 40.0,
-      "px": 28.3,
-      "p2": 31.6,
+      "xg_home": 1.37,
+      "xg_away": 1.13,
+      "p1": 41.5,
+      "px": 28.1,
+      "p2": 30.4,
       "fav": "Corea del Sur",
       "score": "1-1",
       "top": [
         {
           "s": "1-1",
-          "p": 13.5
+          "p": 13.4
         },
         {
           "s": "1-0",
-          "p": 10.3
+          "p": 10.4
         },
         {
-          "s": "0-1",
-          "p": 9.0
+          "s": "0-0",
+          "p": 8.8
         }
       ],
       "group": "A",
-      "today": true,
-      "date": "2026-06-11"
+      "today": false,
+      "date": ""
     },
     {
       "home": "Canada",
@@ -196,11 +196,11 @@
       "home_es": "Canadá",
       "away_es": "Bosnia",
       "venue": "casa",
-      "xg_home": 1.83,
+      "xg_home": 1.84,
       "xg_away": 0.55,
-      "p1": 67.3,
+      "p1": 67.4,
       "px": 22.3,
-      "p2": 10.4,
+      "p2": 10.3,
       "fav": "Canadá",
       "score": "2-0",
       "top": [
@@ -218,8 +218,8 @@
         }
       ],
       "group": "B",
-      "today": false,
-      "date": ""
+      "today": true,
+      "date": "2026-06-12"
     },
     {
       "home": "Canada",
@@ -231,7 +231,7 @@
       "xg_away": 0.65,
       "p1": 75.7,
       "px": 16.2,
-      "p2": 8.0,
+      "p2": 8.1,
       "fav": "Canadá",
       "score": "2-0",
       "top": [
@@ -260,9 +260,9 @@
       "venue": "casa",
       "xg_home": 1.21,
       "xg_away": 1.31,
-      "p1": 33.5,
+      "p1": 33.6,
       "px": 28.2,
-      "p2": 38.3,
+      "p2": 38.2,
       "fav": "Suiza",
       "score": "1-1",
       "top": [
@@ -289,11 +289,11 @@
       "home_es": "Bosnia",
       "away_es": "Catar",
       "venue": "neutral",
-      "xg_home": 1.36,
-      "xg_away": 1.08,
-      "p1": 42.2,
-      "px": 28.4,
-      "p2": 29.4,
+      "xg_home": 1.35,
+      "xg_away": 1.09,
+      "p1": 42.0,
+      "px": 28.5,
+      "p2": 29.5,
       "fav": "Bosnia",
       "score": "1-1",
       "top": [
@@ -355,7 +355,7 @@
       "xg_away": 2.74,
       "p1": 7.2,
       "px": 13.9,
-      "p2": 78.9,
+      "p2": 78.8,
       "fav": "Suiza",
       "score": "0-2",
       "top": [
@@ -369,7 +369,7 @@
         },
         {
           "s": "1-2",
-          "p": 8.5
+          "p": 8.6
         }
       ],
       "group": "B",
@@ -413,7 +413,7 @@
       "home_es": "Brasil",
       "away_es": "Haití",
       "venue": "neutral",
-      "xg_home": 3.64,
+      "xg_home": 3.63,
       "xg_away": 0.66,
       "p1": 89.2,
       "px": 7.6,
@@ -444,11 +444,11 @@
       "home_es": "Brasil",
       "away_es": "Escocia",
       "venue": "neutral",
-      "xg_home": 2.15,
+      "xg_home": 2.16,
       "xg_away": 0.69,
       "p1": 70.3,
       "px": 19.3,
-      "p2": 10.5,
+      "p2": 10.4,
       "fav": "Brasil",
       "score": "2-0",
       "top": [
@@ -477,8 +477,8 @@
       "venue": "neutral",
       "xg_home": 2.24,
       "xg_away": 0.43,
-      "p1": 78.2,
-      "px": 16.2,
+      "p1": 78.1,
+      "px": 16.3,
       "p2": 5.6,
       "fav": "Marruecos",
       "score": "2-0",
@@ -489,7 +489,7 @@
         },
         {
           "s": "1-0",
-          "p": 13.8
+          "p": 13.9
         },
         {
           "s": "3-0",
@@ -571,7 +571,7 @@
       "xg_home": 1.3,
       "xg_away": 1.0,
       "p1": 42.6,
-      "px": 29.4,
+      "px": 29.3,
       "p2": 28.1,
       "fav": "EE.UU.",
       "score": "1-1",
@@ -582,7 +582,7 @@
         },
         {
           "s": "1-0",
-          "p": 12.2
+          "p": 12.1
         },
         {
           "s": "0-0",
@@ -590,8 +590,8 @@
         }
       ],
       "group": "D",
-      "today": false,
-      "date": ""
+      "today": true,
+      "date": "2026-06-12"
     },
     {
       "home": "United States",
@@ -617,7 +617,7 @@
         },
         {
           "s": "0-1",
-          "p": 9.5
+          "p": 9.4
         }
       ],
       "group": "D",
@@ -630,11 +630,11 @@
       "home_es": "EE.UU.",
       "away_es": "Turquía",
       "venue": "casa",
-      "xg_home": 1.62,
+      "xg_home": 1.63,
       "xg_away": 1.53,
-      "p1": 39.6,
+      "p1": 39.7,
       "px": 24.7,
-      "p2": 35.6,
+      "p2": 35.5,
       "fav": "EE.UU.",
       "score": "1-1",
       "top": [
@@ -661,7 +661,7 @@
       "home_es": "Paraguay",
       "away_es": "Australia",
       "venue": "neutral",
-      "xg_home": 0.76,
+      "xg_home": 0.77,
       "xg_away": 1.0,
       "p1": 26.5,
       "px": 34.3,
@@ -693,10 +693,10 @@
       "away_es": "Turquía",
       "venue": "neutral",
       "xg_home": 1.01,
-      "xg_away": 1.23,
-      "p1": 29.8,
+      "xg_away": 1.22,
+      "p1": 29.9,
       "px": 30.0,
-      "p2": 40.2,
+      "p2": 40.1,
       "fav": "Turquía",
       "score": "1-1",
       "top": [
@@ -725,9 +725,9 @@
       "venue": "neutral",
       "xg_home": 1.23,
       "xg_away": 1.19,
-      "p1": 36.4,
+      "p1": 36.5,
       "px": 28.9,
-      "p2": 34.7,
+      "p2": 34.6,
       "fav": "Australia",
       "score": "1-1",
       "top": [
@@ -754,10 +754,10 @@
       "home_es": "Alemania",
       "away_es": "Curazao",
       "venue": "neutral",
-      "xg_home": 3.8,
+      "xg_home": 3.79,
       "xg_away": 0.63,
-      "p1": 90.7,
-      "px": 6.6,
+      "p1": 90.6,
+      "px": 6.7,
       "p2": 2.7,
       "fav": "Alemania",
       "score": "3-0",
@@ -785,11 +785,11 @@
       "home_es": "Alemania",
       "away_es": "Costa de Marfil",
       "venue": "neutral",
-      "xg_home": 1.59,
-      "xg_away": 0.89,
+      "xg_home": 1.6,
+      "xg_away": 0.88,
       "p1": 53.1,
       "px": 26.4,
-      "p2": 20.6,
+      "p2": 20.5,
       "fav": "Alemania",
       "score": "1-1",
       "top": [
@@ -816,11 +816,11 @@
       "home_es": "Alemania",
       "away_es": "Ecuador",
       "venue": "neutral",
-      "xg_home": 1.14,
+      "xg_home": 1.13,
       "xg_away": 0.93,
-      "p1": 39.4,
+      "p1": 39.3,
       "px": 31.4,
-      "p2": 29.2,
+      "p2": 29.3,
       "fav": "Alemania",
       "score": "1-1",
       "top": [
@@ -850,8 +850,8 @@
       "xg_home": 0.48,
       "xg_away": 2.05,
       "p1": 7.5,
-      "px": 18.9,
-      "p2": 73.6,
+      "px": 19.0,
+      "p2": 73.5,
       "fav": "Costa de Marfil",
       "score": "0-2",
       "top": [
@@ -861,11 +861,11 @@
         },
         {
           "s": "0-1",
-          "p": 14.6
+          "p": 14.7
         },
         {
           "s": "0-3",
-          "p": 11.6
+          "p": 11.5
         }
       ],
       "group": "E",
@@ -913,7 +913,7 @@
       "xg_away": 0.92,
       "p1": 22.6,
       "px": 36.9,
-      "p2": 40.4,
+      "p2": 40.5,
       "fav": "Ecuador",
       "score": "0-0",
       "top": [
@@ -923,7 +923,7 @@
         },
         {
           "s": "0-1",
-          "p": 19.0
+          "p": 19.1
         },
         {
           "s": "1-1",
@@ -1004,7 +1004,7 @@
       "venue": "neutral",
       "xg_home": 1.67,
       "xg_away": 0.7,
-      "p1": 59.7,
+      "p1": 59.8,
       "px": 25.2,
       "p2": 15.1,
       "fav": "Países Bajos",
@@ -1033,11 +1033,11 @@
       "home_es": "Japón",
       "away_es": "Suecia",
       "venue": "neutral",
-      "xg_home": 1.73,
+      "xg_home": 1.74,
       "xg_away": 0.88,
-      "p1": 56.5,
+      "p1": 56.6,
       "px": 24.8,
-      "p2": 18.7,
+      "p2": 18.6,
       "fav": "Japón",
       "score": "1-1",
       "top": [
@@ -1047,7 +1047,7 @@
         },
         {
           "s": "1-0",
-          "p": 11.5
+          "p": 11.6
         },
         {
           "s": "2-0",
@@ -1099,7 +1099,7 @@
       "xg_away": 1.08,
       "p1": 37.6,
       "px": 30.0,
-      "p2": 32.4,
+      "p2": 32.5,
       "fav": "Suecia",
       "score": "1-1",
       "top": [
@@ -1127,9 +1127,9 @@
       "away_es": "Egipto",
       "venue": "neutral",
       "xg_home": 1.46,
-      "xg_away": 0.71,
-      "p1": 54.1,
-      "px": 28.1,
+      "xg_away": 0.7,
+      "p1": 54.2,
+      "px": 28.0,
       "p2": 17.8,
       "fav": "Bélgica",
       "score": "1-0",
@@ -1161,7 +1161,7 @@
       "xg_away": 0.97,
       "p1": 49.0,
       "px": 27.2,
-      "p2": 23.8,
+      "p2": 23.9,
       "fav": "Bélgica",
       "score": "1-1",
       "top": [
@@ -1221,9 +1221,9 @@
       "venue": "neutral",
       "xg_home": 0.78,
       "xg_away": 1.05,
-      "p1": 26.1,
+      "p1": 25.9,
       "px": 33.5,
-      "p2": 40.4,
+      "p2": 40.5,
       "fav": "Irán",
       "score": "0-0",
       "top": [
@@ -1252,7 +1252,7 @@
       "venue": "neutral",
       "xg_home": 1.21,
       "xg_away": 0.46,
-      "p1": 53.9,
+      "p1": 53.8,
       "px": 32.2,
       "p2": 14.0,
       "fav": "Egipto",
@@ -1260,11 +1260,11 @@
       "top": [
         {
           "s": "1-0",
-          "p": 21.4
+          "p": 21.5
         },
         {
           "s": "0-0",
-          "p": 19.5
+          "p": 19.6
         },
         {
           "s": "2-0",
@@ -1378,7 +1378,7 @@
       "xg_away": 0.63,
       "p1": 52.7,
       "px": 29.9,
-      "p2": 17.3,
+      "p2": 17.4,
       "fav": "España",
       "score": "1-0",
       "top": [
@@ -1406,16 +1406,16 @@
       "away_es": "Arabia Saudita",
       "venue": "neutral",
       "xg_home": 0.84,
-      "xg_away": 0.96,
+      "xg_away": 0.97,
       "p1": 29.6,
       "px": 34.1,
-      "p2": 36.2,
+      "p2": 36.3,
       "fav": "Arabia Saudita",
       "score": "0-0",
       "top": [
         {
           "s": "0-0",
-          "p": 17.2
+          "p": 17.1
         },
         {
           "s": "0-1",
@@ -1440,21 +1440,21 @@
       "xg_away": 1.62,
       "p1": 9.4,
       "px": 24.7,
-      "p2": 65.9,
+      "p2": 66.0,
       "fav": "Uruguay",
       "score": "0-1",
       "top": [
         {
           "s": "0-1",
-          "p": 19.3
+          "p": 19.2
         },
         {
           "s": "0-2",
-          "p": 17.0
+          "p": 17.1
         },
         {
           "s": "0-0",
-          "p": 13.5
+          "p": 13.4
         }
       ],
       "group": "H",
@@ -1471,7 +1471,7 @@
       "xg_away": 1.44,
       "p1": 10.9,
       "px": 27.7,
-      "p2": 61.3,
+      "p2": 61.4,
       "fav": "Uruguay",
       "score": "0-1",
       "top": [
@@ -1531,8 +1531,8 @@
       "venue": "neutral",
       "xg_home": 2.15,
       "xg_away": 0.46,
-      "p1": 75.8,
-      "px": 17.6,
+      "p1": 75.7,
+      "px": 17.7,
       "p2": 6.6,
       "fav": "Francia",
       "score": "2-0",
@@ -1593,9 +1593,9 @@
       "venue": "neutral",
       "xg_home": 1.46,
       "xg_away": 0.51,
-      "p1": 59.7,
-      "px": 27.7,
-      "p2": 12.6,
+      "p1": 59.6,
+      "px": 27.8,
+      "p2": 12.7,
       "fav": "Senegal",
       "score": "1-0",
       "top": [
@@ -1609,7 +1609,7 @@
         },
         {
           "s": "0-0",
-          "p": 14.6
+          "p": 14.7
         }
       ],
       "group": "I",
@@ -1654,10 +1654,10 @@
       "away_es": "Noruega",
       "venue": "neutral",
       "xg_home": 0.67,
-      "xg_away": 1.78,
-      "p1": 13.3,
+      "xg_away": 1.77,
+      "p1": 13.4,
       "px": 23.7,
-      "p2": 63.0,
+      "p2": 62.9,
       "fav": "Noruega",
       "score": "0-1",
       "top": [
@@ -1686,9 +1686,9 @@
       "venue": "neutral",
       "xg_home": 1.65,
       "xg_away": 0.67,
-      "p1": 60.0,
+      "p1": 60.1,
       "px": 25.3,
-      "p2": 14.7,
+      "p2": 14.6,
       "fav": "Argentina",
       "score": "1-0",
       "top": [
@@ -1748,7 +1748,7 @@
       "venue": "neutral",
       "xg_home": 2.7,
       "xg_away": 0.46,
-      "p1": 83.8,
+      "p1": 83.7,
       "px": 12.1,
       "p2": 4.2,
       "fav": "Argentina",
@@ -1779,9 +1779,9 @@
       "venue": "neutral",
       "xg_home": 1.17,
       "xg_away": 1.13,
-      "p1": 36.0,
+      "p1": 35.9,
       "px": 29.8,
-      "p2": 34.2,
+      "p2": 34.3,
       "fav": "Argelia",
       "score": "1-1",
       "top": [
@@ -1809,10 +1809,10 @@
       "away_es": "Jordania",
       "venue": "neutral",
       "xg_home": 2.01,
-      "xg_away": 0.82,
-      "p1": 64.2,
-      "px": 21.5,
-      "p2": 14.3,
+      "xg_away": 0.83,
+      "p1": 64.0,
+      "px": 21.6,
+      "p2": 14.4,
       "fav": "Argelia",
       "score": "2-0",
       "top": [
@@ -1841,7 +1841,7 @@
       "venue": "neutral",
       "xg_home": 1.91,
       "xg_away": 0.8,
-      "p1": 62.5,
+      "p1": 62.4,
       "px": 22.6,
       "p2": 14.9,
       "fav": "Austria",
@@ -1857,7 +1857,7 @@
         },
         {
           "s": "1-1",
-          "p": 10.7
+          "p": 10.8
         }
       ],
       "group": "J",
@@ -1874,7 +1874,7 @@
       "xg_away": 0.49,
       "p1": 66.5,
       "px": 23.5,
-      "p2": 10.0,
+      "p2": 9.9,
       "fav": "Portugal",
       "score": "1-0",
       "top": [
@@ -1903,8 +1903,8 @@
       "venue": "neutral",
       "xg_home": 1.82,
       "xg_away": 0.59,
-      "p1": 66.0,
-      "px": 22.7,
+      "p1": 65.9,
+      "px": 22.8,
       "p2": 11.3,
       "fav": "Portugal",
       "score": "2-0",
@@ -1934,8 +1934,8 @@
       "venue": "neutral",
       "xg_home": 1.28,
       "xg_away": 1.17,
-      "p1": 38.2,
-      "px": 28.6,
+      "p1": 38.1,
+      "px": 28.7,
       "p2": 33.2,
       "fav": "Portugal",
       "score": "1-1",
@@ -1965,9 +1965,9 @@
       "venue": "neutral",
       "xg_home": 0.71,
       "xg_away": 0.79,
-      "p1": 28.6,
+      "p1": 28.5,
       "px": 38.0,
-      "p2": 33.4,
+      "p2": 33.5,
       "fav": "Empate",
       "score": "0-0",
       "top": [
@@ -1977,7 +1977,7 @@
         },
         {
           "s": "0-1",
-          "p": 16.9
+          "p": 17.0
         },
         {
           "s": "1-0",
@@ -1995,16 +1995,16 @@
       "away_es": "Colombia",
       "venue": "neutral",
       "xg_home": 0.49,
-      "xg_away": 1.6,
+      "xg_away": 1.61,
       "p1": 10.9,
       "px": 25.3,
-      "p2": 63.8,
+      "p2": 63.9,
       "fav": "Colombia",
       "score": "0-1",
       "top": [
         {
           "s": "0-1",
-          "p": 18.3
+          "p": 18.2
         },
         {
           "s": "0-2",
@@ -2012,7 +2012,7 @@
         },
         {
           "s": "0-0",
-          "p": 13.0
+          "p": 12.9
         }
       ],
       "group": "K",
@@ -2120,8 +2120,8 @@
       "venue": "neutral",
       "xg_home": 2.41,
       "xg_away": 0.55,
-      "p1": 77.9,
-      "px": 15.5,
+      "p1": 77.8,
+      "px": 15.6,
       "p2": 6.6,
       "fav": "Inglaterra",
       "score": "2-0",
@@ -2149,10 +2149,10 @@
       "home_es": "Croacia",
       "away_es": "Ghana",
       "venue": "neutral",
-      "xg_home": 1.87,
+      "xg_home": 1.86,
       "xg_away": 0.61,
       "p1": 66.4,
-      "px": 22.2,
+      "px": 22.3,
       "p2": 11.3,
       "fav": "Croacia",
       "score": "2-0",
@@ -2163,7 +2163,7 @@
         },
         {
           "s": "1-0",
-          "p": 14.2
+          "p": 14.3
         },
         {
           "s": "1-1",
@@ -2182,9 +2182,9 @@
       "venue": "neutral",
       "xg_home": 2.07,
       "xg_away": 0.78,
-      "p1": 66.5,
-      "px": 20.7,
-      "p2": 12.8,
+      "p1": 66.4,
+      "px": 20.8,
+      "p2": 12.9,
       "fav": "Croacia",
       "score": "2-0",
       "top": [
@@ -2212,16 +2212,16 @@
       "away_es": "Panamá",
       "venue": "neutral",
       "xg_home": 1.1,
-      "xg_away": 1.19,
-      "p1": 32.8,
+      "xg_away": 1.2,
+      "p1": 32.7,
       "px": 29.8,
-      "p2": 37.4,
+      "p2": 37.5,
       "fav": "Panamá",
       "score": "1-1",
       "top": [
         {
           "s": "1-1",
-          "p": 14.0
+          "p": 13.9
         },
         {
           "s": "0-1",
