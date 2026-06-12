@@ -100,5 +100,23 @@ tbody tr:hover { background: var(--panel-2); }
 .match .slot .mini { margin-left: auto; }
 .match .mnum { font-size: .68rem; color: var(--muted); }
 
+/* Partidos */
+.today-banner { background: linear-gradient(135deg, #0b3d2e, var(--panel)); border: 1px solid var(--accent); border-radius: 12px; padding: 1rem; margin-bottom: 1.5rem; }
+.today-banner h3 { color: var(--gold); margin-bottom: .75rem; font-size: 1.05rem; }
+.group-block { margin-bottom: 1.5rem; }
+.group-block > h3 { color: var(--accent); font-size: 1rem; margin-bottom: .6rem; }
+.matches-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: .8rem; }
+.match-card { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: .8rem; }
+.match-card.is-today { border-color: var(--gold); }
+.mc-teams { display: flex; align-items: center; justify-content: center; gap: .6rem; font-weight: 600; }
+.mc-score { background: var(--panel-2); border-radius: 6px; padding: .15rem .55rem; font-variant-numeric: tabular-nums; }
+.mc-meta { color: var(--muted); font-size: .78rem; text-align: center; margin-top: .35rem; }
+.mc-probs { display: flex; gap: 3px; margin-top: .6rem; height: 22px; border-radius: 5px; overflow: hidden; font-size: .68rem; }
+.mc-probs > div { display: flex; align-items: center; justify-content: center; color: #05231a; font-weight: 700; min-width: 24px; }
+.mc-1 { background: var(--accent); }
+.mc-x { background: #6b7785; color: #fff; }
+.mc-2 { background: var(--accent-2); color: #fff; }
+.mc-tag { display: inline-block; background: var(--gold); color: #05231a; font-size: .65rem; font-weight: 700; padding: .05rem .4rem; border-radius: 4px; vertical-align: middle; }
+
 footer { text-align: center; color: var(--muted); font-size: .82rem; padding: 1.5rem; border-top: 1px solid var(--line); }
 footer a { color: var(--accent-2); }

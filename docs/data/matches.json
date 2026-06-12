@@ -1,0 +1,2240 @@
+{
+  "meta": {
+    "generated": "2026-06-11",
+    "model": "Dixon-Coles (xi=0.0008) + Elo (w=0.2)"
+  },
+  "matches": [
+    {
+      "home": "Mexico",
+      "away": "South Africa",
+      "home_es": "México",
+      "away_es": "Sudáfrica",
+      "venue": "casa",
+      "xg_home": 1.82,
+      "xg_away": 0.58,
+      "p1": 66.3,
+      "px": 22.7,
+      "p2": 11.0,
+      "fav": "México",
+      "score": "2-0",
+      "top": [
+        {
+          "s": "2-0",
+          "p": 15.2
+        },
+        {
+          "s": "1-0",
+          "p": 15.1
+        },
+        {
+          "s": "1-1",
+          "p": 10.1
+        }
+      ],
+      "group": "A",
+      "today": true,
+      "date": "2026-06-11"
+    },
+    {
+      "home": "Mexico",
+      "away": "South Korea",
+      "home_es": "México",
+      "away_es": "Corea del Sur",
+      "venue": "casa",
+      "xg_home": 1.55,
+      "xg_away": 0.95,
+      "p1": 50.4,
+      "px": 26.9,
+      "p2": 22.8,
+      "fav": "México",
+      "score": "1-1",
+      "top": [
+        {
+          "s": "1-1",
+          "p": 12.7
+        },
+        {
+          "s": "1-0",
+          "p": 11.7
+        },
+        {
+          "s": "2-0",
+          "p": 9.9
+        }
+      ],
+      "group": "A",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Mexico",
+      "away": "Czech Republic",
+      "home_es": "México",
+      "away_es": "Chequia",
+      "venue": "casa",
+      "xg_home": 1.73,
+      "xg_away": 0.93,
+      "p1": 55.5,
+      "px": 24.9,
+      "p2": 19.7,
+      "fav": "México",
+      "score": "1-1",
+      "top": [
+        {
+          "s": "1-1",
+          "p": 11.8
+        },
+        {
+          "s": "1-0",
+          "p": 11.0
+        },
+        {
+          "s": "2-0",
+          "p": 10.5
+        }
+      ],
+      "group": "A",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "South Africa",
+      "away": "South Korea",
+      "home_es": "Sudáfrica",
+      "away_es": "Corea del Sur",
+      "venue": "neutral",
+      "xg_home": 0.73,
+      "xg_away": 1.38,
+      "p1": 19.4,
+      "px": 29.1,
+      "p2": 51.4,
+      "fav": "Corea del Sur",
+      "score": "0-1",
+      "top": [
+        {
+          "s": "0-1",
+          "p": 15.6
+        },
+        {
+          "s": "1-1",
+          "p": 12.9
+        },
+        {
+          "s": "0-0",
+          "p": 12.8
+        }
+      ],
+      "group": "A",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "South Africa",
+      "away": "Czech Republic",
+      "home_es": "Sudáfrica",
+      "away_es": "Chequia",
+      "venue": "neutral",
+      "xg_home": 0.88,
+      "xg_away": 1.38,
+      "p1": 23.5,
+      "px": 28.9,
+      "p2": 47.6,
+      "fav": "Chequia",
+      "score": "0-1",
+      "top": [
+        {
+          "s": "0-1",
+          "p": 13.4
+        },
+        {
+          "s": "1-1",
+          "p": 13.4
+        },
+        {
+          "s": "0-0",
+          "p": 11.2
+        }
+      ],
+      "group": "A",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "South Korea",
+      "away": "Czech Republic",
+      "home_es": "Corea del Sur",
+      "away_es": "Chequia",
+      "venue": "neutral",
+      "xg_home": 1.33,
+      "xg_away": 1.15,
+      "p1": 40.0,
+      "px": 28.3,
+      "p2": 31.6,
+      "fav": "Corea del Sur",
+      "score": "1-1",
+      "top": [
+        {
+          "s": "1-1",
+          "p": 13.5
+        },
+        {
+          "s": "1-0",
+          "p": 10.3
+        },
+        {
+          "s": "0-1",
+          "p": 9.0
+        }
+      ],
+      "group": "A",
+      "today": true,
+      "date": "2026-06-11"
+    },
+    {
+      "home": "Canada",
+      "away": "Bosnia and Herzegovina",
+      "home_es": "Canadá",
+      "away_es": "Bosnia",
+      "venue": "casa",
+      "xg_home": 1.83,
+      "xg_away": 0.55,
+      "p1": 67.3,
+      "px": 22.3,
+      "p2": 10.4,
+      "fav": "Canadá",
+      "score": "2-0",
+      "top": [
+        {
+          "s": "2-0",
+          "p": 15.6
+        },
+        {
+          "s": "1-0",
+          "p": 15.4
+        },
+        {
+          "s": "1-1",
+          "p": 9.9
+        }
+      ],
+      "group": "B",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Canada",
+      "away": "Qatar",
+      "home_es": "Canadá",
+      "away_es": "Catar",
+      "venue": "casa",
+      "xg_home": 2.43,
+      "xg_away": 0.65,
+      "p1": 75.7,
+      "px": 16.2,
+      "p2": 8.0,
+      "fav": "Canadá",
+      "score": "2-0",
+      "top": [
+        {
+          "s": "2-0",
+          "p": 13.6
+        },
+        {
+          "s": "3-0",
+          "p": 11.0
+        },
+        {
+          "s": "1-0",
+          "p": 9.8
+        }
+      ],
+      "group": "B",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Canada",
+      "away": "Switzerland",
+      "home_es": "Canadá",
+      "away_es": "Suiza",
+      "venue": "casa",
+      "xg_home": 1.21,
+      "xg_away": 1.31,
+      "p1": 33.5,
+      "px": 28.2,
+      "p2": 38.3,
+      "fav": "Suiza",
+      "score": "1-1",
+      "top": [
+        {
+          "s": "1-1",
+          "p": 13.4
+        },
+        {
+          "s": "0-1",
+          "p": 9.8
+        },
+        {
+          "s": "1-0",
+          "p": 9.1
+        }
+      ],
+      "group": "B",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Bosnia and Herzegovina",
+      "away": "Qatar",
+      "home_es": "Bosnia",
+      "away_es": "Catar",
+      "venue": "neutral",
+      "xg_home": 1.36,
+      "xg_away": 1.08,
+      "p1": 42.2,
+      "px": 28.4,
+      "p2": 29.4,
+      "fav": "Bosnia",
+      "score": "1-1",
+      "top": [
+        {
+          "s": "1-1",
+          "p": 13.5
+        },
+        {
+          "s": "1-0",
+          "p": 11.0
+        },
+        {
+          "s": "0-0",
+          "p": 9.4
+        }
+      ],
+      "group": "B",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Bosnia and Herzegovina",
+      "away": "Switzerland",
+      "home_es": "Bosnia",
+      "away_es": "Suiza",
+      "venue": "neutral",
+      "xg_home": 0.6,
+      "xg_away": 2.04,
+      "p1": 9.8,
+      "px": 20.1,
+      "p2": 70.1,
+      "fav": "Suiza",
+      "score": "0-2",
+      "top": [
+        {
+          "s": "0-2",
+          "p": 14.9
+        },
+        {
+          "s": "0-1",
+          "p": 13.1
+        },
+        {
+          "s": "0-3",
+          "p": 10.1
+        }
+      ],
+      "group": "B",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Qatar",
+      "away": "Switzerland",
+      "home_es": "Catar",
+      "away_es": "Suiza",
+      "venue": "neutral",
+      "xg_home": 0.72,
+      "xg_away": 2.74,
+      "p1": 7.2,
+      "px": 13.9,
+      "p2": 78.9,
+      "fav": "Suiza",
+      "score": "0-2",
+      "top": [
+        {
+          "s": "0-2",
+          "p": 11.9
+        },
+        {
+          "s": "0-3",
+          "p": 10.9
+        },
+        {
+          "s": "1-2",
+          "p": 8.5
+        }
+      ],
+      "group": "B",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Brazil",
+      "away": "Morocco",
+      "home_es": "Brasil",
+      "away_es": "Marruecos",
+      "venue": "neutral",
+      "xg_home": 1.04,
+      "xg_away": 0.8,
+      "p1": 39.7,
+      "px": 33.5,
+      "p2": 26.8,
+      "fav": "Brasil",
+      "score": "0-0",
+      "top": [
+        {
+          "s": "0-0",
+          "p": 16.6
+        },
+        {
+          "s": "1-0",
+          "p": 15.7
+        },
+        {
+          "s": "1-1",
+          "p": 13.9
+        }
+      ],
+      "group": "C",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Brazil",
+      "away": "Haiti",
+      "home_es": "Brasil",
+      "away_es": "Haití",
+      "venue": "neutral",
+      "xg_home": 3.64,
+      "xg_away": 0.66,
+      "p1": 89.2,
+      "px": 7.6,
+      "p2": 3.2,
+      "fav": "Brasil",
+      "score": "3-0",
+      "top": [
+        {
+          "s": "3-0",
+          "p": 11.0
+        },
+        {
+          "s": "4-0",
+          "p": 10.0
+        },
+        {
+          "s": "2-0",
+          "p": 9.1
+        }
+      ],
+      "group": "C",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Brazil",
+      "away": "Scotland",
+      "home_es": "Brasil",
+      "away_es": "Escocia",
+      "venue": "neutral",
+      "xg_home": 2.15,
+      "xg_away": 0.69,
+      "p1": 70.3,
+      "px": 19.3,
+      "p2": 10.5,
+      "fav": "Brasil",
+      "score": "2-0",
+      "top": [
+        {
+          "s": "2-0",
+          "p": 13.6
+        },
+        {
+          "s": "1-0",
+          "p": 11.2
+        },
+        {
+          "s": "3-0",
+          "p": 9.8
+        }
+      ],
+      "group": "C",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Morocco",
+      "away": "Haiti",
+      "home_es": "Marruecos",
+      "away_es": "Haití",
+      "venue": "neutral",
+      "xg_home": 2.24,
+      "xg_away": 0.43,
+      "p1": 78.2,
+      "px": 16.2,
+      "p2": 5.6,
+      "fav": "Marruecos",
+      "score": "2-0",
+      "top": [
+        {
+          "s": "2-0",
+          "p": 17.6
+        },
+        {
+          "s": "1-0",
+          "p": 13.8
+        },
+        {
+          "s": "3-0",
+          "p": 13.2
+        }
+      ],
+      "group": "C",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Morocco",
+      "away": "Scotland",
+      "home_es": "Marruecos",
+      "away_es": "Escocia",
+      "venue": "neutral",
+      "xg_home": 1.37,
+      "xg_away": 0.49,
+      "p1": 57.8,
+      "px": 29.2,
+      "p2": 13.0,
+      "fav": "Marruecos",
+      "score": "1-0",
+      "top": [
+        {
+          "s": "1-0",
+          "p": 20.0
+        },
+        {
+          "s": "0-0",
+          "p": 16.3
+        },
+        {
+          "s": "2-0",
+          "p": 14.8
+        }
+      ],
+      "group": "C",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Haiti",
+      "away": "Scotland",
+      "home_es": "Haití",
+      "away_es": "Escocia",
+      "venue": "neutral",
+      "xg_home": 0.97,
+      "xg_away": 2.02,
+      "p1": 17.2,
+      "px": 22.0,
+      "p2": 60.8,
+      "fav": "Escocia",
+      "score": "1-1",
+      "top": [
+        {
+          "s": "1-1",
+          "p": 10.4
+        },
+        {
+          "s": "0-2",
+          "p": 10.3
+        },
+        {
+          "s": "1-2",
+          "p": 10.0
+        }
+      ],
+      "group": "C",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "United States",
+      "away": "Paraguay",
+      "home_es": "EE.UU.",
+      "away_es": "Paraguay",
+      "venue": "casa",
+      "xg_home": 1.3,
+      "xg_away": 1.0,
+      "p1": 42.6,
+      "px": 29.4,
+      "p2": 28.1,
+      "fav": "EE.UU.",
+      "score": "1-1",
+      "top": [
+        {
+          "s": "1-1",
+          "p": 13.7
+        },
+        {
+          "s": "1-0",
+          "p": 12.2
+        },
+        {
+          "s": "0-0",
+          "p": 10.7
+        }
+      ],
+      "group": "D",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "United States",
+      "away": "Australia",
+      "home_es": "EE.UU.",
+      "away_es": "Australia",
+      "venue": "casa",
+      "xg_home": 1.27,
+      "xg_away": 1.22,
+      "p1": 37.0,
+      "px": 28.4,
+      "p2": 34.6,
+      "fav": "EE.UU.",
+      "score": "1-1",
+      "top": [
+        {
+          "s": "1-1",
+          "p": 13.5
+        },
+        {
+          "s": "1-0",
+          "p": 9.8
+        },
+        {
+          "s": "0-1",
+          "p": 9.5
+        }
+      ],
+      "group": "D",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "United States",
+      "away": "Turkey",
+      "home_es": "EE.UU.",
+      "away_es": "Turquía",
+      "venue": "casa",
+      "xg_home": 1.62,
+      "xg_away": 1.53,
+      "p1": 39.6,
+      "px": 24.7,
+      "p2": 35.6,
+      "fav": "EE.UU.",
+      "score": "1-1",
+      "top": [
+        {
+          "s": "1-1",
+          "p": 11.2
+        },
+        {
+          "s": "2-1",
+          "p": 8.6
+        },
+        {
+          "s": "1-2",
+          "p": 8.1
+        }
+      ],
+      "group": "D",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Paraguay",
+      "away": "Australia",
+      "home_es": "Paraguay",
+      "away_es": "Australia",
+      "venue": "neutral",
+      "xg_home": 0.76,
+      "xg_away": 1.0,
+      "p1": 26.5,
+      "px": 34.3,
+      "p2": 39.2,
+      "fav": "Australia",
+      "score": "0-0",
+      "top": [
+        {
+          "s": "0-0",
+          "p": 17.8
+        },
+        {
+          "s": "0-1",
+          "p": 16.2
+        },
+        {
+          "s": "1-1",
+          "p": 13.8
+        }
+      ],
+      "group": "D",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Paraguay",
+      "away": "Turkey",
+      "home_es": "Paraguay",
+      "away_es": "Turquía",
+      "venue": "neutral",
+      "xg_home": 1.01,
+      "xg_away": 1.23,
+      "p1": 29.8,
+      "px": 30.0,
+      "p2": 40.2,
+      "fav": "Turquía",
+      "score": "1-1",
+      "top": [
+        {
+          "s": "1-1",
+          "p": 13.9
+        },
+        {
+          "s": "0-1",
+          "p": 12.2
+        },
+        {
+          "s": "0-0",
+          "p": 11.4
+        }
+      ],
+      "group": "D",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Australia",
+      "away": "Turkey",
+      "home_es": "Australia",
+      "away_es": "Turquía",
+      "venue": "neutral",
+      "xg_home": 1.23,
+      "xg_away": 1.19,
+      "p1": 36.4,
+      "px": 28.9,
+      "p2": 34.7,
+      "fav": "Australia",
+      "score": "1-1",
+      "top": [
+        {
+          "s": "1-1",
+          "p": 13.7
+        },
+        {
+          "s": "1-0",
+          "p": 10.2
+        },
+        {
+          "s": "0-1",
+          "p": 9.9
+        }
+      ],
+      "group": "D",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Germany",
+      "away": "Curaçao",
+      "home_es": "Alemania",
+      "away_es": "Curazao",
+      "venue": "neutral",
+      "xg_home": 3.8,
+      "xg_away": 0.63,
+      "p1": 90.7,
+      "px": 6.6,
+      "p2": 2.7,
+      "fav": "Alemania",
+      "score": "3-0",
+      "top": [
+        {
+          "s": "3-0",
+          "p": 11.0
+        },
+        {
+          "s": "4-0",
+          "p": 10.5
+        },
+        {
+          "s": "2-0",
+          "p": 8.7
+        }
+      ],
+      "group": "E",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Germany",
+      "away": "Ivory Coast",
+      "home_es": "Alemania",
+      "away_es": "Costa de Marfil",
+      "venue": "neutral",
+      "xg_home": 1.59,
+      "xg_away": 0.89,
+      "p1": 53.1,
+      "px": 26.4,
+      "p2": 20.6,
+      "fav": "Alemania",
+      "score": "1-1",
+      "top": [
+        {
+          "s": "1-1",
+          "p": 12.5
+        },
+        {
+          "s": "1-0",
+          "p": 12.3
+        },
+        {
+          "s": "2-0",
+          "p": 10.7
+        }
+      ],
+      "group": "E",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Germany",
+      "away": "Ecuador",
+      "home_es": "Alemania",
+      "away_es": "Ecuador",
+      "venue": "neutral",
+      "xg_home": 1.14,
+      "xg_away": 0.93,
+      "p1": 39.4,
+      "px": 31.4,
+      "p2": 29.2,
+      "fav": "Alemania",
+      "score": "1-1",
+      "top": [
+        {
+          "s": "1-1",
+          "p": 14.1
+        },
+        {
+          "s": "1-0",
+          "p": 13.5
+        },
+        {
+          "s": "0-0",
+          "p": 13.3
+        }
+      ],
+      "group": "E",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Curaçao",
+      "away": "Ivory Coast",
+      "home_es": "Curazao",
+      "away_es": "Costa de Marfil",
+      "venue": "neutral",
+      "xg_home": 0.48,
+      "xg_away": 2.05,
+      "p1": 7.5,
+      "px": 18.9,
+      "p2": 73.6,
+      "fav": "Costa de Marfil",
+      "score": "0-2",
+      "top": [
+        {
+          "s": "0-2",
+          "p": 16.9
+        },
+        {
+          "s": "0-1",
+          "p": 14.6
+        },
+        {
+          "s": "0-3",
+          "p": 11.6
+        }
+      ],
+      "group": "E",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Curaçao",
+      "away": "Ecuador",
+      "home_es": "Curazao",
+      "away_es": "Ecuador",
+      "venue": "neutral",
+      "xg_home": 0.35,
+      "xg_away": 2.25,
+      "p1": 4.5,
+      "px": 15.4,
+      "p2": 80.1,
+      "fav": "Ecuador",
+      "score": "0-2",
+      "top": [
+        {
+          "s": "0-2",
+          "p": 19.0
+        },
+        {
+          "s": "0-1",
+          "p": 14.9
+        },
+        {
+          "s": "0-3",
+          "p": 14.3
+        }
+      ],
+      "group": "E",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Ivory Coast",
+      "away": "Ecuador",
+      "home_es": "Costa de Marfil",
+      "away_es": "Ecuador",
+      "venue": "neutral",
+      "xg_home": 0.61,
+      "xg_away": 0.92,
+      "p1": 22.6,
+      "px": 36.9,
+      "p2": 40.4,
+      "fav": "Ecuador",
+      "score": "0-0",
+      "top": [
+        {
+          "s": "0-0",
+          "p": 22.3
+        },
+        {
+          "s": "0-1",
+          "p": 19.0
+        },
+        {
+          "s": "1-1",
+          "p": 12.8
+        }
+      ],
+      "group": "E",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Netherlands",
+      "away": "Japan",
+      "home_es": "Países Bajos",
+      "away_es": "Japón",
+      "venue": "neutral",
+      "xg_home": 1.27,
+      "xg_away": 1.17,
+      "p1": 38.0,
+      "px": 28.7,
+      "p2": 33.3,
+      "fav": "Países Bajos",
+      "score": "1-1",
+      "top": [
+        {
+          "s": "1-1",
+          "p": 13.6
+        },
+        {
+          "s": "1-0",
+          "p": 10.3
+        },
+        {
+          "s": "0-1",
+          "p": 9.6
+        }
+      ],
+      "group": "F",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Netherlands",
+      "away": "Sweden",
+      "home_es": "Países Bajos",
+      "away_es": "Suecia",
+      "venue": "neutral",
+      "xg_home": 2.12,
+      "xg_away": 1.03,
+      "p1": 61.5,
+      "px": 21.2,
+      "p2": 17.3,
+      "fav": "Países Bajos",
+      "score": "2-1",
+      "top": [
+        {
+          "s": "2-1",
+          "p": 9.9
+        },
+        {
+          "s": "1-1",
+          "p": 9.9
+        },
+        {
+          "s": "2-0",
+          "p": 9.6
+        }
+      ],
+      "group": "F",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Netherlands",
+      "away": "Tunisia",
+      "home_es": "Países Bajos",
+      "away_es": "Túnez",
+      "venue": "neutral",
+      "xg_home": 1.67,
+      "xg_away": 0.7,
+      "p1": 59.7,
+      "px": 25.2,
+      "p2": 15.1,
+      "fav": "Países Bajos",
+      "score": "1-0",
+      "top": [
+        {
+          "s": "1-0",
+          "p": 14.4
+        },
+        {
+          "s": "2-0",
+          "p": 13.2
+        },
+        {
+          "s": "1-1",
+          "p": 11.5
+        }
+      ],
+      "group": "F",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Japan",
+      "away": "Sweden",
+      "home_es": "Japón",
+      "away_es": "Suecia",
+      "venue": "neutral",
+      "xg_home": 1.73,
+      "xg_away": 0.88,
+      "p1": 56.5,
+      "px": 24.8,
+      "p2": 18.7,
+      "fav": "Japón",
+      "score": "1-1",
+      "top": [
+        {
+          "s": "1-1",
+          "p": 11.8
+        },
+        {
+          "s": "1-0",
+          "p": 11.5
+        },
+        {
+          "s": "2-0",
+          "p": 11.0
+        }
+      ],
+      "group": "F",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Japan",
+      "away": "Tunisia",
+      "home_es": "Japón",
+      "away_es": "Túnez",
+      "venue": "neutral",
+      "xg_home": 1.37,
+      "xg_away": 0.58,
+      "p1": 55.1,
+      "px": 29.4,
+      "p2": 15.5,
+      "fav": "Japón",
+      "score": "1-0",
+      "top": [
+        {
+          "s": "1-0",
+          "p": 18.2
+        },
+        {
+          "s": "0-0",
+          "p": 15.0
+        },
+        {
+          "s": "2-0",
+          "p": 13.4
+        }
+      ],
+      "group": "F",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Sweden",
+      "away": "Tunisia",
+      "home_es": "Suecia",
+      "away_es": "Túnez",
+      "venue": "neutral",
+      "xg_home": 1.19,
+      "xg_away": 1.08,
+      "p1": 37.6,
+      "px": 30.0,
+      "p2": 32.4,
+      "fav": "Suecia",
+      "score": "1-1",
+      "top": [
+        {
+          "s": "1-1",
+          "p": 14.0
+        },
+        {
+          "s": "1-0",
+          "p": 11.5
+        },
+        {
+          "s": "0-0",
+          "p": 11.1
+        }
+      ],
+      "group": "F",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Belgium",
+      "away": "Egypt",
+      "home_es": "Bélgica",
+      "away_es": "Egipto",
+      "venue": "neutral",
+      "xg_home": 1.46,
+      "xg_away": 0.71,
+      "p1": 54.1,
+      "px": 28.1,
+      "p2": 17.8,
+      "fav": "Bélgica",
+      "score": "1-0",
+      "top": [
+        {
+          "s": "1-0",
+          "p": 15.5
+        },
+        {
+          "s": "1-1",
+          "p": 12.5
+        },
+        {
+          "s": "2-0",
+          "p": 12.3
+        }
+      ],
+      "group": "G",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Belgium",
+      "away": "Iran",
+      "home_es": "Bélgica",
+      "away_es": "Irán",
+      "venue": "neutral",
+      "xg_home": 1.52,
+      "xg_away": 0.97,
+      "p1": 49.0,
+      "px": 27.2,
+      "p2": 23.8,
+      "fav": "Bélgica",
+      "score": "1-1",
+      "top": [
+        {
+          "s": "1-1",
+          "p": 12.9
+        },
+        {
+          "s": "1-0",
+          "p": 11.6
+        },
+        {
+          "s": "2-0",
+          "p": 9.6
+        }
+      ],
+      "group": "G",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Belgium",
+      "away": "New Zealand",
+      "home_es": "Bélgica",
+      "away_es": "Nueva Zelanda",
+      "venue": "neutral",
+      "xg_home": 2.24,
+      "xg_away": 0.46,
+      "p1": 77.3,
+      "px": 16.6,
+      "p2": 6.1,
+      "fav": "Bélgica",
+      "score": "2-0",
+      "top": [
+        {
+          "s": "2-0",
+          "p": 17.1
+        },
+        {
+          "s": "1-0",
+          "p": 13.4
+        },
+        {
+          "s": "3-0",
+          "p": 12.7
+        }
+      ],
+      "group": "G",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Egypt",
+      "away": "Iran",
+      "home_es": "Egipto",
+      "away_es": "Irán",
+      "venue": "neutral",
+      "xg_home": 0.78,
+      "xg_away": 1.05,
+      "p1": 26.1,
+      "px": 33.5,
+      "p2": 40.4,
+      "fav": "Irán",
+      "score": "0-0",
+      "top": [
+        {
+          "s": "0-0",
+          "p": 16.8
+        },
+        {
+          "s": "0-1",
+          "p": 16.0
+        },
+        {
+          "s": "1-1",
+          "p": 13.8
+        }
+      ],
+      "group": "G",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Egypt",
+      "away": "New Zealand",
+      "home_es": "Egipto",
+      "away_es": "Nueva Zelanda",
+      "venue": "neutral",
+      "xg_home": 1.21,
+      "xg_away": 0.46,
+      "p1": 53.9,
+      "px": 32.2,
+      "p2": 14.0,
+      "fav": "Egipto",
+      "score": "1-0",
+      "top": [
+        {
+          "s": "1-0",
+          "p": 21.4
+        },
+        {
+          "s": "0-0",
+          "p": 19.5
+        },
+        {
+          "s": "2-0",
+          "p": 13.8
+        }
+      ],
+      "group": "G",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Iran",
+      "away": "New Zealand",
+      "home_es": "Irán",
+      "away_es": "Nueva Zelanda",
+      "venue": "neutral",
+      "xg_home": 1.6,
+      "xg_away": 0.46,
+      "p1": 64.5,
+      "px": 25.3,
+      "p2": 10.3,
+      "fav": "Irán",
+      "score": "1-0",
+      "top": [
+        {
+          "s": "1-0",
+          "p": 18.9
+        },
+        {
+          "s": "2-0",
+          "p": 16.4
+        },
+        {
+          "s": "0-0",
+          "p": 13.4
+        }
+      ],
+      "group": "G",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Spain",
+      "away": "Cape Verde",
+      "home_es": "España",
+      "away_es": "Cabo Verde",
+      "venue": "neutral",
+      "xg_home": 2.73,
+      "xg_away": 0.38,
+      "p1": 85.6,
+      "px": 11.1,
+      "p2": 3.3,
+      "fav": "España",
+      "score": "2-0",
+      "top": [
+        {
+          "s": "2-0",
+          "p": 16.8
+        },
+        {
+          "s": "3-0",
+          "p": 15.3
+        },
+        {
+          "s": "1-0",
+          "p": 10.5
+        }
+      ],
+      "group": "H",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Spain",
+      "away": "Saudi Arabia",
+      "home_es": "España",
+      "away_es": "Arabia Saudita",
+      "venue": "neutral",
+      "xg_home": 2.45,
+      "xg_away": 0.38,
+      "p1": 82.4,
+      "px": 13.5,
+      "p2": 4.1,
+      "fav": "España",
+      "score": "2-0",
+      "top": [
+        {
+          "s": "2-0",
+          "p": 18.0
+        },
+        {
+          "s": "3-0",
+          "p": 14.7
+        },
+        {
+          "s": "1-0",
+          "p": 12.8
+        }
+      ],
+      "group": "H",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Spain",
+      "away": "Uruguay",
+      "home_es": "España",
+      "away_es": "Uruguay",
+      "venue": "neutral",
+      "xg_home": 1.33,
+      "xg_away": 0.63,
+      "p1": 52.7,
+      "px": 29.9,
+      "p2": 17.3,
+      "fav": "España",
+      "score": "1-0",
+      "top": [
+        {
+          "s": "1-0",
+          "p": 17.5
+        },
+        {
+          "s": "0-0",
+          "p": 14.8
+        },
+        {
+          "s": "2-0",
+          "p": 12.5
+        }
+      ],
+      "group": "H",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Cape Verde",
+      "away": "Saudi Arabia",
+      "home_es": "Cabo Verde",
+      "away_es": "Arabia Saudita",
+      "venue": "neutral",
+      "xg_home": 0.84,
+      "xg_away": 0.96,
+      "p1": 29.6,
+      "px": 34.1,
+      "p2": 36.2,
+      "fav": "Arabia Saudita",
+      "score": "0-0",
+      "top": [
+        {
+          "s": "0-0",
+          "p": 17.2
+        },
+        {
+          "s": "0-1",
+          "p": 15.1
+        },
+        {
+          "s": "1-1",
+          "p": 14.0
+        }
+      ],
+      "group": "H",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Cape Verde",
+      "away": "Uruguay",
+      "home_es": "Cabo Verde",
+      "away_es": "Uruguay",
+      "venue": "neutral",
+      "xg_home": 0.43,
+      "xg_away": 1.62,
+      "p1": 9.4,
+      "px": 24.7,
+      "p2": 65.9,
+      "fav": "Uruguay",
+      "score": "0-1",
+      "top": [
+        {
+          "s": "0-1",
+          "p": 19.3
+        },
+        {
+          "s": "0-2",
+          "p": 17.0
+        },
+        {
+          "s": "0-0",
+          "p": 13.5
+        }
+      ],
+      "group": "H",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Saudi Arabia",
+      "away": "Uruguay",
+      "home_es": "Arabia Saudita",
+      "away_es": "Uruguay",
+      "venue": "neutral",
+      "xg_home": 0.43,
+      "xg_away": 1.44,
+      "p1": 10.9,
+      "px": 27.7,
+      "p2": 61.3,
+      "fav": "Uruguay",
+      "score": "0-1",
+      "top": [
+        {
+          "s": "0-1",
+          "p": 20.6
+        },
+        {
+          "s": "0-2",
+          "p": 16.1
+        },
+        {
+          "s": "0-0",
+          "p": 15.9
+        }
+      ],
+      "group": "H",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "France",
+      "away": "Senegal",
+      "home_es": "Francia",
+      "away_es": "Senegal",
+      "venue": "neutral",
+      "xg_home": 1.42,
+      "xg_away": 0.83,
+      "p1": 50.0,
+      "px": 28.5,
+      "p2": 21.6,
+      "fav": "Francia",
+      "score": "1-0",
+      "top": [
+        {
+          "s": "1-0",
+          "p": 13.8
+        },
+        {
+          "s": "1-1",
+          "p": 13.1
+        },
+        {
+          "s": "0-0",
+          "p": 11.2
+        }
+      ],
+      "group": "I",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "France",
+      "away": "Iraq",
+      "home_es": "Francia",
+      "away_es": "Irak",
+      "venue": "neutral",
+      "xg_home": 2.15,
+      "xg_away": 0.46,
+      "p1": 75.8,
+      "px": 17.6,
+      "p2": 6.6,
+      "fav": "Francia",
+      "score": "2-0",
+      "top": [
+        {
+          "s": "2-0",
+          "p": 17.2
+        },
+        {
+          "s": "1-0",
+          "p": 14.2
+        },
+        {
+          "s": "3-0",
+          "p": 12.3
+        }
+      ],
+      "group": "I",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "France",
+      "away": "Norway",
+      "home_es": "Francia",
+      "away_es": "Noruega",
+      "venue": "neutral",
+      "xg_home": 1.66,
+      "xg_away": 1.0,
+      "p1": 51.9,
+      "px": 25.7,
+      "p2": 22.4,
+      "fav": "Francia",
+      "score": "1-1",
+      "top": [
+        {
+          "s": "1-1",
+          "p": 12.3
+        },
+        {
+          "s": "1-0",
+          "p": 10.6
+        },
+        {
+          "s": "2-0",
+          "p": 9.7
+        }
+      ],
+      "group": "I",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Senegal",
+      "away": "Iraq",
+      "home_es": "Senegal",
+      "away_es": "Irak",
+      "venue": "neutral",
+      "xg_home": 1.46,
+      "xg_away": 0.51,
+      "p1": 59.7,
+      "px": 27.7,
+      "p2": 12.6,
+      "fav": "Senegal",
+      "score": "1-0",
+      "top": [
+        {
+          "s": "1-0",
+          "p": 19.0
+        },
+        {
+          "s": "2-0",
+          "p": 15.0
+        },
+        {
+          "s": "0-0",
+          "p": 14.6
+        }
+      ],
+      "group": "I",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Senegal",
+      "away": "Norway",
+      "home_es": "Senegal",
+      "away_es": "Noruega",
+      "venue": "neutral",
+      "xg_home": 1.14,
+      "xg_away": 1.15,
+      "p1": 34.9,
+      "px": 29.8,
+      "p2": 35.3,
+      "fav": "Noruega",
+      "score": "1-1",
+      "top": [
+        {
+          "s": "1-1",
+          "p": 14.0
+        },
+        {
+          "s": "0-1",
+          "p": 10.9
+        },
+        {
+          "s": "1-0",
+          "p": 10.8
+        }
+      ],
+      "group": "I",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Iraq",
+      "away": "Norway",
+      "home_es": "Irak",
+      "away_es": "Noruega",
+      "venue": "neutral",
+      "xg_home": 0.67,
+      "xg_away": 1.78,
+      "p1": 13.3,
+      "px": 23.7,
+      "p2": 63.0,
+      "fav": "Noruega",
+      "score": "0-1",
+      "top": [
+        {
+          "s": "0-1",
+          "p": 14.1
+        },
+        {
+          "s": "0-2",
+          "p": 13.8
+        },
+        {
+          "s": "1-1",
+          "p": 10.9
+        }
+      ],
+      "group": "I",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Argentina",
+      "away": "Algeria",
+      "home_es": "Argentina",
+      "away_es": "Argelia",
+      "venue": "neutral",
+      "xg_home": 1.65,
+      "xg_away": 0.67,
+      "p1": 60.0,
+      "px": 25.3,
+      "p2": 14.7,
+      "fav": "Argentina",
+      "score": "1-0",
+      "top": [
+        {
+          "s": "1-0",
+          "p": 14.9
+        },
+        {
+          "s": "2-0",
+          "p": 13.5
+        },
+        {
+          "s": "1-1",
+          "p": 11.5
+        }
+      ],
+      "group": "J",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Argentina",
+      "away": "Austria",
+      "home_es": "Argentina",
+      "away_es": "Austria",
+      "venue": "neutral",
+      "xg_home": 1.54,
+      "xg_away": 0.57,
+      "p1": 60.0,
+      "px": 26.6,
+      "p2": 13.4,
+      "fav": "Argentina",
+      "score": "1-0",
+      "top": [
+        {
+          "s": "1-0",
+          "p": 17.2
+        },
+        {
+          "s": "2-0",
+          "p": 14.5
+        },
+        {
+          "s": "0-0",
+          "p": 12.7
+        }
+      ],
+      "group": "J",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Argentina",
+      "away": "Jordan",
+      "home_es": "Argentina",
+      "away_es": "Jordania",
+      "venue": "neutral",
+      "xg_home": 2.7,
+      "xg_away": 0.46,
+      "p1": 83.8,
+      "px": 12.1,
+      "p2": 4.2,
+      "fav": "Argentina",
+      "score": "2-0",
+      "top": [
+        {
+          "s": "2-0",
+          "p": 15.7
+        },
+        {
+          "s": "3-0",
+          "p": 14.1
+        },
+        {
+          "s": "1-0",
+          "p": 10.0
+        }
+      ],
+      "group": "J",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Algeria",
+      "away": "Austria",
+      "home_es": "Argelia",
+      "away_es": "Austria",
+      "venue": "neutral",
+      "xg_home": 1.17,
+      "xg_away": 1.13,
+      "p1": 36.0,
+      "px": 29.8,
+      "p2": 34.2,
+      "fav": "Argelia",
+      "score": "1-1",
+      "top": [
+        {
+          "s": "1-1",
+          "p": 14.0
+        },
+        {
+          "s": "1-0",
+          "p": 11.0
+        },
+        {
+          "s": "0-0",
+          "p": 10.7
+        }
+      ],
+      "group": "J",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Algeria",
+      "away": "Jordan",
+      "home_es": "Argelia",
+      "away_es": "Jordania",
+      "venue": "neutral",
+      "xg_home": 2.01,
+      "xg_away": 0.82,
+      "p1": 64.2,
+      "px": 21.5,
+      "p2": 14.3,
+      "fav": "Argelia",
+      "score": "2-0",
+      "top": [
+        {
+          "s": "2-0",
+          "p": 11.9
+        },
+        {
+          "s": "1-0",
+          "p": 10.6
+        },
+        {
+          "s": "1-1",
+          "p": 10.3
+        }
+      ],
+      "group": "J",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Austria",
+      "away": "Jordan",
+      "home_es": "Austria",
+      "away_es": "Jordania",
+      "venue": "neutral",
+      "xg_home": 1.91,
+      "xg_away": 0.8,
+      "p1": 62.5,
+      "px": 22.6,
+      "p2": 14.9,
+      "fav": "Austria",
+      "score": "2-0",
+      "top": [
+        {
+          "s": "2-0",
+          "p": 12.1
+        },
+        {
+          "s": "1-0",
+          "p": 11.4
+        },
+        {
+          "s": "1-1",
+          "p": 10.7
+        }
+      ],
+      "group": "J",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Portugal",
+      "away": "DR Congo",
+      "home_es": "Portugal",
+      "away_es": "RD Congo",
+      "venue": "neutral",
+      "xg_home": 1.72,
+      "xg_away": 0.49,
+      "p1": 66.5,
+      "px": 23.5,
+      "p2": 10.0,
+      "fav": "Portugal",
+      "score": "1-0",
+      "top": [
+        {
+          "s": "1-0",
+          "p": 17.3
+        },
+        {
+          "s": "2-0",
+          "p": 16.4
+        },
+        {
+          "s": "0-0",
+          "p": 11.5
+        }
+      ],
+      "group": "K",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Portugal",
+      "away": "Uzbekistan",
+      "home_es": "Portugal",
+      "away_es": "Uzbekistán",
+      "venue": "neutral",
+      "xg_home": 1.82,
+      "xg_away": 0.59,
+      "p1": 66.0,
+      "px": 22.7,
+      "p2": 11.3,
+      "fav": "Portugal",
+      "score": "2-0",
+      "top": [
+        {
+          "s": "2-0",
+          "p": 15.0
+        },
+        {
+          "s": "1-0",
+          "p": 14.9
+        },
+        {
+          "s": "1-1",
+          "p": 10.2
+        }
+      ],
+      "group": "K",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Portugal",
+      "away": "Colombia",
+      "home_es": "Portugal",
+      "away_es": "Colombia",
+      "venue": "neutral",
+      "xg_home": 1.28,
+      "xg_away": 1.17,
+      "p1": 38.2,
+      "px": 28.6,
+      "p2": 33.2,
+      "fav": "Portugal",
+      "score": "1-1",
+      "top": [
+        {
+          "s": "1-1",
+          "p": 13.6
+        },
+        {
+          "s": "1-0",
+          "p": 10.3
+        },
+        {
+          "s": "0-1",
+          "p": 9.5
+        }
+      ],
+      "group": "K",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "DR Congo",
+      "away": "Uzbekistan",
+      "home_es": "RD Congo",
+      "away_es": "Uzbekistán",
+      "venue": "neutral",
+      "xg_home": 0.71,
+      "xg_away": 0.79,
+      "p1": 28.6,
+      "px": 38.0,
+      "p2": 33.4,
+      "fav": "Empate",
+      "score": "0-0",
+      "top": [
+        {
+          "s": "0-0",
+          "p": 22.9
+        },
+        {
+          "s": "0-1",
+          "p": 16.9
+        },
+        {
+          "s": "1-0",
+          "p": 15.2
+        }
+      ],
+      "group": "K",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "DR Congo",
+      "away": "Colombia",
+      "home_es": "RD Congo",
+      "away_es": "Colombia",
+      "venue": "neutral",
+      "xg_home": 0.49,
+      "xg_away": 1.6,
+      "p1": 10.9,
+      "px": 25.3,
+      "p2": 63.8,
+      "fav": "Colombia",
+      "score": "0-1",
+      "top": [
+        {
+          "s": "0-1",
+          "p": 18.3
+        },
+        {
+          "s": "0-2",
+          "p": 16.0
+        },
+        {
+          "s": "0-0",
+          "p": 13.0
+        }
+      ],
+      "group": "K",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Uzbekistan",
+      "away": "Colombia",
+      "home_es": "Uzbekistán",
+      "away_es": "Colombia",
+      "venue": "neutral",
+      "xg_home": 0.59,
+      "xg_away": 1.69,
+      "p1": 12.4,
+      "px": 24.5,
+      "p2": 63.1,
+      "fav": "Colombia",
+      "score": "0-1",
+      "top": [
+        {
+          "s": "0-1",
+          "p": 15.9
+        },
+        {
+          "s": "0-2",
+          "p": 14.7
+        },
+        {
+          "s": "0-0",
+          "p": 10.9
+        }
+      ],
+      "group": "K",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "England",
+      "away": "Croatia",
+      "home_es": "Inglaterra",
+      "away_es": "Croacia",
+      "venue": "neutral",
+      "xg_home": 1.34,
+      "xg_away": 0.78,
+      "p1": 49.1,
+      "px": 29.6,
+      "p2": 21.3,
+      "fav": "Inglaterra",
+      "score": "1-0",
+      "top": [
+        {
+          "s": "1-0",
+          "p": 15.0
+        },
+        {
+          "s": "1-1",
+          "p": 13.2
+        },
+        {
+          "s": "0-0",
+          "p": 12.7
+        }
+      ],
+      "group": "L",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "England",
+      "away": "Ghana",
+      "home_es": "Inglaterra",
+      "away_es": "Ghana",
+      "venue": "neutral",
+      "xg_home": 2.16,
+      "xg_away": 0.39,
+      "p1": 77.8,
+      "px": 16.8,
+      "p2": 5.4,
+      "fav": "Inglaterra",
+      "score": "2-0",
+      "top": [
+        {
+          "s": "2-0",
+          "p": 18.4
+        },
+        {
+          "s": "1-0",
+          "p": 15.1
+        },
+        {
+          "s": "3-0",
+          "p": 13.3
+        }
+      ],
+      "group": "L",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "England",
+      "away": "Panama",
+      "home_es": "Inglaterra",
+      "away_es": "Panamá",
+      "venue": "neutral",
+      "xg_home": 2.41,
+      "xg_away": 0.55,
+      "p1": 77.9,
+      "px": 15.5,
+      "p2": 6.6,
+      "fav": "Inglaterra",
+      "score": "2-0",
+      "top": [
+        {
+          "s": "2-0",
+          "p": 15.2
+        },
+        {
+          "s": "3-0",
+          "p": 12.2
+        },
+        {
+          "s": "1-0",
+          "p": 11.0
+        }
+      ],
+      "group": "L",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Croatia",
+      "away": "Ghana",
+      "home_es": "Croacia",
+      "away_es": "Ghana",
+      "venue": "neutral",
+      "xg_home": 1.87,
+      "xg_away": 0.61,
+      "p1": 66.4,
+      "px": 22.2,
+      "p2": 11.3,
+      "fav": "Croacia",
+      "score": "2-0",
+      "top": [
+        {
+          "s": "2-0",
+          "p": 14.7
+        },
+        {
+          "s": "1-0",
+          "p": 14.2
+        },
+        {
+          "s": "1-1",
+          "p": 10.2
+        }
+      ],
+      "group": "L",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Croatia",
+      "away": "Panama",
+      "home_es": "Croacia",
+      "away_es": "Panamá",
+      "venue": "neutral",
+      "xg_home": 2.07,
+      "xg_away": 0.78,
+      "p1": 66.5,
+      "px": 20.7,
+      "p2": 12.8,
+      "fav": "Croacia",
+      "score": "2-0",
+      "top": [
+        {
+          "s": "2-0",
+          "p": 12.5
+        },
+        {
+          "s": "1-0",
+          "p": 10.8
+        },
+        {
+          "s": "1-1",
+          "p": 9.9
+        }
+      ],
+      "group": "L",
+      "today": false,
+      "date": ""
+    },
+    {
+      "home": "Ghana",
+      "away": "Panama",
+      "home_es": "Ghana",
+      "away_es": "Panamá",
+      "venue": "neutral",
+      "xg_home": 1.1,
+      "xg_away": 1.19,
+      "p1": 32.8,
+      "px": 29.8,
+      "p2": 37.4,
+      "fav": "Panamá",
+      "score": "1-1",
+      "top": [
+        {
+          "s": "1-1",
+          "p": 14.0
+        },
+        {
+          "s": "0-1",
+          "p": 11.3
+        },
+        {
+          "s": "0-0",
+          "p": 10.8
+        }
+      ],
+      "group": "L",
+      "today": false,
+      "date": ""
+    }
+  ]
+}

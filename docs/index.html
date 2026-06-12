@@ -17,6 +17,7 @@
 
   <nav class="tabs">
     <button class="tab active" data-view="ranking">Favoritos</button>
+    <button class="tab" data-view="matches">Partidos</button>
     <button class="tab" data-view="heatmap">Probabilidades por ronda</button>
     <button class="tab" data-view="groups">Grupos</button>
     <button class="tab" data-view="bracket">Cuadro</button>
@@ -28,6 +29,14 @@
       <h2>Probabilidad de ser campeón</h2>
       <div class="chart-wrap"><canvas id="champ-chart"></canvas></div>
       <div id="ranking-table"></div>
+    </section>
+
+    <!-- Partidos -->
+    <section id="view-matches" class="view">
+      <h2>Predicciones de partidos</h2>
+      <p class="hint">Marcador más probable, goles esperados (xG) y probabilidades 1 / X / 2.</p>
+      <div id="today-block"></div>
+      <div id="matches-block"></div>
     </section>
 
     <!-- Heatmap -->

@@ -9,6 +9,7 @@ function flagImg(code, name) {
 }
 
 let DATA = null;
+let MATCHES = null;
 
 async function init() {
   const res = await fetch("data/predictions.json");
@@ -22,6 +23,12 @@ async function init() {
   renderHeatmap();
   renderGroups();
   renderBracket();
+
+  // Predicciones de partidos (archivo aparte; opcional)
+  try {
+    const r = await fetch("data/matches.json");
+    if (r.ok) { MATCHES = await r.json(); renderMatches(); }
+  } catch (e) { /* sin datos de partidos */ }
 }
 
 /* ---------- Pestañas ---------- */
@@ -116,6 +123,43 @@ function renderGroups() {
       </div>`).join("");
     return `<div class="group-card"><h3>Grupo ${g}</h3>${rows}</div>`;
   }).join("");
+}
+
+/* ---------- Partidos ---------- */
+function matchCard(m) {
+  const probs = `
+    <div class="mc-probs" title="1 / X / 2">
+      <div class="mc-1" style="flex:${m.p1}">${Math.round(m.p1)}</div>
+      <div class="mc-x" style="flex:${m.px}">${Math.round(m.px)}</div>
+      <div class="mc-2" style="flex:${m.p2}">${Math.round(m.p2)}</div>
+    </div>`;
+  return `
+    <div class="match-card ${m.today ? "is-today" : ""}">
+      <div class="mc-teams">
+        <span>${m.home_es}</span>
+        <span class="mc-score">${m.score}</span>
+        <span>${m.away_es}</span>
+      </div>
+      <div class="mc-meta">
+        xG ${m.xg_home}–${m.xg_away} · ${m.venue} · favorito: <b>${m.fav}</b>
+        ${m.today ? '<span class="mc-tag">HOY</span>' : ""}
+      </div>
+      ${probs}
+      <div class="mc-meta">${m.top.map((t) => `${t.s} (${t.p}%)`).join(" · ")}</div>
+    </div>`;
+}
+function renderMatches() {
+  const today = MATCHES.matches.filter((m) => m.today);
+  document.getElementById("today-block").innerHTML = today.length
+    ? `<div class="today-banner"><h3>⚽ Hoy — ${today[0].date}</h3>
+        <div class="matches-grid">${today.map(matchCard).join("")}</div></div>`
+    : "";
+
+  const groups = {};
+  MATCHES.matches.forEach((m) => (groups[m.group] ||= []).push(m));
+  document.getElementById("matches-block").innerHTML = Object.keys(groups).sort().map((g) =>
+    `<div class="group-block"><h3>Grupo ${g}</h3>
+      <div class="matches-grid">${groups[g].map(matchCard).join("")}</div></div>`).join("");
 }
 
 /* ---------- Bracket ---------- */
