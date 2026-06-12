@@ -71,13 +71,19 @@ def predict(model, home, away, hosts):
     }
 
 
+# Jornada de cada emparejamiento (índices de pot) en un grupo de 4 (round-robin).
+MATCHDAY = {(0, 1): 1, (2, 3): 1, (0, 2): 2, (1, 3): 2, (0, 3): 3, (1, 2): 3}
+
+
 def build_rows(model, groups, hosts):
     rows = []
     for g, teams in groups["groups"].items():
-        for a, b in combinations(teams, 2):
+        for i, j in combinations(range(4), 2):
+            a, b = teams[i], teams[j]
             home, away = (b, a) if b in hosts else (a, b)
             r = predict(model, home, away, hosts)
             r["group"] = g
+            r["matchday"] = MATCHDAY[(i, j)]
             r["today"] = (home, away) in TODAY
             r["date"] = TODAY_DATE if r["today"] else ""
             rows.append(r)

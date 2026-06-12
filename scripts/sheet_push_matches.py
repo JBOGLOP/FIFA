@@ -19,6 +19,7 @@ def main() -> None:
     for m in data["matches"]:
         rows.append({
             "grupo": m["group"],
+            "jornada": m["matchday"],
             "fecha": m["date"],
             "local": m["home_es"],
             "visitante": m["away_es"],

@@ -32,6 +32,7 @@
         }
       ],
       "group": "A",
+      "matchday": 1,
       "today": false,
       "date": ""
     },
@@ -63,6 +64,7 @@
         }
       ],
       "group": "A",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -94,6 +96,7 @@
         }
       ],
       "group": "A",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -125,6 +128,7 @@
         }
       ],
       "group": "A",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -156,6 +160,7 @@
         }
       ],
       "group": "A",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -187,6 +192,7 @@
         }
       ],
       "group": "A",
+      "matchday": 1,
       "today": false,
       "date": ""
     },
@@ -218,6 +224,7 @@
         }
       ],
       "group": "B",
+      "matchday": 1,
       "today": true,
       "date": "2026-06-12"
     },
@@ -249,6 +256,7 @@
         }
       ],
       "group": "B",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -280,6 +288,7 @@
         }
       ],
       "group": "B",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -311,6 +320,7 @@
         }
       ],
       "group": "B",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -342,6 +352,7 @@
         }
       ],
       "group": "B",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -373,6 +384,7 @@
         }
       ],
       "group": "B",
+      "matchday": 1,
       "today": false,
       "date": ""
     },
@@ -404,6 +416,7 @@
         }
       ],
       "group": "C",
+      "matchday": 1,
       "today": false,
       "date": ""
     },
@@ -435,6 +448,7 @@
         }
       ],
       "group": "C",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -466,6 +480,7 @@
         }
       ],
       "group": "C",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -497,6 +512,7 @@
         }
       ],
       "group": "C",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -528,6 +544,7 @@
         }
       ],
       "group": "C",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -559,6 +576,7 @@
         }
       ],
       "group": "C",
+      "matchday": 1,
       "today": false,
       "date": ""
     },
@@ -590,6 +608,7 @@
         }
       ],
       "group": "D",
+      "matchday": 1,
       "today": true,
       "date": "2026-06-12"
     },
@@ -621,6 +640,7 @@
         }
       ],
       "group": "D",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -652,6 +672,7 @@
         }
       ],
       "group": "D",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -683,6 +704,7 @@
         }
       ],
       "group": "D",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -714,6 +736,7 @@
         }
       ],
       "group": "D",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -745,6 +768,7 @@
         }
       ],
       "group": "D",
+      "matchday": 1,
       "today": false,
       "date": ""
     },
@@ -776,6 +800,7 @@
         }
       ],
       "group": "E",
+      "matchday": 1,
       "today": false,
       "date": ""
     },
@@ -807,6 +832,7 @@
         }
       ],
       "group": "E",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -838,6 +864,7 @@
         }
       ],
       "group": "E",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -869,6 +896,7 @@
         }
       ],
       "group": "E",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -900,6 +928,7 @@
         }
       ],
       "group": "E",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -931,6 +960,7 @@
         }
       ],
       "group": "E",
+      "matchday": 1,
       "today": false,
       "date": ""
     },
@@ -962,6 +992,7 @@
         }
       ],
       "group": "F",
+      "matchday": 1,
       "today": false,
       "date": ""
     },
@@ -993,6 +1024,7 @@
         }
       ],
       "group": "F",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -1024,6 +1056,7 @@
         }
       ],
       "group": "F",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -1055,6 +1088,7 @@
         }
       ],
       "group": "F",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -1086,6 +1120,7 @@
         }
       ],
       "group": "F",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -1117,6 +1152,7 @@
         }
       ],
       "group": "F",
+      "matchday": 1,
       "today": false,
       "date": ""
     },
@@ -1148,6 +1184,7 @@
         }
       ],
       "group": "G",
+      "matchday": 1,
       "today": false,
       "date": ""
     },
@@ -1179,6 +1216,7 @@
         }
       ],
       "group": "G",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -1210,6 +1248,7 @@
         }
       ],
       "group": "G",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -1241,6 +1280,7 @@
         }
       ],
       "group": "G",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -1272,6 +1312,7 @@
         }
       ],
       "group": "G",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -1303,6 +1344,7 @@
         }
       ],
       "group": "G",
+      "matchday": 1,
       "today": false,
       "date": ""
     },
@@ -1334,6 +1376,7 @@
         }
       ],
       "group": "H",
+      "matchday": 1,
       "today": false,
       "date": ""
     },
@@ -1365,6 +1408,7 @@
         }
       ],
       "group": "H",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -1396,6 +1440,7 @@
         }
       ],
       "group": "H",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -1427,6 +1472,7 @@
         }
       ],
       "group": "H",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -1458,6 +1504,7 @@
         }
       ],
       "group": "H",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -1489,6 +1536,7 @@
         }
       ],
       "group": "H",
+      "matchday": 1,
       "today": false,
       "date": ""
     },
@@ -1520,6 +1568,7 @@
         }
       ],
       "group": "I",
+      "matchday": 1,
       "today": false,
       "date": ""
     },
@@ -1551,6 +1600,7 @@
         }
       ],
       "group": "I",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -1582,6 +1632,7 @@
         }
       ],
       "group": "I",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -1613,6 +1664,7 @@
         }
       ],
       "group": "I",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -1644,6 +1696,7 @@
         }
       ],
       "group": "I",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -1675,6 +1728,7 @@
         }
       ],
       "group": "I",
+      "matchday": 1,
       "today": false,
       "date": ""
     },
@@ -1706,6 +1760,7 @@
         }
       ],
       "group": "J",
+      "matchday": 1,
       "today": false,
       "date": ""
     },
@@ -1737,6 +1792,7 @@
         }
       ],
       "group": "J",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -1768,6 +1824,7 @@
         }
       ],
       "group": "J",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -1799,6 +1856,7 @@
         }
       ],
       "group": "J",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -1830,6 +1888,7 @@
         }
       ],
       "group": "J",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -1861,6 +1920,7 @@
         }
       ],
       "group": "J",
+      "matchday": 1,
       "today": false,
       "date": ""
     },
@@ -1892,6 +1952,7 @@
         }
       ],
       "group": "K",
+      "matchday": 1,
       "today": false,
       "date": ""
     },
@@ -1923,6 +1984,7 @@
         }
       ],
       "group": "K",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -1954,6 +2016,7 @@
         }
       ],
       "group": "K",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -1985,6 +2048,7 @@
         }
       ],
       "group": "K",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -2016,6 +2080,7 @@
         }
       ],
       "group": "K",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -2047,6 +2112,7 @@
         }
       ],
       "group": "K",
+      "matchday": 1,
       "today": false,
       "date": ""
     },
@@ -2078,6 +2144,7 @@
         }
       ],
       "group": "L",
+      "matchday": 1,
       "today": false,
       "date": ""
     },
@@ -2109,6 +2176,7 @@
         }
       ],
       "group": "L",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -2140,6 +2208,7 @@
         }
       ],
       "group": "L",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -2171,6 +2240,7 @@
         }
       ],
       "group": "L",
+      "matchday": 3,
       "today": false,
       "date": ""
     },
@@ -2202,6 +2272,7 @@
         }
       ],
       "group": "L",
+      "matchday": 2,
       "today": false,
       "date": ""
     },
@@ -2233,6 +2304,7 @@
         }
       ],
       "group": "L",
+      "matchday": 1,
       "today": false,
       "date": ""
     }

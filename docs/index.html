@@ -36,6 +36,25 @@
       <h2>Predicciones de partidos</h2>
       <p class="hint">Marcador más probable, goles esperados (xG) y probabilidades 1 / X / 2.</p>
       <div id="today-block"></div>
+      <div class="filters">
+        <label>Jornada
+          <select id="f-matchday">
+            <option value="">Todas</option>
+            <option value="hoy">⚽ Solo hoy</option>
+            <option value="1">Jornada 1</option>
+            <option value="2">Jornada 2</option>
+            <option value="3">Jornada 3</option>
+          </select>
+        </label>
+        <label>Grupo
+          <select id="f-group"><option value="">Todos</option></select>
+        </label>
+        <label>Equipo
+          <select id="f-team"><option value="">Todas</option></select>
+        </label>
+        <button id="f-reset" type="button">Limpiar</button>
+        <span id="f-count" class="mini"></span>
+      </div>
       <div id="matches-block"></div>
     </section>
 

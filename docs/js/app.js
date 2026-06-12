@@ -141,13 +141,14 @@ function matchCard(m) {
         <span>${m.away_es}</span>
       </div>
       <div class="mc-meta">
-        xG ${m.xg_home}–${m.xg_away} · ${m.venue} · favorito: <b>${m.fav}</b>
+        xG ${m.xg_home}–${m.xg_away} · ${m.venue} · J${m.matchday} · favorito: <b>${m.fav}</b>
         ${m.today ? '<span class="mc-tag">HOY</span>' : ""}
       </div>
       ${probs}
       <div class="mc-meta">${m.top.map((t) => `${t.s} (${t.p}%)`).join(" · ")}</div>
     </div>`;
 }
+
 function renderMatches() {
   const today = MATCHES.matches.filter((m) => m.today);
   document.getElementById("today-block").innerHTML = today.length
@@ -155,11 +156,48 @@ function renderMatches() {
         <div class="matches-grid">${today.map(matchCard).join("")}</div></div>`
     : "";
 
-  const groups = {};
-  MATCHES.matches.forEach((m) => (groups[m.group] ||= []).push(m));
-  document.getElementById("matches-block").innerHTML = Object.keys(groups).sort().map((g) =>
+  // Rellena los desplegables una vez
+  const groups = [...new Set(MATCHES.matches.map((m) => m.group))].sort();
+  document.getElementById("f-group").insertAdjacentHTML("beforeend",
+    groups.map((g) => `<option value="${g}">Grupo ${g}</option>`).join(""));
+  const teams = [...new Set(MATCHES.matches.flatMap((m) => [m.home_es, m.away_es]))]
+    .sort((a, b) => a.localeCompare(b, "es"));
+  document.getElementById("f-team").insertAdjacentHTML("beforeend",
+    teams.map((t) => `<option value="${t}">${t}</option>`).join(""));
+
+  ["f-matchday", "f-group", "f-team"].forEach((id) =>
+    document.getElementById(id).addEventListener("change", applyMatchFilters));
+  document.getElementById("f-reset").addEventListener("click", () => {
+    ["f-matchday", "f-group", "f-team"].forEach((id) => (document.getElementById(id).value = ""));
+    applyMatchFilters();
+  });
+
+  applyMatchFilters();
+}
+
+function applyMatchFilters() {
+  const md = document.getElementById("f-matchday").value;
+  const grp = document.getElementById("f-group").value;
+  const team = document.getElementById("f-team").value;
+
+  const list = MATCHES.matches.filter((m) => {
+    if (grp && m.group !== grp) return false;
+    if (team && m.home_es !== team && m.away_es !== team) return false;
+    if (md === "hoy" && !m.today) return false;
+    if (md && md !== "hoy" && String(m.matchday) !== md) return false;
+    return true;
+  });
+
+  document.getElementById("f-count").textContent =
+    `${list.length} partido${list.length === 1 ? "" : "s"}`;
+
+  const byGroup = {};
+  list.forEach((m) => (byGroup[m.group] ||= []).push(m));
+  const html = Object.keys(byGroup).sort().map((g) =>
     `<div class="group-block"><h3>Grupo ${g}</h3>
-      <div class="matches-grid">${groups[g].map(matchCard).join("")}</div></div>`).join("");
+      <div class="matches-grid">${byGroup[g].map(matchCard).join("")}</div></div>`).join("");
+  document.getElementById("matches-block").innerHTML =
+    list.length ? html : '<p class="hint">No hay partidos con esos filtros.</p>';
 }
 
 /* ---------- Bracket ---------- */
