@@ -14,6 +14,7 @@ import os
 import shutil
 import subprocess
 import tempfile
+import time
 from pathlib import Path
 
 import pandas as pd
@@ -35,11 +36,12 @@ def _resolve_token(token: str | None) -> str | None:
     return None
 
 
-def _curl_json(args: list[str], body: bytes | None = None) -> dict:
-    """Ejecuta curl (sigue redirecciones) y parsea la salida JSON.
+def _curl_json(args: list[str], body: bytes | None = None, retries: int = 4) -> dict:
+    """Ejecuta curl (sigue redirecciones) y parsea la salida JSON, con reintentos.
 
     El body se escribe a un archivo temporal (--data-binary @file) para que curl
     fije Content-Length; leerlo por stdin usaría chunked y Google responde 411.
+    Reintenta ante fallos de red transitorios (curl 35/52/56/28, JSON vacío).
     """
     curl = shutil.which("curl")
     if not curl:
@@ -47,16 +49,26 @@ def _curl_json(args: list[str], body: bytes | None = None) -> dict:
 
     tmp_path = None
     try:
-        full = [curl, "-sL", *args]
+        full = [curl, "-sL", "--connect-timeout", "20", *args]
         if body is not None:
             with tempfile.NamedTemporaryFile(delete=False, suffix=".json") as tmp:
                 tmp.write(body)
                 tmp_path = tmp.name
             full += ["--data-binary", f"@{tmp_path}"]
-        proc = subprocess.run(full, capture_output=True, timeout=90)
-        if proc.returncode != 0:
-            raise RuntimeError(f"curl fallo ({proc.returncode}): {proc.stderr.decode(errors='ignore')}")
-        return json.loads(proc.stdout.decode("utf-8"))
+
+        last = ""
+        for attempt in range(retries):
+            proc = subprocess.run(full, capture_output=True, timeout=90)
+            if proc.returncode == 0:
+                try:
+                    return json.loads(proc.stdout.decode("utf-8"))
+                except json.JSONDecodeError:
+                    last = "respuesta no-JSON"
+            else:
+                last = f"curl {proc.returncode}: {proc.stderr.decode(errors='ignore').strip()}"
+            if attempt < retries - 1:
+                time.sleep(2 * (attempt + 1))  # backoff: 2s, 4s, 6s
+        raise RuntimeError(f"curl fallo tras {retries} intentos ({last})")
     finally:
         if tmp_path and os.path.exists(tmp_path):
             os.unlink(tmp_path)

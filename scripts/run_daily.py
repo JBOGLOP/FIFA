@@ -19,9 +19,12 @@ PY = sys.executable
 ENV = {**os.environ, "PYTHONUTF8": "1", "PYTHONIOENCODING": "utf-8"}
 
 
-def run(script: str, *args: str) -> None:
-    subprocess.run([PY, str(ROOT / "scripts" / script), *args],
-                   check=True, cwd=ROOT, env=ENV)
+def run(script: str, *args: str, fatal: bool = True) -> None:
+    res = subprocess.run([PY, str(ROOT / "scripts" / script), *args], cwd=ROOT, env=ENV)
+    if res.returncode != 0:
+        if fatal:
+            raise SystemExit(f"Falló {script} (código {res.returncode}); se aborta.")
+        print(f"  [!] {script} falló (código {res.returncode}); se continúa.")
 
 
 def run_git() -> None:
@@ -44,23 +47,24 @@ def main() -> None:
     ap.add_argument("--no-git", action="store_true", help="no hacer commit/push a GitHub")
     opts = ap.parse_args()
 
+    # (etiqueta, script, args, fatal) — los pasos de la hoja son best-effort.
     steps = [
         ("Cargar resultados reales", "load_real_results.py",
-         ["--no-sheet"] if opts.no_sheet else []),
-        ("Construir dataset", "02_build_dataset.py", []),
-        ("Simular torneo (Monte Carlo)", "04_simulate_tournament.py", []),
-        ("Predecir partidos", "predict_matches.py", []),
-        ("Exportar dashboard (JSON)", "05_export_web.py", []),
+         ["--no-sheet"] if opts.no_sheet else [], True),
+        ("Construir dataset", "02_build_dataset.py", [], True),
+        ("Simular torneo (Monte Carlo)", "04_simulate_tournament.py", [], True),
+        ("Predecir partidos", "predict_matches.py", [], True),
+        ("Exportar dashboard (JSON)", "05_export_web.py", [], True),
     ]
     if not opts.no_sheet:
         steps += [
-            ("Publicar predicciones en la hoja", "sheet_push_predictions.py", []),
-            ("Publicar partidos en la hoja", "sheet_push_matches.py", []),
+            ("Publicar predicciones en la hoja", "sheet_push_predictions.py", [], False),
+            ("Publicar partidos en la hoja", "sheet_push_matches.py", [], False),
         ]
 
-    for i, (label, script, args) in enumerate(steps, 1):
+    for i, (label, script, args, fatal) in enumerate(steps, 1):
         print(f"\n[{i}/{len(steps)}] {label}…")
-        run(script, *args)
+        run(script, *args, fatal=fatal)
 
     if not opts.no_git:
         print("\n[git] Publicando en GitHub…")

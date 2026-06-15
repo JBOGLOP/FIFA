@@ -32,14 +32,17 @@ def main(push_sheet: bool = True) -> None:
     df.to_csv(dest, index=False)
     print(f"{len(df)} resultados -> {dest}")
 
-    # 2) Hoja: pestaña Resultados (mismo esquema de entrada manual)
+    # 2) Hoja: pestaña Resultados (best-effort; el CSV ya quedó escrito)
     if push_sheet:
         cfg = load_settings()["gsheet"]
         rows = [{"date": r["date"], "home_team": r["home"], "away_team": r["away"],
                  "home_score": r["hs"], "away_score": r["as"], "neutral": r["neutral"]}
                 for r in results]
-        res = push_rows(cfg["endpoint"], rows, sheet=cfg["results_tab"])
-        print(f"Hoja '{res.get('sheet')}': {res.get('written')} filas.")
+        try:
+            res = push_rows(cfg["endpoint"], rows, sheet=cfg["results_tab"])
+            print(f"Hoja '{res.get('sheet')}': {res.get('written')} filas.")
+        except Exception as exc:  # noqa: BLE001
+            print(f"[!] No se pudo publicar en la hoja (se continúa): {exc}")
 
 
 if __name__ == "__main__":
