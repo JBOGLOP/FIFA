@@ -29,6 +29,34 @@ async function init() {
     const r = await fetch("data/matches.json");
     if (r.ok) { MATCHES = await r.json(); renderMatches(); }
   } catch (e) { /* sin datos de partidos */ }
+
+  // Precisión del modelo (opcional)
+  try {
+    const r = await fetch("data/accuracy.json");
+    if (r.ok) renderAccuracy(await r.json());
+  } catch (e) { /* sin datos de precisión */ }
+}
+
+function renderAccuracy(acc) {
+  const m = acc.meta;
+  document.getElementById("acc-cards").innerHTML = `
+    <div class="acc-card"><div class="big">${m.pct_1x2}%</div><div class="lbl">Acierto 1X2 (${m.hits_1x2}/${m.n})</div></div>
+    <div class="acc-card"><div class="big">${m.mean_rps}</div><div class="lbl">RPS medio (azar ≈0.22)</div></div>
+    <div class="acc-card"><div class="big">${m.exact_hits}</div><div class="lbl">Marcadores exactos</div></div>
+    <div class="acc-card"><div class="big">${m.n}</div><div class="lbl">Partidos evaluados</div></div>`;
+  const rows = acc.matches.map((x) => `
+    <tr>
+      <td class="mini">${x.fecha}</td>
+      <td>${x.partido}</td>
+      <td style="text-align:center">${x.pred_1X2}</td>
+      <td style="text-align:center">${x.real_1X2}</td>
+      <td style="text-align:center" class="${x.acierto_1X2 ? "ok" : "no"}">${x.acierto_1X2 ? "✓" : "✗"}</td>
+      <td class="pct">${x.RPS}</td>
+    </tr>`).join("");
+  document.getElementById("acc-table").innerHTML = `
+    <table><thead><tr>
+      <th>Fecha</th><th>Partido</th><th>Pred.</th><th>Real</th><th>1X2</th><th>RPS</th>
+    </tr></thead><tbody>${rows}</tbody></table>`;
 }
 
 /* ---------- Pestañas ---------- */

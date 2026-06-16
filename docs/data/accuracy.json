@@ -1,0 +1,172 @@
+{
+  "meta": {
+    "generated": "2026-06-16",
+    "n": 16,
+    "hits_1x2": 7,
+    "pct_1x2": 43.8,
+    "exact_hits": 0,
+    "mean_rps": 0.201
+  },
+  "matches": [
+    {
+      "fecha": "2026-06-11",
+      "partido": "Mexico 2-0 South Africa",
+      "pred_1X2": "1",
+      "real_1X2": "1",
+      "acierto_1X2": true,
+      "marcador_pred": "1-0",
+      "acierto_exacto": false,
+      "RPS": 0.065
+    },
+    {
+      "fecha": "2026-06-11",
+      "partido": "South Korea 2-1 Czech Republic",
+      "pred_1X2": "1",
+      "real_1X2": "1",
+      "acierto_1X2": true,
+      "marcador_pred": "1-1",
+      "acierto_exacto": false,
+      "RPS": 0.23
+    },
+    {
+      "fecha": "2026-06-12",
+      "partido": "Canada 1-1 Bosnia and Herzegovina",
+      "pred_1X2": "1",
+      "real_1X2": "X",
+      "acierto_1X2": false,
+      "marcador_pred": "2-0",
+      "acierto_exacto": false,
+      "RPS": 0.232
+    },
+    {
+      "fecha": "2026-06-12",
+      "partido": "United States 4-1 Paraguay",
+      "pred_1X2": "1",
+      "real_1X2": "1",
+      "acierto_1X2": true,
+      "marcador_pred": "1-1",
+      "acierto_exacto": false,
+      "RPS": 0.204
+    },
+    {
+      "fecha": "2026-06-13",
+      "partido": "Qatar 1-1 Switzerland",
+      "pred_1X2": "2",
+      "real_1X2": "X",
+      "acierto_1X2": false,
+      "marcador_pred": "0-2",
+      "acierto_exacto": false,
+      "RPS": 0.314
+    },
+    {
+      "fecha": "2026-06-13",
+      "partido": "Brazil 1-1 Morocco",
+      "pred_1X2": "1",
+      "real_1X2": "X",
+      "acierto_1X2": false,
+      "marcador_pred": "0-0",
+      "acierto_exacto": false,
+      "RPS": 0.115
+    },
+    {
+      "fecha": "2026-06-13",
+      "partido": "Haiti 0-1 Scotland",
+      "pred_1X2": "2",
+      "real_1X2": "2",
+      "acierto_1X2": true,
+      "marcador_pred": "1-1",
+      "acierto_exacto": false,
+      "RPS": 0.092
+    },
+    {
+      "fecha": "2026-06-13",
+      "partido": "Australia 2-0 Turkey",
+      "pred_1X2": "1",
+      "real_1X2": "1",
+      "acierto_1X2": true,
+      "marcador_pred": "1-1",
+      "acierto_exacto": false,
+      "RPS": 0.262
+    },
+    {
+      "fecha": "2026-06-14",
+      "partido": "Germany 7-1 Curaçao",
+      "pred_1X2": "1",
+      "real_1X2": "1",
+      "acierto_1X2": true,
+      "marcador_pred": "3-0",
+      "acierto_exacto": false,
+      "RPS": 0.005
+    },
+    {
+      "fecha": "2026-06-14",
+      "partido": "Ivory Coast 1-0 Ecuador",
+      "pred_1X2": "2",
+      "real_1X2": "1",
+      "acierto_1X2": false,
+      "marcador_pred": "0-0",
+      "acierto_exacto": false,
+      "RPS": 0.38
+    },
+    {
+      "fecha": "2026-06-14",
+      "partido": "Netherlands 2-2 Japan",
+      "pred_1X2": "1",
+      "real_1X2": "X",
+      "acierto_1X2": false,
+      "marcador_pred": "1-1",
+      "acierto_exacto": false,
+      "RPS": 0.127
+    },
+    {
+      "fecha": "2026-06-14",
+      "partido": "Sweden 5-1 Tunisia",
+      "pred_1X2": "1",
+      "real_1X2": "1",
+      "acierto_1X2": true,
+      "marcador_pred": "1-1",
+      "acierto_exacto": false,
+      "RPS": 0.25
+    },
+    {
+      "fecha": "2026-06-15",
+      "partido": "Spain 0-0 Cape Verde",
+      "pred_1X2": "1",
+      "real_1X2": "X",
+      "acierto_1X2": false,
+      "marcador_pred": "2-0",
+      "acierto_exacto": false,
+      "RPS": 0.367
+    },
+    {
+      "fecha": "2026-06-15",
+      "partido": "Belgium 1-1 Egypt",
+      "pred_1X2": "1",
+      "real_1X2": "X",
+      "acierto_1X2": false,
+      "marcador_pred": "1-0",
+      "acierto_exacto": false,
+      "RPS": 0.163
+    },
+    {
+      "fecha": "2026-06-15",
+      "partido": "Saudi Arabia 1-1 Uruguay",
+      "pred_1X2": "2",
+      "real_1X2": "X",
+      "acierto_1X2": false,
+      "marcador_pred": "0-1",
+      "acierto_exacto": false,
+      "RPS": 0.192
+    },
+    {
+      "fecha": "2026-06-15",
+      "partido": "Iran 2-2 New Zealand",
+      "pred_1X2": "1",
+      "real_1X2": "X",
+      "acierto_1X2": false,
+      "marcador_pred": "1-0",
+      "acierto_exacto": false,
+      "RPS": 0.213
+    }
+  ]
+}

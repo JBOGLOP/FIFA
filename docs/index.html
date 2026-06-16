@@ -21,6 +21,7 @@
     <button class="tab" data-view="heatmap">Probabilidades por ronda</button>
     <button class="tab" data-view="groups">Grupos</button>
     <button class="tab" data-view="bracket">Cuadro</button>
+    <button class="tab" data-view="accuracy">Precisión</button>
   </nav>
 
   <main>
@@ -75,6 +76,15 @@
       <p class="hint">Cada ranura muestra el favorito a ganar ese grupo. Las cruces son las oficiales.</p>
       <div id="bracket" class="bracket-scroll"></div>
     </section>
+    <!-- Precisión del modelo -->
+    <section id="view-accuracy" class="view">
+      <h2>Precisión del modelo</h2>
+      <p class="hint">Backtest walk-forward: cada partido se predice solo con datos previos
+        y se compara con el resultado real (sin fuga de datos).</p>
+      <div id="acc-cards" class="acc-cards"></div>
+      <div id="acc-table" class="table-scroll"></div>
+    </section>
+
   </main>
 
   <footer>

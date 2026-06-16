@@ -108,6 +108,14 @@ tbody tr:hover { background: var(--panel-2); }
 .filters button:hover { color: var(--text); border-color: var(--accent); }
 #f-count { align-self: flex-end; margin-left: auto; }
 
+/* Precisión */
+.acc-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
+.acc-card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 1rem; text-align: center; }
+.acc-card .big { font-size: 2rem; font-weight: 800; color: var(--accent); }
+.acc-card .lbl { color: var(--muted); font-size: .8rem; margin-top: .25rem; }
+.ok { color: var(--accent); font-weight: 700; }
+.no { color: #e07a7a; }
+
 /* Partidos */
 .today-banner { background: linear-gradient(135deg, #0b3d2e, var(--panel)); border: 1px solid var(--accent); border-radius: 12px; padding: 1rem; margin-bottom: 1.5rem; }
 .today-banner h3 { color: var(--gold); margin-bottom: .75rem; font-size: 1.05rem; }
