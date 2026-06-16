@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-06-15",
+    "generated": "2026-06-16",
     "model": "Dixon-Coles (xi=0.0008) + Elo (w=0.2)"
   },
   "matches": [
@@ -417,7 +417,7 @@
       ],
       "group": "G",
       "date": "2026-06-15",
-      "today": true,
+      "today": false,
       "matchday": 1
     },
     {
@@ -449,7 +449,7 @@
       ],
       "group": "G",
       "date": "2026-06-15",
-      "today": true,
+      "today": false,
       "matchday": 1
     },
     {
@@ -481,7 +481,7 @@
       ],
       "group": "H",
       "date": "2026-06-15",
-      "today": true,
+      "today": false,
       "matchday": 1
     },
     {
@@ -513,7 +513,7 @@
       ],
       "group": "H",
       "date": "2026-06-15",
-      "today": true,
+      "today": false,
       "matchday": 1
     },
     {
@@ -545,7 +545,7 @@
       ],
       "group": "I",
       "date": "2026-06-16",
-      "today": false,
+      "today": true,
       "matchday": 1
     },
     {
@@ -577,7 +577,7 @@
       ],
       "group": "I",
       "date": "2026-06-16",
-      "today": false,
+      "today": true,
       "matchday": 1
     },
     {
@@ -609,7 +609,7 @@
       ],
       "group": "J",
       "date": "2026-06-16",
-      "today": false,
+      "today": true,
       "matchday": 1
     },
     {
@@ -641,7 +641,7 @@
       ],
       "group": "J",
       "date": "2026-06-16",
-      "today": false,
+      "today": true,
       "matchday": 1
     },
     {

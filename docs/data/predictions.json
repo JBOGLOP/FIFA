@@ -1,7 +1,7 @@
 {
   "meta": {
     "n_iterations": 10000,
-    "generated": "2026-06-15",
+    "generated": "2026-06-16",
     "model": "Dixon-Coles (xi=0.0008) + Elo blend (w=0.2)"
   },
   "teams": [
