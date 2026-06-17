@@ -18,3 +18,7 @@ results:
   - {date: "2026-06-15", home: Belgium, away: Egypt, hs: 1, as: 1, neutral: true}
   - {date: "2026-06-15", home: Saudi Arabia, away: Uruguay, hs: 1, as: 1, neutral: true}
   - {date: "2026-06-15", home: Iran, away: New Zealand, hs: 2, as: 2, neutral: true}
+  - {date: "2026-06-16", home: France, away: Senegal, hs: 3, as: 1, neutral: true}
+  - {date: "2026-06-16", home: Iraq, away: Norway, hs: 1, as: 4, neutral: true}
+  - {date: "2026-06-16", home: Argentina, away: Algeria, hs: 3, as: 0, neutral: true}
+  - {date: "2026-06-16", home: Austria, away: Jordan, hs: 3, as: 1, neutral: true}

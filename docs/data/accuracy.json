@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated": "2026-06-16",
-    "n": 16,
-    "hits_1x2": 7,
-    "pct_1x2": 43.8,
+    "generated": "2026-06-17",
+    "n": 20,
+    "hits_1x2": 11,
+    "pct_1x2": 55.0,
     "exact_hits": 0,
-    "mean_rps": 0.201
+    "mean_rps": 0.181
   },
   "matches": [
     {
@@ -167,6 +167,46 @@
       "marcador_pred": "1-0",
       "acierto_exacto": false,
       "RPS": 0.213
+    },
+    {
+      "fecha": "2026-06-16",
+      "partido": "France 3-1 Senegal",
+      "pred_1X2": "1",
+      "real_1X2": "1",
+      "acierto_1X2": true,
+      "marcador_pred": "1-0",
+      "acierto_exacto": false,
+      "RPS": 0.149
+    },
+    {
+      "fecha": "2026-06-16",
+      "partido": "Iraq 1-4 Norway",
+      "pred_1X2": "2",
+      "real_1X2": "2",
+      "acierto_1X2": true,
+      "marcador_pred": "0-1",
+      "acierto_exacto": false,
+      "RPS": 0.078
+    },
+    {
+      "fecha": "2026-06-16",
+      "partido": "Argentina 3-0 Algeria",
+      "pred_1X2": "1",
+      "real_1X2": "1",
+      "acierto_1X2": true,
+      "marcador_pred": "1-0",
+      "acierto_exacto": false,
+      "RPS": 0.094
+    },
+    {
+      "fecha": "2026-06-16",
+      "partido": "Austria 3-1 Jordan",
+      "pred_1X2": "1",
+      "real_1X2": "1",
+      "acierto_1X2": true,
+      "marcador_pred": "2-0",
+      "acierto_exacto": false,
+      "RPS": 0.082
     }
   ]
 }
