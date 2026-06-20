@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated": "2026-06-19",
-    "n": 28,
-    "hits_1x2": 16,
-    "pct_1x2": 57.1,
-    "exact_hits": 1,
-    "mean_rps": 0.17
+    "generated": "2026-06-20",
+    "n": 32,
+    "hits_1x2": 19,
+    "pct_1x2": 59.4,
+    "exact_hits": 3,
+    "mean_rps": 0.171
   },
   "matches": [
     {
@@ -287,6 +287,46 @@
       "marcador_pred": "1-1",
       "acierto_exacto": false,
       "RPS": 0.152
+    },
+    {
+      "fecha": "2026-06-19",
+      "partido": "United States 2-0 Australia",
+      "pred_1X2": "1",
+      "real_1X2": "1",
+      "acierto_1X2": true,
+      "marcador_pred": "1-1",
+      "acierto_exacto": false,
+      "RPS": 0.265
+    },
+    {
+      "fecha": "2026-06-19",
+      "partido": "Scotland 0-1 Morocco",
+      "pred_1X2": "2",
+      "real_1X2": "2",
+      "acierto_1X2": true,
+      "marcador_pred": "0-1",
+      "acierto_exacto": true,
+      "RPS": 0.101
+    },
+    {
+      "fecha": "2026-06-19",
+      "partido": "Brazil 3-0 Haiti",
+      "pred_1X2": "1",
+      "real_1X2": "1",
+      "acierto_1X2": true,
+      "marcador_pred": "3-0",
+      "acierto_exacto": true,
+      "RPS": 0.007
+    },
+    {
+      "fecha": "2026-06-19",
+      "partido": "Turkey 0-1 Paraguay",
+      "pred_1X2": "1",
+      "real_1X2": "2",
+      "acierto_1X2": false,
+      "marcador_pred": "1-1",
+      "acierto_exacto": false,
+      "RPS": 0.338
     }
   ]
 }

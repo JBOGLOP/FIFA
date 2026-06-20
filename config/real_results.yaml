@@ -30,3 +30,7 @@ results:
   - {date: "2026-06-18", home: Switzerland, away: Bosnia and Herzegovina, hs: 4, as: 1, neutral: true}
   - {date: "2026-06-18", home: Canada, away: Qatar, hs: 6, as: 0, neutral: false}
   - {date: "2026-06-18", home: Mexico, away: South Korea, hs: 1, as: 0, neutral: false}
+  - {date: "2026-06-19", home: United States, away: Australia, hs: 2, as: 0, neutral: false}
+  - {date: "2026-06-19", home: Scotland, away: Morocco, hs: 0, as: 1, neutral: true}
+  - {date: "2026-06-19", home: Brazil, away: Haiti, hs: 3, as: 0, neutral: true}
+  - {date: "2026-06-19", home: Turkey, away: Paraguay, hs: 0, as: 1, neutral: true}
