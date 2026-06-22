@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated": "2026-06-20",
-    "n": 32,
-    "hits_1x2": 19,
-    "pct_1x2": 59.4,
+    "generated": "2026-06-21",
+    "n": 36,
+    "hits_1x2": 22,
+    "pct_1x2": 61.1,
     "exact_hits": 3,
-    "mean_rps": 0.171
+    "mean_rps": 0.17
   },
   "matches": [
     {
@@ -327,6 +327,46 @@
       "marcador_pred": "1-1",
       "acierto_exacto": false,
       "RPS": 0.338
+    },
+    {
+      "fecha": "2026-06-20",
+      "partido": "Netherlands 5-1 Sweden",
+      "pred_1X2": "1",
+      "real_1X2": "1",
+      "acierto_1X2": true,
+      "marcador_pred": "2-1",
+      "acierto_exacto": false,
+      "RPS": 0.101
+    },
+    {
+      "fecha": "2026-06-20",
+      "partido": "Germany 2-1 Ivory Coast",
+      "pred_1X2": "1",
+      "real_1X2": "1",
+      "acierto_1X2": true,
+      "marcador_pred": "1-1",
+      "acierto_exacto": false,
+      "RPS": 0.133
+    },
+    {
+      "fecha": "2026-06-20",
+      "partido": "Ecuador 0-0 Curaçao",
+      "pred_1X2": "1",
+      "real_1X2": "X",
+      "acierto_1X2": false,
+      "marcador_pred": "2-0",
+      "acierto_exacto": false,
+      "RPS": 0.33
+    },
+    {
+      "fecha": "2026-06-20",
+      "partido": "Tunisia 0-4 Japan",
+      "pred_1X2": "2",
+      "real_1X2": "2",
+      "acierto_1X2": true,
+      "marcador_pred": "0-1",
+      "acierto_exacto": false,
+      "RPS": 0.096
     }
   ]
 }
