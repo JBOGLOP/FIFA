@@ -46,3 +46,19 @@ results:
   - {date: "2026-06-22", home: France, away: Iraq, hs: 3, as: 1, neutral: true}
   - {date: "2026-06-22", home: Norway, away: Senegal, hs: 3, as: 1, neutral: true}
   - {date: "2026-06-22", home: Jordan, away: Algeria, hs: 1, as: 2, neutral: true}
+  - {date: "2026-06-23", home: Portugal, away: Uzbekistan, hs: 5, as: 0, neutral: true}
+  - {date: "2026-06-23", home: England, away: Ghana, hs: 0, as: 0, neutral: true}
+  - {date: "2026-06-23", home: Panama, away: Croatia, hs: 0, as: 1, neutral: true}
+  - {date: "2026-06-23", home: Colombia, away: DR Congo, hs: 1, as: 0, neutral: true}
+  - {date: "2026-06-24", home: Canada, away: Switzerland, hs: 1, as: 2, neutral: false}
+  - {date: "2026-06-24", home: Bosnia and Herzegovina, away: Qatar, hs: 3, as: 1, neutral: true}
+  - {date: "2026-06-24", home: Scotland, away: Brazil, hs: 0, as: 3, neutral: true}
+  - {date: "2026-06-24", home: Morocco, away: Haiti, hs: 4, as: 2, neutral: true}
+  - {date: "2026-06-24", home: Mexico, away: Czech Republic, hs: 3, as: 0, neutral: false}
+  - {date: "2026-06-24", home: South Africa, away: South Korea, hs: 1, as: 0, neutral: true}
+  - {date: "2026-06-25", home: Ecuador, away: Germany, hs: 2, as: 1, neutral: true}
+  - {date: "2026-06-25", home: Curaçao, away: Ivory Coast, hs: 0, as: 2, neutral: true}
+  - {date: "2026-06-25", home: Japan, away: Sweden, hs: 1, as: 1, neutral: true}
+  - {date: "2026-06-25", home: Tunisia, away: Netherlands, hs: 1, as: 3, neutral: true}
+  - {date: "2026-06-25", home: United States, away: Turkey, hs: 2, as: 3, neutral: false}
+  - {date: "2026-06-25", home: Paraguay, away: Australia, hs: 0, as: 0, neutral: true}
