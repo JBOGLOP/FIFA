@@ -1,11 +1,11 @@
 {
   "meta": {
-    "generated": "2026-06-26",
-    "n": 60,
-    "hits_1x2": 38,
-    "pct_1x2": 63.3,
-    "exact_hits": 7,
-    "mean_rps": 0.162
+    "generated": "2026-06-28",
+    "n": 66,
+    "hits_1x2": 42,
+    "pct_1x2": 63.6,
+    "exact_hits": 9,
+    "mean_rps": 0.161
   },
   "matches": [
     {
@@ -607,6 +607,66 @@
       "marcador_pred": "0-0",
       "acierto_exacto": true,
       "RPS": 0.113
+    },
+    {
+      "fecha": "2026-06-26",
+      "partido": "Norway 4-1 France",
+      "pred_1X2": "2",
+      "real_1X2": "1",
+      "acierto_1X2": false,
+      "marcador_pred": "1-1",
+      "acierto_exacto": false,
+      "RPS": 0.422
+    },
+    {
+      "fecha": "2026-06-26",
+      "partido": "Senegal 5-0 Iraq",
+      "pred_1X2": "1",
+      "real_1X2": "1",
+      "acierto_1X2": true,
+      "marcador_pred": "1-0",
+      "acierto_exacto": false,
+      "RPS": 0.089
+    },
+    {
+      "fecha": "2026-06-26",
+      "partido": "Uruguay 0-1 Spain",
+      "pred_1X2": "2",
+      "real_1X2": "2",
+      "acierto_1X2": true,
+      "marcador_pred": "0-1",
+      "acierto_exacto": true,
+      "RPS": 0.113
+    },
+    {
+      "fecha": "2026-06-26",
+      "partido": "Cape Verde 0-0 Saudi Arabia",
+      "pred_1X2": "X",
+      "real_1X2": "X",
+      "acierto_1X2": true,
+      "marcador_pred": "0-0",
+      "acierto_exacto": true,
+      "RPS": 0.107
+    },
+    {
+      "fecha": "2026-06-26",
+      "partido": "Egypt 1-1 Iran",
+      "pred_1X2": "2",
+      "real_1X2": "X",
+      "acierto_1X2": false,
+      "marcador_pred": "0-0",
+      "acierto_exacto": false,
+      "RPS": 0.113
+    },
+    {
+      "fecha": "2026-06-26",
+      "partido": "New Zealand 1-5 Belgium",
+      "pred_1X2": "2",
+      "real_1X2": "2",
+      "acierto_1X2": true,
+      "marcador_pred": "0-2",
+      "acierto_exacto": false,
+      "RPS": 0.026
     }
   ]
 }
