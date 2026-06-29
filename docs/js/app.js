@@ -71,10 +71,13 @@ function renderKnockout(ko) {
         ${koRow(m.away_es, m.away_flag, homeWin ? "" : "✓", !homeWin)}</div>`;
     }
     const ph = Math.round(m.p_home * 100);
-    return `<div class="ko-match"><div class="ko-mnum">Partido ${m.id}</div>
+    const score = m.score
+      ? `<div class="ko-mnum">marcador probable ${m.score} · 1 ${Math.round(m.p1)}% / X ${Math.round(m.px)}% / 2 ${Math.round(m.p2)}%</div>`
+      : "";
+    return `<div class="ko-match"><div class="ko-mnum">Partido ${m.id} · % = avanza</div>
       ${koRow(m.home_es, m.home_flag, ph + "%", m.p_home >= 0.5)}
       ${koRow(m.away_es, m.away_flag, (100 - ph) + "%", m.p_home < 0.5)}
-      <div class="ko-bar"><span style="width:${ph}%"></span></div></div>`;
+      <div class="ko-bar"><span style="width:${ph}%"></span></div>${score}</div>`;
   }).join("");
 }
 

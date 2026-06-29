@@ -17,9 +17,19 @@ import pandas as pd
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from src.models.blended import build_blended_predictor
-from src.simulation.match import MatchSimulator
+from src.simulation.match import MAX_GOALS, MatchSimulator
 from src.utils.config import load_settings, load_yaml
 from src.utils.display import es, flag
+
+
+def predict_score(model, home, away):
+    """Marcador más probable y 1/X/2 (regulación, sede neutral) para un cruce."""
+    g = model.predict(home, away, max_goals=MAX_GOALS, neutral_venue=True)
+    arr = np.asarray(g.grid)
+    ps = np.unravel_index(arr.argmax(), arr.shape)
+    return {"score": f"{ps[0]}-{ps[1]}",
+            "p1": round(g.home_win * 100, 1), "px": round(g.draw * 100, 1),
+            "p2": round(g.away_win * 100, 1)}
 
 GROUP_END = "2026-06-27"
 ROUND = {**{i: "R32" for i in range(73, 89)}, **{i: "R16" for i in range(89, 97)},
@@ -93,14 +103,18 @@ def main() -> None:
     r32_out = []
     for m in r32:
         key = frozenset((m["home"], m["away"]))
-        r32_out.append({
+        is_played = key in played
+        row = {
             "id": m["id"], "home": m["home"], "away": m["away"],
             "home_es": es(m["home"]), "away_es": es(m["away"]),
             "home_flag": flag(m["home"]), "away_flag": flag(m["away"]),
             "p_home": round(r32_home_adv[m["id"]] / n, 3),
-            "played": key in played, "winner": played.get(key, ""),
-            "winner_es": es(played[key]) if key in played else "",
-        })
+            "played": is_played, "winner": played.get(key, ""),
+            "winner_es": es(played[key]) if is_played else "",
+        }
+        if not is_played:
+            row.update(predict_score(model, m["home"], m["away"]))
+        r32_out.append(row)
 
     payload = {
         "meta": {"generated": date.today().isoformat(), "n_iterations": n,

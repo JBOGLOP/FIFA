@@ -341,7 +341,11 @@
       "p_home": 0.912,
       "played": false,
       "winner": "",
-      "winner_es": ""
+      "winner_es": "",
+      "score": "2-0",
+      "p1": 78.0,
+      "px": 14.7,
+      "p2": 7.3
     },
     {
       "id": 75,
@@ -354,7 +358,11 @@
       "p_home": 0.489,
       "played": false,
       "winner": "",
-      "winner_es": ""
+      "winner_es": "",
+      "score": "1-1",
+      "p1": 33.1,
+      "px": 32.2,
+      "p2": 34.6
     },
     {
       "id": 76,
@@ -367,7 +375,11 @@
       "p_home": 0.667,
       "played": false,
       "winner": "",
-      "winner_es": ""
+      "winner_es": "",
+      "score": "1-1",
+      "p1": 47.7,
+      "px": 28.1,
+      "p2": 24.2
     },
     {
       "id": 77,
@@ -380,7 +392,11 @@
       "p_home": 0.747,
       "played": false,
       "winner": "",
-      "winner_es": ""
+      "winner_es": "",
+      "score": "1-0",
+      "p1": 53.3,
+      "px": 27.7,
+      "p2": 19.0
     },
     {
       "id": 78,
@@ -393,7 +409,11 @@
       "p_home": 0.237,
       "played": false,
       "winner": "",
-      "winner_es": ""
+      "winner_es": "",
+      "score": "0-1",
+      "p1": 17.2,
+      "px": 27.0,
+      "p2": 55.8
     },
     {
       "id": 79,
@@ -406,7 +426,11 @@
       "p_home": 0.64,
       "played": false,
       "winner": "",
-      "winner_es": ""
+      "winner_es": "",
+      "score": "1-1",
+      "p1": 46.4,
+      "px": 27.2,
+      "p2": 26.4
     },
     {
       "id": 80,
@@ -419,7 +443,11 @@
       "p_home": 0.864,
       "played": false,
       "winner": "",
-      "winner_es": ""
+      "winner_es": "",
+      "score": "1-0",
+      "p1": 63.4,
+      "px": 26.9,
+      "p2": 9.7
     },
     {
       "id": 81,
@@ -432,7 +460,11 @@
       "p_home": 0.326,
       "played": false,
       "winner": "",
-      "winner_es": ""
+      "winner_es": "",
+      "score": "0-1",
+      "p1": 22.2,
+      "px": 32.4,
+      "p2": 45.4
     },
     {
       "id": 82,
@@ -445,7 +477,11 @@
       "p_home": 0.644,
       "played": false,
       "winner": "",
-      "winner_es": ""
+      "winner_es": "",
+      "score": "1-1",
+      "p1": 46.4,
+      "px": 28.0,
+      "p2": 25.6
     },
     {
       "id": 83,
@@ -458,7 +494,11 @@
       "p_home": 0.697,
       "played": false,
       "winner": "",
-      "winner_es": ""
+      "winner_es": "",
+      "score": "1-1",
+      "p1": 52.0,
+      "px": 26.4,
+      "p2": 21.6
     },
     {
       "id": 84,
@@ -471,7 +511,11 @@
       "p_home": 0.819,
       "played": false,
       "winner": "",
-      "winner_es": ""
+      "winner_es": "",
+      "score": "1-0",
+      "p1": 62.3,
+      "px": 23.7,
+      "p2": 13.9
     },
     {
       "id": 85,
@@ -484,7 +528,11 @@
       "p_home": 0.576,
       "played": false,
       "winner": "",
-      "winner_es": ""
+      "winner_es": "",
+      "score": "1-1",
+      "p1": 42.2,
+      "px": 26.8,
+      "p2": 31.0
     },
     {
       "id": 86,
@@ -497,7 +545,11 @@
       "p_home": 0.964,
       "played": false,
       "winner": "",
-      "winner_es": ""
+      "winner_es": "",
+      "score": "2-0",
+      "p1": 83.4,
+      "px": 13.5,
+      "p2": 3.1
     },
     {
       "id": 87,
@@ -510,7 +562,11 @@
       "p_home": 0.918,
       "played": false,
       "winner": "",
-      "winner_es": ""
+      "winner_es": "",
+      "score": "2-0",
+      "p1": 74.3,
+      "px": 18.6,
+      "p2": 7.1
     },
     {
       "id": 88,
@@ -523,7 +579,11 @@
       "p_home": 0.547,
       "played": false,
       "winner": "",
-      "winner_es": ""
+      "winner_es": "",
+      "score": "0-0",
+      "p1": 35.1,
+      "px": 35.8,
+      "p2": 29.1
     }
   ]
 }
