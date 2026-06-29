@@ -68,3 +68,12 @@ results:
   - {date: "2026-06-26", home: Cape Verde, away: Saudi Arabia, hs: 0, as: 0, neutral: true}
   - {date: "2026-06-26", home: Egypt, away: Iran, hs: 1, as: 1, neutral: true}
   - {date: "2026-06-26", home: New Zealand, away: Belgium, hs: 1, as: 5, neutral: true}
+  # Cierre de grupos (J, K, L)
+  - {date: "2026-06-27", home: Panama, away: England, hs: 0, as: 2, neutral: true}
+  - {date: "2026-06-27", home: Croatia, away: Ghana, hs: 2, as: 1, neutral: true}
+  - {date: "2026-06-27", home: Colombia, away: Portugal, hs: 0, as: 0, neutral: true}
+  - {date: "2026-06-27", home: DR Congo, away: Uzbekistan, hs: 3, as: 1, neutral: true}
+  - {date: "2026-06-27", home: Algeria, away: Austria, hs: 3, as: 3, neutral: true}
+  - {date: "2026-06-27", home: Jordan, away: Argentina, hs: 1, as: 3, neutral: true}
+  # Dieciseisavos (Round of 32)
+  - {date: "2026-06-28", home: South Africa, away: Canada, hs: 0, as: 1, neutral: true}
