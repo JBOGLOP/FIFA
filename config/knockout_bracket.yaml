@@ -1,0 +1,49 @@
+round_of_32:
+- id: 73
+  home: South Africa
+  away: Canada
+- id: 74
+  home: Germany
+  away: Bosnia and Herzegovina
+- id: 75
+  home: Netherlands
+  away: Morocco
+- id: 76
+  home: Brazil
+  away: Japan
+- id: 77
+  home: Norway
+  away: Paraguay
+- id: 78
+  home: Ivory Coast
+  away: France
+- id: 79
+  home: Mexico
+  away: Sweden
+- id: 80
+  home: England
+  away: DR Congo
+- id: 81
+  home: United States
+  away: Ecuador
+- id: 82
+  home: Belgium
+  away: Senegal
+- id: 83
+  home: Portugal
+  away: Croatia
+- id: 84
+  home: Spain
+  away: Austria
+- id: 85
+  home: Switzerland
+  away: Algeria
+- id: 86
+  home: Argentina
+  away: Cape Verde
+- id: 87
+  home: Colombia
+  away: Ghana
+- id: 88
+  home: Australia
+  away: Egypt

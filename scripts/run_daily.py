@@ -29,7 +29,8 @@ def run(script: str, *args: str, fatal: bool = True) -> None:
 
 def run_git() -> None:
     files = ["config/real_results.yaml", "docs/data/predictions.json",
-             "docs/data/matches.json", "docs/data/accuracy.json"]
+             "docs/data/matches.json", "docs/data/accuracy.json",
+             "config/knockout_bracket.yaml", "docs/data/knockout.json"]
     subprocess.run(["git", "add", *files], cwd=ROOT, env=ENV)
     # ¿hay algo que commitear?
     staged = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=ROOT, env=ENV)
@@ -57,6 +58,8 @@ def main() -> None:
         ("Predecir partidos", "predict_matches.py", [], True),
         ("Exportar dashboard (JSON)", "05_export_web.py", [], True),
         ("Backtest de precisión", "evaluate_predictions.py", [], False),
+        ("Cuadro real de eliminatorias", "build_knockout_bracket.py", [], False),
+        ("Simular eliminatorias (cuadro real)", "simulate_knockouts_real.py", [], False),
     ]
     if not opts.no_sheet:
         steps += [

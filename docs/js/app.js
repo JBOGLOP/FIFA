@@ -35,6 +35,47 @@ async function init() {
     const r = await fetch("data/accuracy.json");
     if (r.ok) renderAccuracy(await r.json());
   } catch (e) { /* sin datos de precisión */ }
+
+  // Eliminatorias con cuadro real (opcional; aparece al cerrar los grupos)
+  try {
+    const r = await fetch("data/knockout.json");
+    if (r.ok) renderKnockout(await r.json());
+  } catch (e) { /* aún en fase de grupos */ }
+}
+
+function renderKnockout(ko) {
+  const top = ko.champion.slice(0, 16);
+  new Chart(document.getElementById("ko-chart"), {
+    type: "bar",
+    data: {
+      labels: top.map((t) => t.es),
+      datasets: [{ label: "Prob. de título", data: top.map((t) => +(t.champion * 100).toFixed(1)),
+        backgroundColor: "#f1c40f", borderRadius: 5 }],
+    },
+    options: {
+      indexAxis: "y", maintainAspectRatio: false,
+      plugins: { legend: { display: false }, tooltip: { callbacks: { label: (c) => c.parsed.x + "%" } } },
+      scales: { x: { ticks: { color: "#9aa6b2", callback: (v) => v + "%" }, grid: { color: "#2a313c" } },
+        y: { ticks: { color: "#e8edf3" }, grid: { display: false } } },
+    },
+  });
+
+  const koRow = (es, fl, pct, isWin) =>
+    `<div class="ko-row ${isWin ? "win" : ""}">${flagImg(fl, es)}<span>${es}</span>
+      <span class="adv">${pct}</span></div>`;
+  document.getElementById("ko-r32").innerHTML = ko.round_of_32.map((m) => {
+    if (m.played) {
+      const homeWin = m.winner === m.home;
+      return `<div class="ko-match done"><div class="ko-mnum">Partido ${m.id} · jugado</div>
+        ${koRow(m.home_es, m.home_flag, homeWin ? "✓" : "", homeWin)}
+        ${koRow(m.away_es, m.away_flag, homeWin ? "" : "✓", !homeWin)}</div>`;
+    }
+    const ph = Math.round(m.p_home * 100);
+    return `<div class="ko-match"><div class="ko-mnum">Partido ${m.id}</div>
+      ${koRow(m.home_es, m.home_flag, ph + "%", m.p_home >= 0.5)}
+      ${koRow(m.away_es, m.away_flag, (100 - ph) + "%", m.p_home < 0.5)}
+      <div class="ko-bar"><span style="width:${ph}%"></span></div></div>`;
+  }).join("");
 }
 
 function renderAccuracy(acc) {

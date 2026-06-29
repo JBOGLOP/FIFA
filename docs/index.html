@@ -20,6 +20,7 @@
     <button class="tab" data-view="matches">Partidos</button>
     <button class="tab" data-view="heatmap">Probabilidades por ronda</button>
     <button class="tab" data-view="groups">Grupos</button>
+    <button class="tab" data-view="knockout">Eliminatorias</button>
     <button class="tab" data-view="bracket">Cuadro</button>
     <button class="tab" data-view="accuracy">Precisión</button>
   </nav>
@@ -76,6 +77,17 @@
       <p class="hint">Cada ranura muestra el favorito a ganar ese grupo. Las cruces son las oficiales.</p>
       <div id="bracket" class="bracket-scroll"></div>
     </section>
+    <!-- Eliminatorias (cuadro real) -->
+    <section id="view-knockout" class="view">
+      <h2>Eliminatorias — cuadro real</h2>
+      <p class="hint">Simulación sembrada con los cruces reales del Round of 32 (no re-simula
+        los grupos). Probabilidades de avance y de título a partir de aquí.</p>
+      <h3 class="ko-sub">Probabilidad de título</h3>
+      <div class="chart-wrap" style="height:420px"><canvas id="ko-chart"></canvas></div>
+      <h3 class="ko-sub">Dieciseisavos (Round of 32)</h3>
+      <div id="ko-r32" class="matches-grid"></div>
+    </section>
+
     <!-- Precisión del modelo -->
     <section id="view-accuracy" class="view">
       <h2>Precisión del modelo</h2>

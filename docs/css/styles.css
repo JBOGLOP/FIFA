@@ -108,6 +108,17 @@ tbody tr:hover { background: var(--panel-2); }
 .filters button:hover { color: var(--text); border-color: var(--accent); }
 #f-count { align-self: flex-end; margin-left: auto; }
 
+/* Eliminatorias */
+.ko-sub { font-size: 1rem; color: var(--accent); margin: 1.25rem 0 .75rem; }
+.ko-match { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: .7rem .8rem; }
+.ko-match.done { border-color: var(--gold); }
+.ko-row { display: flex; align-items: center; gap: .5rem; padding: .2rem 0; }
+.ko-row .adv { margin-left: auto; font-variant-numeric: tabular-nums; color: var(--muted); font-size: .82rem; }
+.ko-row.win > span:not(.adv) { color: var(--gold); font-weight: 700; }
+.ko-bar { height: 6px; background: var(--panel-2); border-radius: 3px; overflow: hidden; margin-top: .4rem; }
+.ko-bar > span { display: block; height: 100%; background: var(--accent); }
+.ko-mnum { font-size: .68rem; color: var(--muted); margin-bottom: .15rem; }
+
 /* Precisión */
 .acc-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
 .acc-card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 1rem; text-align: center; }
